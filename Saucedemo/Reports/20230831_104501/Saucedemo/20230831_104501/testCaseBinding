@@ -1,0 +1,31 @@
+{"testCaseName":"Test Cases/Login/TC-Login-Failed-001","testCaseId":"Test Cases/Login/TC-Login-Failed-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC-Login-Failed-002","testCaseId":"Test Cases/Login/TC-Login-Failed-002","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC-Login-Failed-003","testCaseId":"Test Cases/Login/TC-Login-Failed-003","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC-Login-Failed-004","testCaseId":"Test Cases/Login/TC-Login-Failed-004","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC-Login-Locked-001","testCaseId":"Test Cases/Login/TC-Login-Locked-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC-Login-Success-001","testCaseId":"Test Cases/Login/TC-Login-Success-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-AddCart-001","testCaseId":"Test Cases/Products/TC-Product-AddCart-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-AddCart-002","testCaseId":"Test Cases/Products/TC-Product-AddCart-002","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-RemoveCart-001","testCaseId":"Test Cases/Products/TC-Product-RemoveCart-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-Show-001","testCaseId":"Test Cases/Products/TC-Product-Show-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-Sort-001","testCaseId":"Test Cases/Products/TC-Product-Sort-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-Sort-002","testCaseId":"Test Cases/Products/TC-Product-Sort-002","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-Sort-003","testCaseId":"Test Cases/Products/TC-Product-Sort-003","iterationVariableName":""}
+{"testCaseName":"Test Cases/Products/TC-Product-Sort-004","testCaseId":"Test Cases/Products/TC-Product-Sort-004","iterationVariableName":""}
+{"testCaseName":"Test Cases/Detail Products/TC-DetailProduct-AddCart-001","testCaseId":"Test Cases/Detail Products/TC-DetailProduct-AddCart-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Detail Products/TC-DetailProduct-Nav-001","testCaseId":"Test Cases/Detail Products/TC-DetailProduct-Nav-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Detail Products/TC-DetailProduct-RemoveCart-001","testCaseId":"Test Cases/Detail Products/TC-DetailProduct-RemoveCart-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Detail Products/TC-DetailProduct-Show-001","testCaseId":"Test Cases/Detail Products/TC-DetailProduct-Show-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Keranjang/TC-Cart-Nav-001","testCaseId":"Test Cases/Keranjang/TC-Cart-Nav-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Keranjang/TC-Cart-Nav-002","testCaseId":"Test Cases/Keranjang/TC-Cart-Nav-002","iterationVariableName":""}
+{"testCaseName":"Test Cases/Keranjang/TC-Cart-Remove-001","testCaseId":"Test Cases/Keranjang/TC-Cart-Remove-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Keranjang/TC-Cart-Show-001","testCaseId":"Test Cases/Keranjang/TC-Cart-Show-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Keranjang/TC-Cart-Show-002","testCaseId":"Test Cases/Keranjang/TC-Cart-Show-002","iterationVariableName":""}
+{"testCaseName":"Test Cases/Keranjang/TC-Cart-Show-003","testCaseId":"Test Cases/Keranjang/TC-Cart-Show-003","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TC-Checkout-Error-001","testCaseId":"Test Cases/Checkout/TC-Checkout-Error-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TC-Checkout-Error-002","testCaseId":"Test Cases/Checkout/TC-Checkout-Error-002","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TC-Checkout-Error-003","testCaseId":"Test Cases/Checkout/TC-Checkout-Error-003","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TC-Checkout-Nav-001","testCaseId":"Test Cases/Checkout/TC-Checkout-Nav-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TC-Checkout-Success-001","testCaseId":"Test Cases/Checkout/TC-Checkout-Success-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TC-Checkout-Success-002","testCaseId":"Test Cases/Checkout/TC-Checkout-Success-002","iterationVariableName":""}
+{"testCaseName":"Test Cases/Logout/TC-Logout-Success-001","testCaseId":"Test Cases/Logout/TC-Logout-Success-001","iterationVariableName":""}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User batal membeli product pada halaman checkout: overview</description>
+   <name>TC-Checkout-Nav-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1cdff0e-01f3-4c74-8d3d-fa5d5b4b175d</testCaseGuid>
+</TestCaseEntity>

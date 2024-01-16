@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can see product in product page</description>
+   <name>TC-Product-Show-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbbe045f-580e-479c-9d0f-3874c5b85e52</testCaseGuid>
+</TestCaseEntity>

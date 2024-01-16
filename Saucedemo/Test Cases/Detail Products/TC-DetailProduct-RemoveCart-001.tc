@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin menghapus produk dari troli halaman pada halaman detail produk</description>
+   <name>TC-DetailProduct-RemoveCart-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03b6cc3d-0f7b-4208-b778-ed5029bb0828</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user klik buttom Continue shoping</description>
+   <name>TC-Cart-Nav-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb102411-f037-4717-9f84-00799eaebd83</testCaseGuid>
+</TestCaseEntity>

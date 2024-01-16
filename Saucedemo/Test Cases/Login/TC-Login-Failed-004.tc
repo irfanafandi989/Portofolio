@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ketika user login tidak menggunakan password dan username</description>
+   <name>TC-Login-Failed-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f644b004-bf42-4da7-99f9-52a1a9c4e4f4</testCaseGuid>
+</TestCaseEntity>

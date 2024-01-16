@@ -1,0 +1,84 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/button_Add to cart",
+      "brokenLocator": "//button[@id\u003d\u0027add-to-cart-sauce-labs-backpack\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div/div[2]/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/button_Add to cart_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/button_Add to cart 2",
+      "brokenLocator": "//button[@id\u003d\u0027add-to-cart-sauce-labs-bike-light\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div[2]/div[2]/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/button_Add to cart 2_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Nama barang/Nama barang Sauce Labs Backpack",
+      "brokenLocator": "//a[@id\u003d\u0027item_4_title_link\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$29.99\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Nama barang/Nama barang Sauce Labs Backpack_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Nama barang/Deskripsi Sauce Labs BackPack",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_item_container\u0027]/div/div/div[2]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Backpack\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Nama barang/Deskripsi Sauce Labs BackPack_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products/Nama barang/Harga Sauce Labs Backpack 29.99",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_item_container\u0027]/div/div/div[2]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Backpack\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products/Nama barang/Harga Sauce Labs Backpack 29.99_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Barang 1/Deskripsi",
+      "brokenLocator": "//div[@id\u003d\u0027cart_contents_container\u0027]/div/div/div[3]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Backpack\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Barang 1/Deskripsi_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Barang cart 1/Harga barang cart 1",
+      "brokenLocator": "//div[@id\u003d\u0027cart_contents_container\u0027]/div/div/div[3]/div[2]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Backpack\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Keranjang/Notifikasi add cart 1",
+      "brokenLocator": "//div[@id\u003d\u0027shopping_cart_container\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Swag Labs\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Keranjang/Notifikasi add cart 1_neighbor.png"
+    }
+  ]
+}

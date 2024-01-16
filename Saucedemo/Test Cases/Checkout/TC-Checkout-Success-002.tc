@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Melakukan Checkout 2 barang</description>
+   <name>TC-Checkout-Success-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0d4a4c9-af45-46b1-849f-d4647c7cea6c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Keranjang/Notifikasi add cart 1",
+      "brokenLocator": "//div[@id\u003d\u0027shopping_cart_container\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Swag Labs\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230831_104501/Saucedemo/20230831_104501/Object Repository/Keranjang/Notifikasi add cart 1_neighbor.png"
+    }
+  ]
+}

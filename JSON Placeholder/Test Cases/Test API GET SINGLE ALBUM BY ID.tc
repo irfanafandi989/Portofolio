@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test API GET SINGLE ALBUM BY ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>123bdcad-d163-4e36-a5d4-b7bf853effd5</testCaseGuid>
+</TestCaseEntity>
