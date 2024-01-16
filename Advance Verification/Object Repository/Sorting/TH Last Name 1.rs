@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TH Last Name 1</name>
+   <tag></tag>
+   <elementGuidId>8afe8857-2add-48d0-9c33-1780710ad56b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table1']/thead/tr/th[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th.header.headerSortUp</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>4711eb0f-a768-412b-ade7-c59b03322a37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header headerSortUp</value>
+      <webElementGuid>28d97ccc-f4cd-4d7a-8caf-ace59dffe00d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Last Name</value>
+      <webElementGuid>af16705b-f996-4295-a24f-3e8966b6c27d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table1&quot;)/thead[1]/tr[1]/th[@class=&quot;header headerSortUp&quot;]</value>
+      <webElementGuid>72e33797-5ad0-47de-9879-b4c90fbb6ba3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table1']/thead/tr/th</value>
+      <webElementGuid>7b9d7673-75e1-484e-9987-4f588cec07b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Example 1'])[1]/following::th[1]</value>
+      <webElementGuid>588af66c-1f8e-4a1b-a0b1-2f04b2a79995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Tables'])[1]/following::th[1]</value>
+      <webElementGuid>1bae993e-a44b-4a75-8a14-4d9b4b33e074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::th[1]</value>
+      <webElementGuid>17a47cdf-1bde-49d1-9878-38f79cb31784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th</value>
+      <webElementGuid>7c1f1598-51c5-4b5e-a320-e4b8d7f9bc68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Last Name' or . = 'Last Name')]</value>
+      <webElementGuid>2b7acd7e-1c43-48f8-9bb6-ec9256c7b86d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
