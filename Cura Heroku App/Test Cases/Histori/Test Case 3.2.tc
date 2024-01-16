@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuka history appointment yang sudah pernah melakukan appointment.</description>
+   <name>Test Case 3.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17fd44a2-410a-44f2-abb5-4088fd16f78d</testCaseGuid>
+</TestCaseEntity>

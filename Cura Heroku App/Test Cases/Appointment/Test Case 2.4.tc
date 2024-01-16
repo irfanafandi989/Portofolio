@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment tanpa centang Apply for hospital readmission</description>
+   <name>Test Case 2.4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>529d981f-efa2-469f-b378-40e9363c1860</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30829ffb-9017-43ea-a9cd-653b0abd79e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55436bd8-4aff-4302-9a13-bb0a832a646f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18c6870b-9eaf-4f6d-a176-b270ea650691</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb71cd75-696f-4e99-8134-96a8f9ddb64f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>30829ffb-9017-43ea-a9cd-653b0abd79e0</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'no'</defaultValue>
+      <description></description>
+      <id>55436bd8-4aff-4302-9a13-bb0a832a646f</id>
+      <masked>false</masked>
+      <name>hospital_readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'medicaid'</defaultValue>
+      <description></description>
+      <id>18c6870b-9eaf-4f6d-a176-b270ea650691</id>
+      <masked>false</masked>
+      <name>healthcare_program</name>
+   </variable>
+   <variable>
+      <defaultValue>'01/12/2022\r\n'</defaultValue>
+      <description></description>
+      <id>bb71cd75-696f-4e99-8134-96a8f9ddb64f</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+</TestCaseEntity>

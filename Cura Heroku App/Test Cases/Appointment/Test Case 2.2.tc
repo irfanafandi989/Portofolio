@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment tanpa memasukkan data visit date</description>
+   <name>Test Case 2.2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6481d8a-6b0b-4996-8662-9534b1340c4e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adcafd27-2857-4d71-9970-a03833942724</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'hello word'</defaultValue>
+      <description></description>
+      <id>adcafd27-2857-4d71-9970-a03833942724</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

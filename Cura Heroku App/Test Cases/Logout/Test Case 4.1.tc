@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user melakukan logout</description>
+   <name>Test Case 4.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d76f8da-ff7c-4173-b0f2-aa227d693395</testCaseGuid>
+</TestCaseEntity>

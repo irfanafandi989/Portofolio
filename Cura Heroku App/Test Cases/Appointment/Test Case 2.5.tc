@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuat appointment healtcare program none,comment tidak di isi</description>
+   <name>Test Case 2.5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50f44fbd-cccf-4a31-ad8c-f16d29e4d452</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eba41454-ea8b-4215-ae18-fa9c80699635</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebfc6316-7d8f-47b7-aeb1-10f296c1632c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>eba41454-ea8b-4215-ae18-fa9c80699635</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>' 01/12/2022'</defaultValue>
+      <description></description>
+      <id>ebfc6316-7d8f-47b7-aeb1-10f296c1632c</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite Appointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>d729683f-e1cc-4950-aae6-f1488bc188e9</testSuiteGuid>
+   <testCaseLink>
+      <guid>b61b7888-e5cf-49fd-b2da-fd9aeb394d2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Appointment/Test Case 2.1 (dinamis)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>362d7471-709f-4284-8750-f3ee30641aa5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data Excel</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>045e3b2f-e0e8-4deb-aebd-48c50101e4ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>761c3d76-52f9-471f-a966-10ddae2a240b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>362d7471-709f-4284-8750-f3ee30641aa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Facility</value>
+         <variableId>8109e66b-3360-44ee-8203-c08ff26c1bef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>362d7471-709f-4284-8750-f3ee30641aa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Readmission</value>
+         <variableId>e962e3ec-0eb4-4c83-911e-124b677877ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>362d7471-709f-4284-8750-f3ee30641aa5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Healthcare</value>
+         <variableId>0f04cd77-7060-47b2-a773-a31bcbe86fd1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fd8e4de1-fedf-41b0-a4c9-cf6bf0a2b9b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>28b1377e-31e4-4e73-97bd-89a8c10672a5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

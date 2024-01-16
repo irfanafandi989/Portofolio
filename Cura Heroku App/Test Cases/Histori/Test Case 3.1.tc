@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ketika user membuka history appointment yang masih kosong.</description>
+   <name>Test Case 3.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31390f1f-5460-4db8-bc76-d45cf8278cee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfa2e1ca-186e-4ea7-9927-c81e4394cecc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'No appointment.'</defaultValue>
+      <description></description>
+      <id>bfa2e1ca-186e-4ea7-9927-c81e4394cecc</id>
+      <masked>false</masked>
+      <name>pesan</name>
+   </variable>
+</TestCaseEntity>
