@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ipaymu (1)</name>
+   <tag></tag>
+   <elementGuidId>2e434df4-e902-48cb-a0f5-b6b6f90937f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.footer-logo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='iPaymu Logo White']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c7a35ef8-152e-4978-8ca1-6071359d8d86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/asset/images/logo-white.png</value>
+      <webElementGuid>1cdbbfe6-682c-42a4-a1ea-b2e80c6db65b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>footer-logo</value>
+      <webElementGuid>158ed1c1-013a-4064-872c-f52712841e01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>iPaymu Logo White</value>
+      <webElementGuid>6d1957b3-c7c3-4858-a165-aef888bb13c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;pace-running&quot;]/div[@class=&quot;footer&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row-logo&quot;]/img[@class=&quot;footer-logo&quot;]</value>
+      <webElementGuid>72f47402-bd6d-4d64-afe7-68d7faa60741</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='iPaymu Logo White']</value>
+      <webElementGuid>cc5bbd6d-d35a-437e-bc56-28bd62ac2c5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/img</value>
+      <webElementGuid>8967e817-17de-4a98-a74c-56fd3d97d0f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/asset/images/logo-white.png' and @alt = 'iPaymu Logo White']</value>
+      <webElementGuid>9c0ee6a6-61fa-48b5-b0c0-6003bf1a24c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

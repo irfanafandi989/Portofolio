@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Maaf, Kode Kupon  Voucher Tidak ditemukan</name>
+   <tag></tag>
+   <elementGuidId>40e90de3-59b4-4dd9-bf4f-92c443a0925c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#error_notif</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='error_notif']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dd4ea800-1b49-4e7d-b653-e96b317a685b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>error_notif</value>
+      <webElementGuid>aee7936d-7945-4fe2-80a8-d3d69a405c78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maaf, Kode Kupon / Voucher Tidak ditemukan.</value>
+      <webElementGuid>e0f13a9a-b1de-4e9c-a8b4-1330223c5919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;error_notif&quot;)</value>
+      <webElementGuid>9dd56525-70d5-422d-8811-8e3f4a82d785</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='error_notif']</value>
+      <webElementGuid>2f036933-89a8-4a73-801c-da087e182843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Modal_Notif']/div/div/div/center/div</value>
+      <webElementGuid>e6e7fd49-f30b-4087-b115-ed474b3fccc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Error Notifikasi'])[1]/following::div[1]</value>
+      <webElementGuid>f96e09c4-ca6c-4602-9db5-da7f167a42a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus Barang'])[1]/following::div[5]</value>
+      <webElementGuid>afb7cb6b-cd9c-4655-ba3c-b73ea1e50eb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[2]/preceding::div[1]</value>
+      <webElementGuid>374d825b-5115-4a7f-a05a-1a3cf92aaaf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coba Lagi!'])[1]/preceding::div[1]</value>
+      <webElementGuid>5d5c99d9-5081-4b83-ad89-155dfe14720d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Maaf, Kode Kupon / Voucher Tidak ditemukan.']/parent::*</value>
+      <webElementGuid>7b8adac8-603f-4290-afc4-083c4688a6ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/div/div/div/center/div</value>
+      <webElementGuid>47b7e999-747b-4f86-ae0e-45ffdcc63a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'error_notif' and (text() = 'Maaf, Kode Kupon / Voucher Tidak ditemukan.' or . = 'Maaf, Kode Kupon / Voucher Tidak ditemukan.')]</value>
+      <webElementGuid>e47c27a5-ec25-4ff7-9c06-20e9c021f60a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

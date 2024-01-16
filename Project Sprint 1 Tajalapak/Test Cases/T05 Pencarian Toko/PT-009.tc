@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User mencari toko berdasarkan Nama toko &quot;pakai spasi&quot;</description>
+   <name>PT-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0030dfb-e9a5-40f8-afbe-9f166f2502ad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4181e536-4f74-4ffe-8a08-cc384824e0a3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Toko Madu dan Herbal Alami '</defaultValue>
+      <description></description>
+      <id>4181e536-4f74-4ffe-8a08-cc384824e0a3</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi pesanan tetapi tidak mengisi data nomor pesanan dan email</description>
+   <name>PBY-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b8a563e-6007-4cbb-b933-b6baac7c64c3</testCaseGuid>
+</TestCaseEntity>

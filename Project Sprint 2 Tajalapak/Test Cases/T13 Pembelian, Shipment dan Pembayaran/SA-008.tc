@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin penjual melakukan edit data jumlah barang pada Transaksi penjualan / oderan konsumen </description>
+   <name>SA-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8fb02ba5-2ac8-4442-8d90-c965da9e79ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c95850f5-042e-4af4-8c93-86298bb6d2d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>c95850f5-042e-4af4-8c93-86298bb6d2d1</id>
+      <masked>false</masked>
+      <name>jumlah</name>
+   </variable>
+</TestCaseEntity>

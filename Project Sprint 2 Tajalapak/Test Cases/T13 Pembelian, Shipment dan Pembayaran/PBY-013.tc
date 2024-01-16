@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User input email tidak menggunakan domain dibagian konfirmasi pesanan</description>
+   <name>PBY-013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e60d44df-4a4b-4936-9074-abcdec2601be</testCaseGuid>
+</TestCaseEntity>

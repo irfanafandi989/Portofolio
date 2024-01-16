@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pencarian toko,Edge Chromium 116,,,2023-09-06 09:14:53,2023-09-06 09:21:47,"6m - 53,805s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko administrator-search-001,Edge Chromium 116,admin melakukan search Nama toko (pelapak),,2023-09-06 09:14:53,2023-09-06 09:15:25,"32,056s",PASSED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:14:54,2023-09-06 09:15:20,"26,138s",PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Edge Chromium 116,,,2023-09-06 09:15:20,2023-09-06 09:15:20,"0,606s",PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Reseller  Pelapak""))",Edge Chromium 116,,,2023-09-06 09:15:20,2023-09-06 09:15:23,"2,965s",PASSED
+"verifyElementPresent(findTestObject(""Menu pencarian Toko admin/Tittle Daftar Semua reseller""), 0)",Edge Chromium 116,,,2023-09-06 09:15:23,2023-09-06 09:15:24,"0,469s",PASSED
+"setText(findTestObject(""Menu pencarian Toko admin/input_Search_form""), ""Kerupuk husna"")",Edge Chromium 116,,,2023-09-06 09:15:24,2023-09-06 09:15:25,"0,954s",PASSED
+"verifyElementText(findTestObject(""Menu pencarian Toko admin/isi search admin Kerupuk husna""), ""Kerupuk husna"")",Edge Chromium 116,,,2023-09-06 09:15:25,2023-09-06 09:15:25,"0,497s",PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko administrator-Search-002,Edge Chromium 116,admin Mencari Toko berdasarkan Nama Toko Asal,,2023-09-06 09:15:25,2023-09-06 09:15:53,"27,630s",PASSED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:15:26,2023-09-06 09:15:49,"22,632s",PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Edge Chromium 116,,,2023-09-06 09:15:49,2023-09-06 09:15:49,"0,671s",PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Reseller  Pelapak""))",Edge Chromium 116,,,2023-09-06 09:15:49,2023-09-06 09:15:51,"1,840s",PASSED
+"setText(findTestObject(""Menu pencarian Toko admin/input_Search_form""), ""abc12zs"")",Edge Chromium 116,,,2023-09-06 09:15:51,2023-09-06 09:15:52,"1,121s",PASSED
+"verifyElementText(findTestObject(""Menu pencarian Toko admin/Massage Error""), ""No matching records found"")",Edge Chromium 116,,,2023-09-06 09:15:52,2023-09-06 09:15:53,"0,614s",PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko administrator-Search-003,Edge Chromium 116,User Mencari toko tetapi tidak mengisi pada bagian search,,2023-09-06 09:15:53,2023-09-06 09:16:23,"30,587s",FAILED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:15:54,2023-09-06 09:16:18,"24,829s",PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Edge Chromium 116,,,2023-09-06 09:16:18,2023-09-06 09:16:19,"0,640s",PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Reseller  Pelapak""))",Edge Chromium 116,,,2023-09-06 09:16:19,2023-09-06 09:16:21,"2,216s",PASSED
+"setText(findTestObject(""Menu pencarian Toko admin/input_Search_form""), """")",Edge Chromium 116,,,2023-09-06 09:16:21,2023-09-06 09:16:22,"1,035s",PASSED
+"verifyElementText(findTestObject(""Menu pencarian Toko admin/Massage Error""), ""Keyword tidak boleh kosong"")",Edge Chromium 116,,,2023-09-06 09:16:22,2023-09-06 09:16:23,"1,099s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Detail-001,Edge Chromium 116,User melihat Detail Toko ketika menekan tombol kunjungi Toko,,2023-09-06 09:16:23,2023-09-06 09:16:49,"25,866s",PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-Search-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:16:24,2023-09-06 09:16:45,"20,348s",PASSED
+verified1 = text,Edge Chromium 116,,,2023-09-06 09:16:45,2023-09-06 09:16:45,"0,474s",PASSED
+nama_toko1 = text,Edge Chromium 116,,,2023-09-06 09:16:45,2023-09-06 09:16:46,"0,502s",PASSED
+"nama_toko = nama_toko1.substring(9, nama_toko1.size())",Edge Chromium 116,,,2023-09-06 09:16:46,2023-09-06 09:16:46,"0,001s",PASSED
+no_hp1 = text,Edge Chromium 116,,,2023-09-06 09:16:46,2023-09-06 09:16:46,"0,504s",PASSED
+"click(findTestObject(""Fitur search/button Kunjungi Toko""))",Edge Chromium 116,,,2023-09-06 09:16:46,2023-09-06 09:16:47,"1,055s",PASSED
+"verifyElementPresent(findTestObject(""Fitur search/tittle Kerupuk husna""), 0)",Edge Chromium 116,,,2023-09-06 09:16:47,2023-09-06 09:16:48,"0,645s",PASSED
+"verified2 = getText(findTestObject(""Object Repository/Nama toko detail 2 Tajalapak/Verified2""))",Edge Chromium 116,,,2023-09-06 09:16:48,2023-09-06 09:16:48,"0,521s",PASSED
+"nama_toko2 = getText(findTestObject(""Object Repository/Nama toko detail 2 Tajalapak/NAMA TOKO 2""))",Edge Chromium 116,,,2023-09-06 09:16:48,2023-09-06 09:16:49,"0,521s",PASSED
+"no_hp2 = getText(findTestObject(""Nama toko detail 2 Tajalapak/nomor hp detail 2""))",Edge Chromium 116,,,2023-09-06 09:16:49,2023-09-06 09:16:49,"0,468s",PASSED
+assert trim().equalsIgnoreCase(verified2.trim()),Edge Chromium 116,,,2023-09-06 09:16:49,2023-09-06 09:16:49,"0,000s",PASSED
+assert trim().equalsIgnoreCase(nama_toko2.trim()),Edge Chromium 116,,,2023-09-06 09:16:49,2023-09-06 09:16:49,"0,000s",PASSED
+assert trim().equalsIgnoreCase(no_hp2.trim()),Edge Chromium 116,,,2023-09-06 09:16:49,2023-09-06 09:16:49,"0,000s",PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-001,Edge Chromium 116,User cari Toko berdasarkan nama toko,,2023-09-06 09:16:49,2023-09-06 09:17:10,"20,652s",PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:16:49,2023-09-06 09:17:07,"17,929s",PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), nama_toko)",Edge Chromium 116,,,2023-09-06 09:17:07,2023-09-06 09:17:08,"1,095s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:17:08,2023-09-06 09:17:09,"0,960s",PASSED
+nama_toko1 = text,Edge Chromium 116,,,2023-09-06 09:17:09,2023-09-06 09:17:10,"0,620s",PASSED
+"nama_toko2 = nama_toko1.substring(9, nama_toko1.size())",Edge Chromium 116,,,2023-09-06 09:17:10,2023-09-06 09:17:10,"0,001s",PASSED
+assert trim().equalsIgnoreCase(nama_toko2.trim()),Edge Chromium 116,,,2023-09-06 09:17:10,2023-09-06 09:17:10,"0,000s",PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-002,Edge Chromium 116,User Mencari Alamat Toko berdasarkan Regional,,2023-09-06 09:17:10,2023-09-06 09:18:01,"51,149s",PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:17:11,2023-09-06 09:17:24,"12,990s",PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""Mataram, Kota Mataram"")",Edge Chromium 116,,,2023-09-06 09:17:24,2023-09-06 09:17:25,"1,176s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:17:25,2023-09-06 09:17:26,"1,005s",PASSED
+"verifyElementText(findTestObject(""Fitur search/Regional Mataram,  Kota Mataram""), ""Mataram, Kota Mataram"")",Edge Chromium 116,,,2023-09-06 09:17:26,2023-09-06 09:18:01,"35,201s",PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-003,Edge Chromium 116,User Mencari Toko berdasarkan Nama Toko Asal,,2023-09-06 09:18:01,2023-09-06 09:18:23,"22,312s",FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:18:02,2023-09-06 09:18:20,"18,359s",PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""asadac12"")",Edge Chromium 116,,,2023-09-06 09:18:20,2023-09-06 09:18:21,"1,115s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:18:21,2023-09-06 09:18:22,"1,077s",PASSED
+"verifyElementText(findTestObject(""Fitur search/Massage error""), "" isikan Nama toko yang benar"")",Edge Chromium 116,,,2023-09-06 09:18:22,2023-09-06 09:18:23,"1,024s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-004,Edge Chromium 116,User Mencari toko tetapi tidak mengisi pada bagian search,,2023-09-06 09:18:23,2023-09-06 09:18:44,"20,667s",FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:18:24,2023-09-06 09:18:41,"17,197s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:18:41,2023-09-06 09:18:43,"1,489s",PASSED
+"verifyElementText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""Keyword tidak boleh kosong"")",Edge Chromium 116,,,2023-09-06 09:18:43,2023-09-06 09:18:44,"1,202s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-005,Edge Chromium 116,User Mencari toko berdasarkan Nomor telepon,,2023-09-06 09:18:44,2023-09-06 09:19:03,"19,266s",FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:18:45,2023-09-06 09:19:00,"15,285s",PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""+6287865722652"")",Edge Chromium 116,,,2023-09-06 09:19:00,2023-09-06 09:19:01,"1,063s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:19:01,2023-09-06 09:19:02,"1,190s",PASSED
+"verifyElementText(findTestObject(""Menu Pencarian Toko/pencarian kosong""), ""+6287865722652"")",Edge Chromium 116,,,2023-09-06 09:19:02,2023-09-06 09:19:03,"0,984s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-006,Edge Chromium 116,User mencari toko berdasarkan toko yang sudah verified,,2023-09-06 09:19:03,2023-09-06 09:19:24,"20,642s",FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:19:04,2023-09-06 09:19:21,"16,789s",PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""Verified"")",Edge Chromium 116,,,2023-09-06 09:19:21,2023-09-06 09:19:22,"1,108s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:19:22,2023-09-06 09:19:23,"0,981s",PASSED
+"verifyElementText(findTestObject(""Menu Pencarian Toko/pencarian kosong""), ""Verified"")",Edge Chromium 116,,,2023-09-06 09:19:23,2023-09-06 09:19:24,"1,058s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-007,Edge Chromium 116,"User mencari toko berdasarkan Nama toko ""pakai spasi""",,2023-09-06 09:19:24,2023-09-06 09:19:49,"24,581s",FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:19:25,2023-09-06 09:19:45,"20,645s",PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""mataram,"")",Edge Chromium 116,,,2023-09-06 09:19:45,2023-09-06 09:19:47,"1,178s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:19:47,2023-09-06 09:19:48,"1,096s",PASSED
+"verifyElementText(findTestObject(""Menu Pencarian Toko/pencarian kosong""), ""mataram,"")",Edge Chromium 116,,,2023-09-06 09:19:48,2023-09-06 09:19:49,"0,934s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-Search-008,Edge Chromium 116,User mencari toko berdasarkan nama kota tidak valid,,2023-09-06 09:19:49,2023-09-06 09:20:45,"56,671s",FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/TC-Cari Toko-show-001""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-06 09:19:49,2023-09-06 09:20:09,"19,781s",PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), nama_toko)",Edge Chromium 116,,,2023-09-06 09:20:09,2023-09-06 09:20:10,"1,200s",PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Edge Chromium 116,,,2023-09-06 09:20:10,2023-09-06 09:20:12,"1,176s",PASSED
+regional1 = text,Edge Chromium 116,,,2023-09-06 09:20:12,2023-09-06 09:20:45,"33,752s",PASSED
+"regional = regional1.substring(9, regional1.size())",Edge Chromium 116,,,2023-09-06 09:20:45,2023-09-06 09:20:45,"0,000s",PASSED
+assert trim().equalsIgnoreCase(regional.trim()),Edge Chromium 116,,,2023-09-06 09:20:45,2023-09-06 09:20:45,"0,002s",FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Cari Toko-show-001,Edge Chromium 116,User melihat Toko dihalaman semua toko,,2023-09-06 09:20:45,2023-09-06 09:21:02,"16,933s",PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 116,,,2023-09-06 09:20:45,2023-09-06 09:20:57,"11,216s",PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-06 09:20:57,2023-09-06 09:20:57,"0,150s",PASSED
+"verifyElementPresent(findTestObject(""Login/Halaman Home""), 0)",Edge Chromium 116,,,2023-09-06 09:20:57,2023-09-06 09:20:58,"0,795s",PASSED
+"click(findTestObject(""Menu Pencarian Toko/menu Shop""))",Edge Chromium 116,,,2023-09-06 09:20:58,2023-09-06 09:20:58,"0,644s",PASSED
+"click(findTestObject(""Menu Pencarian Toko/menu Shop""))",Edge Chromium 116,,,2023-09-06 09:20:58,2023-09-06 09:20:59,"0,523s",PASSED
+"click(findTestObject(""Menu Pencarian Toko/Menu Toko (Pelapak)""))",Edge Chromium 116,,,2023-09-06 09:20:59,2023-09-06 09:21:02,"3,099s",PASSED
+"verifyElementPresent(findTestObject(""Menu Pencarian Toko/Tittle Semua Toko""), 0)",Edge Chromium 116,,,2023-09-06 09:21:02,2023-09-06 09:21:02,"0,504s",PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/TC-Login Admin-Success-001,Edge Chromium 116,Admin Melakukan Login dengan memasukkan Username dan password yang valid,,2023-09-06 09:21:02,2023-09-06 09:21:47,"44,374s",PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Edge Chromium 116,,,2023-09-06 09:21:03,2023-09-06 09:21:12,"8,798s",PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-06 09:21:12,2023-09-06 09:21:12,"0,162s",PASSED
+"verifyElementPresent(findTestObject(""Login admin/Tittle ADMIN""), 0)",Edge Chromium 116,,,2023-09-06 09:21:12,2023-09-06 09:21:13,"0,538s",PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), Username)",Edge Chromium 116,,,2023-09-06 09:21:13,2023-09-06 09:21:14,"1,056s",PASSED
+"setText(findTestObject(""Login/input_Password""), Password)",Edge Chromium 116,,,2023-09-06 09:21:14,2023-09-06 09:21:15,"0,967s",PASSED
+"click(findTestObject(""Login admin/buttom Remember Me""))",Edge Chromium 116,,,2023-09-06 09:21:15,2023-09-06 09:21:15,"0,607s",PASSED
+delay(10),Edge Chromium 116,,,2023-09-06 09:21:15,2023-09-06 09:21:25,"10,018s",PASSED
+"click(findTestObject(""Login admin/buttom sign in""))",Edge Chromium 116,,,2023-09-06 09:21:25,2023-09-06 09:21:26,"0,592s",PASSED
+"verifyElementPresent(findTestObject(""Login admin/Tittle Dashboard""), 0)",Edge Chromium 116,,,2023-09-06 09:21:26,2023-09-06 09:21:47,"20,685s",PASSED

@@ -1,0 +1,144 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Jadi kurir/input_Choose files_uploadFile",
+      "brokenLocator": "//*[@id\u003d\"ajax-upload-id-1694165117755\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[8]/div/div/form/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Jadi kurir/input_Choose files_uploadFile_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Hasil Edit/Hasil edit berkas",
+      "brokenLocator": "//a[contains(text(),\u0027Berkas2.pdf\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Lampiran / File\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Hasil Edit/Hasil edit berkas_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Jadi kurir/a_Daftar  Edit Data",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Jadi Kurir\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027PPOB\u0027])[3]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Jadi kurir/a_Daftar  Edit Data_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/beli barang/a_Tambah Keranjang",
+      "brokenLocator": "(//a[@id\u003d\u002740\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u0027Tambah Keranjang\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/beli barang/a_Tambah Keranjang_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/pembayaran/kode unik",
+      "brokenLocator": "//*[(text() \u003d \u0027 +019\u0027 or . \u003d \u0027 +019\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Rp 1,299\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/pembayaran/kode unik_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/pembayaran/total",
+      "brokenLocator": "//*[(text() \u003d \u00277,818\u0027 or . \u003d \u00277,818\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Lihat Detail Pesanan\u0027])[1]/following::b[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/pembayaran/total_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Konfirmasi pesanan shop/button_Submit",
+      "brokenLocator": "//button[@name\u003d\u0027submit1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Hubungi Kami\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Konfirmasi pesanan shop/button_Submit_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/Penjualan ke konsumen/buttom konfirmasi pending payment",
+      "brokenLocator": "//table[@id\u003d\u0027example1\u0027]/tbody/tr[2]/td[6]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[6]/a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/Penjualan ke konsumen/buttom konfirmasi pending payment_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/beli barang/Tambah Keranjang busana wanita",
+      "brokenLocator": "(//a[@id\u003d\u00274\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u0027Tambah Keranjang\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/beli barang/Tambah Keranjang busana wanita_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/beli barang/Lihat Sekarang",
+      "brokenLocator": "//a[contains(text(),\u0027Lihat Sekarang\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Kategori Produk\u0027])[2]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/beli barang/Lihat Sekarang_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/Proses",
+      "brokenLocator": "//table[@id\u003d\u0027example1\u0027]/tbody/tr[2]/td[5]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SOPIR - Vixion R\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/Proses_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/Dikirim",
+      "brokenLocator": "//table[@id\u003d\u0027example1\u0027]/tbody/tr[2]/td[5]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SOPIR - Vixion R\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/Dikirim_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/Selesai",
+      "brokenLocator": "//table[@id\u003d\u0027example1\u0027]/tbody/tr[2]/td[5]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SOPIR - Vixion R\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/Selesai_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/pembayaran/ongkos kirim",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Pending\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Rp 1,500\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/pembayaran/ongkos kirim_neighbor.png"
+    }
+  ]
+}

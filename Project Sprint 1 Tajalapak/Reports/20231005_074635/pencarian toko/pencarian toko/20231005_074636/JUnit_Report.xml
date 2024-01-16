@@ -1,0 +1,2347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="pencarian toko" time="319.129" tests="17" failures="7" errors="0">
+   <testsuite name="pencarian toko" tests="17" failures="7" errors="0" time="319.129" skipped="0" timestamp="2023-10-05 07:46:39" hostname="IRFAN - DESKTOP-H62FVJ8" id="Test Suites/pencarian toko/pencarian toko">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636"/>
+         <property name="logFiles" value="C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\execution0.log"/>
+         <property name="attachments" value="C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466872508.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466872561.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466884052.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466884112.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466896405.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466896444.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466918278.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466918318.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466931213.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466931250.png, C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696467084118.png"/>
+         <property name="hostName" value="IRFAN - DESKTOP-H62FVJ8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Firefox 117.0"/>
+         <property name="hostAddress" value="10.9.2.18"/>
+         <property name="sessionId" value="c12bb35a-bdbb-43f1-81fa-2493643a37f5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/T05 Pencarian Toko/LA-001" time="26.216" classname="Test Cases/T05 Pencarian Toko/LA-001" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:46:39 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/LA-001: Test Cases/T05 Pencarian Toko/LA-001
+
+2023-10-05 07:46:40 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:46:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:46:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:46:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:46:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:46:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:46:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle ADMIN"), 0): Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:46:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:46:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username, Email atau No. Handphone_a"), Username): Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:46:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:46:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), Password): Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:46:48 - [MESSAGE][PASSED] - Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:46:48 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom Remember Me")): Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:46:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-10-05 07:46:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-10-05 07:46:59 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom sign in")): Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:47:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle Dashboard"), 0): Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:47:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-001" time="9.127" classname="Test Cases/T05 Pencarian Toko/PT-001" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:47:06 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:47:06 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:47:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:47:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:47:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:47:12 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:47:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:47:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-002" time="12.28" classname="Test Cases/T05 Pencarian Toko/PT-002" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:47:15 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-002: Test Cases/T05 Pencarian Toko/PT-002
+
+2023-10-05 07:47:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:47:15 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:47:15 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:47:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:47:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:47:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:47:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:47:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:23 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:47:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:47:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), nama_toko): Text 'Kerupuk husna' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:47:25 - [MESSAGE][PASSED] - Text 'Kerupuk husna' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:47:26 - [TEST_STEP][PASSED] - nama_toko1 = text: null
+
+2023-10-05 07:47:27 - [TEST_STEP][PASSED] - nama_toko2 = nama_toko1.substring(9, nama_toko1.size()): null
+
+2023-10-05 07:47:27 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(nama_toko2.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-003" time="12.246" classname="Test Cases/T05 Pencarian Toko/PT-003" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:47:27 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-003: Test Cases/T05 Pencarian Toko/PT-003
+
+2023-10-05 07:47:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:47:27 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:47:27 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:47:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:47:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:47:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:47:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:47:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:34 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:47:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:47:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:47:37 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), "Mataram, Kota Mataram"): Text 'Mataram, Kota Mataram' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:47:38 - [MESSAGE][PASSED] - Text 'Mataram, Kota Mataram' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:47:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Fitur search/Regional Mataram,  Kota Mataram"), "Mataram, Kota Mataram"): Actual text and expected text of test object 'Object Repository/Fitur search/Regional Mataram,  Kota Mataram' are matched.
+
+2023-10-05 07:47:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Fitur search/Regional Mataram,  Kota Mataram' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-004" time="12.898" classname="Test Cases/T05 Pencarian Toko/PT-004" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 Pencarian Toko/PT-004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-10-05 07:47:39 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-004: Test Cases/T05 Pencarian Toko/PT-004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-10-05 07:47:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:47:40 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:47:40 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:47:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:47:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:47:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:47:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:47:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:48 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:47:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:47:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:50 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:47:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:47:50 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), "asadac12"): Text 'asadac12' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:47:50 - [MESSAGE][PASSED] - Text 'asadac12' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:47:51 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Fitur search/Massage error"), " isikan Nama toko yang benar"): Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-10-05 07:47:52 - [MESSAGE][FAILED] - Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466872508.png]]
+
+2023-10-05 07:47:52 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466872561.png]]]]></system-out>
+         <system-err><![CDATA[2023-10-05 07:47:39 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-004: Test Cases/T05 Pencarian Toko/PT-004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-005" time="11.569" classname="Test Cases/T05 Pencarian Toko/PT-005" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 Pencarian Toko/PT-005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-005.run(PT-005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Keyword tidak boleh kosong' of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-10-05 07:47:52 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-005: Test Cases/T05 Pencarian Toko/PT-005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-005.run(PT-005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Keyword tidak boleh kosong' of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-10-05 07:47:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:47:53 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:47:53 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:47:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:47:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:47:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:47:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:47:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:47:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:47:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:02 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:03 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), "Keyword tidak boleh kosong"): Verify element text of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-005.run(PT-005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Keyword tidak boleh kosong' of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-10-05 07:48:04 - [MESSAGE][FAILED] - Actual text '' and expected text 'Keyword tidak boleh kosong' of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Keyword tidak boleh kosong' of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-005.run(PT-005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466884052.png]]
+
+2023-10-05 07:48:04 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-005.run(PT-005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Keyword tidak boleh kosong' of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466884112.png]]]]></system-out>
+         <system-err><![CDATA[2023-10-05 07:47:52 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-005: Test Cases/T05 Pencarian Toko/PT-005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-005.run(PT-005:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Keyword tidak boleh kosong' of test object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-006" time="12.301" classname="Test Cases/T05 Pencarian Toko/PT-006" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 Pencarian Toko/PT-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-006.run(PT-006:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text '+6287865722652' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-10-05 07:48:04 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-006: Test Cases/T05 Pencarian Toko/PT-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-006.run(PT-006:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text '+6287865722652' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-10-05 07:48:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:04 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:48:04 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:48:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:48:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:48:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:48:10 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:48:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:14 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), "+6287865722652"): Text '+6287865722652' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:48:14 - [MESSAGE][PASSED] - Text '+6287865722652' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:15 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Menu Pencarian Toko/pencarian kosong"), "+6287865722652"): Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-006.run(PT-006:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text '+6287865722652' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-10-05 07:48:16 - [MESSAGE][FAILED] - Actual text '12>' and expected text '+6287865722652' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text '+6287865722652' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-006.run(PT-006:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466896405.png]]
+
+2023-10-05 07:48:16 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-006.run(PT-006:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text '+6287865722652' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466896444.png]]]]></system-out>
+         <system-err><![CDATA[2023-10-05 07:48:04 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-006: Test Cases/T05 Pencarian Toko/PT-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-006.run(PT-006:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text '+6287865722652' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-007" time="21.875" classname="Test Cases/T05 Pencarian Toko/PT-007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 Pencarian Toko/PT-007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-007.run(PT-007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'Verified' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-10-05 07:48:16 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-007: Test Cases/T05 Pencarian Toko/PT-007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-007.run(PT-007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'Verified' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-10-05 07:48:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:16 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:48:17 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:48:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:48:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:48:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:48:32 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:48:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:36 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:36 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), "Verified"): Text 'Verified' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:48:36 - [MESSAGE][PASSED] - Text 'Verified' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:37 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Menu Pencarian Toko/pencarian kosong"), "Verified"): Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-007.run(PT-007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'Verified' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-10-05 07:48:38 - [MESSAGE][FAILED] - Actual text '12>' and expected text 'Verified' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'Verified' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-007.run(PT-007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466918278.png]]
+
+2023-10-05 07:48:38 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-007.run(PT-007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'Verified' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466918318.png]]]]></system-out>
+         <system-err><![CDATA[2023-10-05 07:48:16 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-007: Test Cases/T05 Pencarian Toko/PT-007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-007.run(PT-007:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'Verified' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-008" time="12.925" classname="Test Cases/T05 Pencarian Toko/PT-008" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 Pencarian Toko/PT-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-008.run(PT-008:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'mataram,' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-10-05 07:48:38 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-008: Test Cases/T05 Pencarian Toko/PT-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-008.run(PT-008:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'mataram,' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-10-05 07:48:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:38 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:48:38 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:48:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:48:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:48:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:48:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:48:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:48:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:48:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:48 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), "mataram,"): Text 'mataram,' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:48:49 - [MESSAGE][PASSED] - Text 'mataram,' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:48:49 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:48:50 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Menu Pencarian Toko/pencarian kosong"), "mataram,"): Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-008.run(PT-008:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'mataram,' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-10-05 07:48:51 - [MESSAGE][FAILED] - Actual text '12>' and expected text 'mataram,' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'mataram,' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-008.run(PT-008:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466931213.png]]
+
+2023-10-05 07:48:51 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-008.run(PT-008:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'mataram,' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696466931250.png]]]]></system-out>
+         <system-err><![CDATA[2023-10-05 07:48:38 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-008: Test Cases/T05 Pencarian Toko/PT-008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-008.run(PT-008:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text 'mataram,' of test object 'Object Repository/Menu Pencarian Toko/pencarian kosong' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-009" time="12.34" classname="Test Cases/T05 Pencarian Toko/PT-009" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 Pencarian Toko/PT-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert nama_toko.toString().trim().equalsIgnoreCase(regional.trim())
+       |         |          |      |                |        |
+       |         |          |      false            |        Kerupuk husna
+       |         |          |                       Kerupuk husna
+       |         |          Toko Madu dan Herbal Alami
+       |         Toko Madu dan Herbal Alami 
+       Toko Madu dan Herbal Alami 
+
+	at PT-009.run(PT-009:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-05 07:48:51 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-009: Test Cases/T05 Pencarian Toko/PT-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert nama_toko.toString().trim().equalsIgnoreCase(regional.trim())
+       |         |          |      |                |        |
+       |         |          |      false            |        Kerupuk husna
+       |         |          |                       Kerupuk husna
+       |         |          Toko Madu dan Herbal Alami
+       |         Toko Madu dan Herbal Alami 
+       Toko Madu dan Herbal Alami 
+
+	at PT-009.run(PT-009:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+
+
+2023-10-05 07:48:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:48:51 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:48:51 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:48:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:48:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:48:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:48:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:48:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:48:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:48:58 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:58 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:01 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:49:01 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), nama_toko): Text 'Toko Madu dan Herbal Alami ' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:01 - [MESSAGE][PASSED] - Text 'Toko Madu dan Herbal Alami ' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:03 - [TEST_STEP][PASSED] - regional1 = text: null
+
+2023-10-05 07:49:03 - [TEST_STEP][PASSED] - regional = regional1.substring(9, regional1.size()): null
+
+2023-10-05 07:49:03 - [TEST_STEP][FAILED] - assert trim().equalsIgnoreCase(regional.trim()): Test Cases/T05 Pencarian Toko/PT-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert nama_toko.toString().trim().equalsIgnoreCase(regional.trim())
+       |         |          |      |                |        |
+       |         |          |      false            |        Kerupuk husna
+       |         |          |                       Kerupuk husna
+       |         |          Toko Madu dan Herbal Alami
+       |         Toko Madu dan Herbal Alami 
+       Toko Madu dan Herbal Alami 
+
+	at PT-009.run(PT-009:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+
+
+2023-10-05 07:49:03 - [MESSAGE][FAILED] - Test Cases/T05 Pencarian Toko/PT-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert nama_toko.toString().trim().equalsIgnoreCase(regional.trim())
+       |         |          |      |                |        |
+       |         |          |      false            |        Kerupuk husna
+       |         |          |                       Kerupuk husna
+       |         |          Toko Madu dan Herbal Alami
+       |         Toko Madu dan Herbal Alami 
+       Toko Madu dan Herbal Alami 
+
+	at PT-009.run(PT-009:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-10-05 07:48:51 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PT-009: Test Cases/T05 Pencarian Toko/PT-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert nama_toko.toString().trim().equalsIgnoreCase(regional.trim())
+       |         |          |      |                |        |
+       |         |          |      false            |        Kerupuk husna
+       |         |          |                       Kerupuk husna
+       |         |          Toko Madu dan Herbal Alami
+       |         Toko Madu dan Herbal Alami 
+       Toko Madu dan Herbal Alami 
+
+	at PT-009.run(PT-009:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-010" time="15.895" classname="Test Cases/T05 Pencarian Toko/PT-010" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:49:03 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-010: Test Cases/T05 Pencarian Toko/PT-010
+
+2023-10-05 07:49:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-002"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-002' successfully
+
+2023-10-05 07:49:04 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-002: Test Cases/T05 Pencarian Toko/PT-002
+
+2023-10-05 07:49:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:49:04 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:49:04 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:49:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:49:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:49:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:49:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:49:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:49:10 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:49:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:49:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:11 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:13 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:49:13 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), nama_toko): Text 'Kerupuk husna' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:14 - [MESSAGE][PASSED] - Text 'Kerupuk husna' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:14 - [TEST_STEP][PASSED] - nama_toko1 = text: null
+
+2023-10-05 07:49:15 - [TEST_STEP][PASSED] - nama_toko2 = nama_toko1.substring(9, nama_toko1.size()): null
+
+2023-10-05 07:49:15 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(nama_toko2.trim()): null
+
+2023-10-05 07:49:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-002' successfully
+
+2023-10-05 07:49:15 - [TEST_STEP][PASSED] - verified1 = text: null
+
+2023-10-05 07:49:16 - [TEST_STEP][PASSED] - nama_toko1 = text: null
+
+2023-10-05 07:49:16 - [TEST_STEP][PASSED] - nama_toko = nama_toko1.substring(9, nama_toko1.size()): null
+
+2023-10-05 07:49:16 - [TEST_STEP][PASSED] - no_hp1 = text: null
+
+2023-10-05 07:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button Kunjungi Toko")): Object: 'Object Repository/Fitur search/button Kunjungi Toko' is clicked on
+
+2023-10-05 07:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button Kunjungi Toko' is clicked on
+
+2023-10-05 07:49:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Fitur search/tittle Kerupuk husna"), 0): Object 'Object Repository/Fitur search/tittle Kerupuk husna' is present
+
+2023-10-05 07:49:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:18 - [MESSAGE][PASSED] - Object 'Object Repository/Fitur search/tittle Kerupuk husna' is present
+
+2023-10-05 07:49:18 - [TEST_STEP][PASSED] - verified2 = getText(findTestObject("Object Repository/Nama toko detail 2 Tajalapak/Verified2")): Text of object 'Object Repository/Nama toko detail 2 Tajalapak/Verified2' is: 'Verified'
+
+2023-10-05 07:49:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Nama toko detail 2 Tajalapak/Verified2' is: 'Verified'
+
+2023-10-05 07:49:18 - [TEST_STEP][PASSED] - nama_toko2 = getText(findTestObject("Object Repository/Nama toko detail 2 Tajalapak/NAMA TOKO 2")): Text of object 'Object Repository/Nama toko detail 2 Tajalapak/NAMA TOKO 2' is: 'KERUPUK HUSNA'
+
+2023-10-05 07:49:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Nama toko detail 2 Tajalapak/NAMA TOKO 2' is: 'KERUPUK HUSNA'
+
+2023-10-05 07:49:19 - [TEST_STEP][PASSED] - no_hp2 = getText(findTestObject("Nama toko detail 2 Tajalapak/nomor hp detail 2")): Text of object 'Object Repository/Nama toko detail 2 Tajalapak/nomor hp detail 2' is: '+6287865722652'
+
+2023-10-05 07:49:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Nama toko detail 2 Tajalapak/nomor hp detail 2' is: '+6287865722652'
+
+2023-10-05 07:49:19 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(verified2.trim()): null
+
+2023-10-05 07:49:19 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(nama_toko2.trim()): null
+
+2023-10-05 07:49:19 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(no_hp2.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-011" time="13.197" classname="Test Cases/T05 Pencarian Toko/PT-011" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:49:19 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-011: Test Cases/T05 Pencarian Toko/PT-011
+
+2023-10-05 07:49:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:49:19 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:49:19 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:49:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:49:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:49:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:49:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:49:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:49:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:49:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:49:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:49:30 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), nama_toko): Text 'kErUpUk HusNa' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:31 - [MESSAGE][PASSED] - Text 'kErUpUk HusNa' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:32 - [TEST_STEP][PASSED] - nama_toko1 = text: null
+
+2023-10-05 07:49:32 - [TEST_STEP][PASSED] - nama_toko2 = nama_toko1.substring(9, nama_toko1.size()): null
+
+2023-10-05 07:49:32 - [TEST_STEP][PASSED] - assert trim().equalsIgnoreCase(nama_toko2.trim()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PT-012" time="12.032" classname="Test Cases/T05 Pencarian Toko/PT-012" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:49:32 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-012: Test Cases/T05 Pencarian Toko/PT-012
+
+2023-10-05 07:49:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("T05 Pencarian Toko/PT-001"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:49:33 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PT-001: Test Cases/T05 Pencarian Toko/PT-001
+
+2023-10-05 07:49:33 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:49:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:49:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:49:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:49:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-10-05 07:49:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:49:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:49:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Halaman Home"), 0): Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:49:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Halaman Home' is present
+
+2023-10-05 07:49:39 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/menu Shop")): Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/menu Shop' is clicked on
+
+2023-10-05 07:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Menu Pencarian Toko/Menu Toko (Pelapak)")): Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu Pencarian Toko/Menu Toko (Pelapak)' is clicked on
+
+2023-10-05 07:49:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu Pencarian Toko/Tittle Semua Toko"), 0): Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:42 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Pencarian Toko/Tittle Semua Toko' is present
+
+2023-10-05 07:49:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/T05 Pencarian Toko/PT-001' successfully
+
+2023-10-05 07:49:42 - [TEST_STEP][PASSED] - setText(findTestObject("Fitur search/input_Semua Toko_cari_reseller"), nama_toko): Text 'Kerupuk husna Kerupuk husna Kerupuk husna' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:43 - [MESSAGE][PASSED] - Text 'Kerupuk husna Kerupuk husna Kerupuk husna' is set on object 'Object Repository/Fitur search/input_Semua Toko_cari_reseller'
+
+2023-10-05 07:49:43 - [TEST_STEP][PASSED] - click(findTestObject("Fitur search/button_Semua Toko_submit")): Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur search/button_Semua Toko_submit' is clicked on
+
+2023-10-05 07:49:44 - [TEST_STEP][PASSED] - nama_toko1 = text: null
+
+2023-10-05 07:49:44 - [TEST_STEP][PASSED] - nama_toko2 = nama_toko1.substring(9, nama_toko1.size()): null
+
+2023-10-05 07:49:44 - [TEST_STEP][PASSED] - assert nama_toko.contains(nama_toko2): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PTA-001" time="35.373" classname="Test Cases/T05 Pencarian Toko/PTA-001" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:49:44 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PTA-001: Test Cases/T05 Pencarian Toko/PTA-001
+
+2023-10-05 07:49:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login Admin-Success-001"), ["Username":"admin", "Password":"123admin123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:49:45 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login Admin-Success-001: Test Cases/Login/TC-Login Admin-Success-001
+
+2023-10-05 07:49:45 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:49:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:49:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:49:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:49:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:49:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:49:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:49:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle ADMIN"), 0): Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:49:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username, Email atau No. Handphone_a"), Username): Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:49:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:49:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), Password): Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:49:51 - [MESSAGE][PASSED] - Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:49:51 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom Remember Me")): Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:49:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-10-05 07:50:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-10-05 07:50:02 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom sign in")): Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:50:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle Dashboard"), 0): Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:50:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:50:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:50:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:50:10 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Master Market")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:50:11 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Reseller  Pelapak")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:50:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu pencarian Toko admin/Tittle Daftar Semua reseller"), 0): Object 'Object Repository/Menu pencarian Toko admin/Tittle Daftar Semua reseller' is present
+
+2023-10-05 07:50:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:50:18 - [MESSAGE][PASSED] - Object 'Object Repository/Menu pencarian Toko admin/Tittle Daftar Semua reseller' is present
+
+2023-10-05 07:50:18 - [TEST_STEP][PASSED] - setText(findTestObject("Menu pencarian Toko admin/input_Search_form"), "Kerupuk husna"): Text 'Kerupuk husna' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:50:19 - [MESSAGE][PASSED] - Text 'Kerupuk husna' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:50:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Menu pencarian Toko admin/isi search admin Kerupuk husna"), "Kerupuk husna"): Actual text and expected text of test object 'Object Repository/Menu pencarian Toko admin/isi search admin Kerupuk husna' are matched.
+
+2023-10-05 07:50:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Menu pencarian Toko admin/isi search admin Kerupuk husna' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PTA-002" time="33.676" classname="Test Cases/T05 Pencarian Toko/PTA-002" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:50:20 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PTA-002: Test Cases/T05 Pencarian Toko/PTA-002
+
+2023-10-05 07:50:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login Admin-Success-001"), ["Username":"admin", "Password":"123admin123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:50:20 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login Admin-Success-001: Test Cases/Login/TC-Login Admin-Success-001
+
+2023-10-05 07:50:20 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:50:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:50:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:50:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:50:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:50:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:50:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:50:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle ADMIN"), 0): Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:50:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:50:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username, Email atau No. Handphone_a"), Username): Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:50:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:50:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), Password): Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:50:27 - [MESSAGE][PASSED] - Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:50:27 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom Remember Me")): Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:50:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-10-05 07:50:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-10-05 07:50:37 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom sign in")): Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:50:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle Dashboard"), 0): Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:50:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:50:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Master Market")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:50:46 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Reseller  Pelapak")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:50:46 - [TEST_STEP][PASSED] - setText(findTestObject("Menu pencarian Toko admin/input_Search_form"), "abc12zs"): Text 'abc12zs' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:50:53 - [MESSAGE][PASSED] - Text 'abc12zs' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:50:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Menu pencarian Toko admin/Massage Error"), "No matching records found"): Actual text and expected text of test object 'Object Repository/Menu pencarian Toko admin/Massage Error' are matched.
+
+2023-10-05 07:50:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Menu pencarian Toko admin/Massage Error' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PTA-003" time="30.347" classname="Test Cases/T05 Pencarian Toko/PTA-003" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 Pencarian Toko/PTA-003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '        Kerupuk husna' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at PTA-003.run(PTA-003:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '        Kerupuk husna' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-10-05 07:50:53 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PTA-003: Test Cases/T05 Pencarian Toko/PTA-003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '        Kerupuk husna' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at PTA-003.run(PTA-003:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '        Kerupuk husna' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-10-05 07:50:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login Admin-Success-001"), ["Username":"admin", "Password":"123admin123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:50:54 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login Admin-Success-001: Test Cases/Login/TC-Login Admin-Success-001
+
+2023-10-05 07:50:54 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:50:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:50:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:50:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:50:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:50:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:50:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:50:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle ADMIN"), 0): Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:50:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username, Email atau No. Handphone_a"), Username): Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:50:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), Password): Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:51:00 - [MESSAGE][PASSED] - Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:51:00 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom Remember Me")): Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:51:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-10-05 07:51:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-10-05 07:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom sign in")): Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:51:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle Dashboard"), 0): Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:51:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:51:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Master Market")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Reseller  Pelapak")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("Menu pencarian Toko admin/input_Search_form"), nama_toko): Text 'kerupuk   ' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:51:23 - [MESSAGE][PASSED] - Text 'kerupuk   ' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:51:23 - [TEST_STEP][FAILED] - verifyTextPresent("        Kerupuk husna", false): Unable to verify text '        Kerupuk husna' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text '        Kerupuk husna' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at PTA-003.run(PTA-003:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '        Kerupuk husna' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-10-05 07:51:24 - [MESSAGE][FAILED] - Text '        Kerupuk husna' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text '        Kerupuk husna' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at PTA-003.run(PTA-003:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+)
+
+2023-10-05 07:51:24 - [MESSAGE][FAILED] - Unable to verify text '        Kerupuk husna' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text '        Kerupuk husna' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at PTA-003.run(PTA-003:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '        Kerupuk husna' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\FT2 XSIS\\Projek Eval 2 Tajalapak dan administrator\\Reports\\20231005_074635\\pencarian toko\\pencarian toko\\20231005_074636\\1696467084118.png]]]]></system-out>
+         <system-err><![CDATA[2023-10-05 07:50:53 - [TEST_CASE][FAILED] - Test Cases/T05 Pencarian Toko/PTA-003: Test Cases/T05 Pencarian Toko/PTA-003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text '        Kerupuk husna' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at PTA-003.run(PTA-003:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text '        Kerupuk husna' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 Pencarian Toko/PTA-004" time="34.462" classname="Test Cases/T05 Pencarian Toko/PTA-004" status="PASSED">
+         <system-out><![CDATA[2023-10-05 07:51:24 - [TEST_CASE][PASSED] - Test Cases/T05 Pencarian Toko/PTA-004: Test Cases/T05 Pencarian Toko/PTA-004
+
+2023-10-05 07:51:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC-Login Admin-Success-001"), ["Username":"admin", "Password":"123admin123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:51:24 - [TEST_CASE][PASSED] - Test Cases/Login/TC-Login Admin-Success-001: Test Cases/Login/TC-Login Admin-Success-001
+
+2023-10-05 07:51:24 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:51:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-05 07:51:25 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-05 07:51:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-05 07:51:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-10-05 07:51:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-05 07:51:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-05 07:51:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle ADMIN"), 0): Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle ADMIN' is present
+
+2023-10-05 07:51:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username, Email atau No. Handphone_a"), Username): Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:51:30 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-10-05 07:51:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), Password): Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:51:31 - [MESSAGE][PASSED] - Text '123admin123' is set on object 'Object Repository/Login/input_Password'
+
+2023-10-05 07:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom Remember Me")): Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom Remember Me' is clicked on
+
+2023-10-05 07:51:31 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-10-05 07:51:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-10-05 07:51:41 - [TEST_STEP][PASSED] - click(findTestObject("Login admin/buttom sign in")): Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/buttom sign in' is clicked on
+
+2023-10-05 07:51:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login admin/Tittle Dashboard"), 0): Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-05 07:51:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login admin/Tittle Dashboard' is present
+
+2023-10-05 07:51:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC-Login Admin-Success-001' successfully
+
+2023-10-05 07:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Master Market")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Master Market' is clicked on
+
+2023-10-05 07:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Menu pencarian Toko admin/Menu Reseller  Pelapak")): Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu pencarian Toko admin/Menu Reseller  Pelapak' is clicked on
+
+2023-10-05 07:51:51 - [TEST_STEP][PASSED] - setText(findTestObject("Menu pencarian Toko admin/input_Search_form"), nama_toko): Text 'KeRuPuk HuSnA' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:51:57 - [MESSAGE][PASSED] - Text 'KeRuPuk HuSnA' is set on object 'Object Repository/Menu pencarian Toko admin/input_Search_form'
+
+2023-10-05 07:51:57 - [TEST_STEP][PASSED] - verifyTextPresent("Kerupuk husna", false): Text 'Kerupuk husna' is present on page 
+
+2023-10-05 07:51:58 - [MESSAGE][PASSED] - Text 'Kerupuk husna' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-05 07:46:39 - [TEST_SUITE][FAILED] - pencarian toko: Test Cases/T05 Pencarian Toko/PT-004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-10-05 07:46:39 - [TEST_SUITE][FAILED] - pencarian toko: Test Cases/T05 Pencarian Toko/PT-004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Fitur search/Massage error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at PT-004.run(PT-004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1696466796683.run(TempTestSuite1696466796683.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '12>' and expected text ' isikan Nama toko yang benar' of test object 'Object Repository/Fitur search/Massage error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

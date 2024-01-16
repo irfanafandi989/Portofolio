@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User input email tidak menggunakan domain dibagian Tracking Order</description>
+   <name>SU-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f3f3691-38cb-451e-bd01-01ea047112ca</testCaseGuid>
+</TestCaseEntity>

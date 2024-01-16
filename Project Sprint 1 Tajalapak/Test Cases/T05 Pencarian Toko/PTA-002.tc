@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>admin Mencari Toko berdasarkan Nama Toko Asal</description>
+   <name>PTA-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d16b0453-119c-477a-8a2a-ded05eb7ef1c</testCaseGuid>
+</TestCaseEntity>

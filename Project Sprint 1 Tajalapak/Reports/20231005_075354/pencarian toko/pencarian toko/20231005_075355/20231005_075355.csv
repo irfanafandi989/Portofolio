@@ -1,0 +1,133 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pencarian toko,Firefox 117.0,,,2023-10-05 07:53:58,2023-10-05 07:59:19,5m - 21.140s,FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/LA-001,Firefox 117.0,Admin Melakukan Login dengan memasukkan Username dan password yang valid,,2023-10-05 07:53:58,2023-10-05 07:54:25,26.946s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-05 07:53:59,2023-10-05 07:54:04,5.613s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-05 07:54:04,2023-10-05 07:54:04,0.050s,PASSED
+"verifyElementPresent(findTestObject(""Login admin/Tittle ADMIN""), 0)",Firefox 117.0,,,2023-10-05 07:54:04,2023-10-05 07:54:05,0.474s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), Username)",Firefox 117.0,,,2023-10-05 07:54:05,2023-10-05 07:54:06,0.699s,PASSED
+"setText(findTestObject(""Login/input_Password""), Password)",Firefox 117.0,,,2023-10-05 07:54:06,2023-10-05 07:54:06,0.640s,PASSED
+"click(findTestObject(""Login admin/buttom Remember Me""))",Firefox 117.0,,,2023-10-05 07:54:06,2023-10-05 07:54:07,0.612s,PASSED
+delay(10),Firefox 117.0,,,2023-10-05 07:54:07,2023-10-05 07:54:17,10.048s,PASSED
+"click(findTestObject(""Login admin/buttom sign in""))",Firefox 117.0,,,2023-10-05 07:54:17,2023-10-05 07:54:18,1.478s,PASSED
+"verifyElementPresent(findTestObject(""Login admin/Tittle Dashboard""), 0)",Firefox 117.0,,,2023-10-05 07:54:18,2023-10-05 07:54:25,6.711s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-001,Firefox 117.0,User melihat Toko dihalaman semua toko,,2023-10-05 07:54:25,2023-10-05 07:54:34,9.340s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Firefox 117.0,,,2023-10-05 07:54:25,2023-10-05 07:54:32,6.127s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-05 07:54:32,2023-10-05 07:54:32,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Login/Halaman Home""), 0)",Firefox 117.0,,,2023-10-05 07:54:32,2023-10-05 07:54:32,0.451s,PASSED
+"click(findTestObject(""Menu Pencarian Toko/menu Shop""))",Firefox 117.0,,,2023-10-05 07:54:32,2023-10-05 07:54:32,0.365s,PASSED
+"click(findTestObject(""Menu Pencarian Toko/menu Shop""))",Firefox 117.0,,,2023-10-05 07:54:32,2023-10-05 07:54:33,0.559s,PASSED
+"click(findTestObject(""Menu Pencarian Toko/Menu Toko (Pelapak)""))",Firefox 117.0,,,2023-10-05 07:54:33,2023-10-05 07:54:34,1.063s,PASSED
+"verifyElementPresent(findTestObject(""Menu Pencarian Toko/Tittle Semua Toko""), 0)",Firefox 117.0,,,2023-10-05 07:54:34,2023-10-05 07:54:34,0.447s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-002,Firefox 117.0,User cari Toko berdasarkan nama toko,,2023-10-05 07:54:34,2023-10-05 07:54:46,11.846s,PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:54:35,2023-10-05 07:54:44,9.334s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), nama_toko)",Firefox 117.0,,,2023-10-05 07:54:44,2023-10-05 07:54:45,0.643s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:54:45,2023-10-05 07:54:46,0.829s,PASSED
+nama_toko1 = text,Firefox 117.0,,,2023-10-05 07:54:46,2023-10-05 07:54:46,0.683s,PASSED
+"nama_toko2 = nama_toko1.substring(9, nama_toko1.size())",Firefox 117.0,,,2023-10-05 07:54:46,2023-10-05 07:54:46,0.002s,PASSED
+assert trim().equalsIgnoreCase(nama_toko2.trim()),Firefox 117.0,,,2023-10-05 07:54:46,2023-10-05 07:54:46,0.000s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-003,Firefox 117.0,User Mencari Alamat Toko berdasarkan Regional,,2023-10-05 07:54:46,2023-10-05 07:54:58,11.833s,PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:54:47,2023-10-05 07:54:56,9.072s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""Mataram, Kota Mataram"")",Firefox 117.0,,,2023-10-05 07:54:56,2023-10-05 07:54:56,0.676s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:54:56,2023-10-05 07:54:57,0.844s,PASSED
+"verifyElementText(findTestObject(""Fitur search/Regional Mataram,  Kota Mataram""), ""Mataram, Kota Mataram"")",Firefox 117.0,,,2023-10-05 07:54:57,2023-10-05 07:54:58,0.934s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-004,Firefox 117.0,User Mencari Toko berdasarkan Nama Toko yang tidak valid,,2023-10-05 07:54:58,2023-10-05 07:55:11,12.635s,FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:54:58,2023-10-05 07:55:09,10.039s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""asadac12"")",Firefox 117.0,,,2023-10-05 07:55:09,2023-10-05 07:55:09,0.638s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:55:09,2023-10-05 07:55:10,0.890s,PASSED
+"verifyElementText(findTestObject(""Fitur search/Massage error""), "" isikan Nama toko yang benar"")",Firefox 117.0,,,2023-10-05 07:55:10,2023-10-05 07:55:11,0.771s,FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-005,Firefox 117.0,User Mencari toko tetapi tidak mengisi pada bagian search,,2023-10-05 07:55:11,2023-10-05 07:55:32,21.264s,FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:55:11,2023-10-05 07:55:30,18.987s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:55:30,2023-10-05 07:55:31,1.215s,PASSED
+"verifyElementText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""Keyword tidak boleh kosong"")",Firefox 117.0,,,2023-10-05 07:55:31,2023-10-05 07:55:32,0.739s,FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-006,Firefox 117.0,User Mencari toko berdasarkan Nomor telepon,,2023-10-05 07:55:32,2023-10-05 07:55:44,12.013s,FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:55:32,2023-10-05 07:55:42,9.220s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""+6287865722652"")",Firefox 117.0,,,2023-10-05 07:55:42,2023-10-05 07:55:42,0.639s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:55:42,2023-10-05 07:55:43,0.877s,PASSED
+"verifyElementText(findTestObject(""Menu Pencarian Toko/pencarian kosong""), ""+6287865722652"")",Firefox 117.0,,,2023-10-05 07:55:43,2023-10-05 07:55:44,0.979s,FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-007,Firefox 117.0,User mencari toko berdasarkan toko yang sudah verified,,2023-10-05 07:55:44,2023-10-05 07:55:56,12.172s,FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:55:44,2023-10-05 07:55:54,9.636s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""Verified"")",Firefox 117.0,,,2023-10-05 07:55:54,2023-10-05 07:55:55,0.666s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:55:55,2023-10-05 07:55:55,0.793s,PASSED
+"verifyElementText(findTestObject(""Menu Pencarian Toko/pencarian kosong""), ""Verified"")",Firefox 117.0,,,2023-10-05 07:55:55,2023-10-05 07:55:56,0.773s,FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-008,Firefox 117.0,User mencari toko berdasarkan nama kota dengan menambahkan spesial karakter,,2023-10-05 07:55:56,2023-10-05 07:56:09,12.722s,FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:55:57,2023-10-05 07:56:07,10.115s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), ""mataram,"")",Firefox 117.0,,,2023-10-05 07:56:07,2023-10-05 07:56:07,0.651s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:56:07,2023-10-05 07:56:08,0.797s,PASSED
+"verifyElementText(findTestObject(""Menu Pencarian Toko/pencarian kosong""), ""mataram,"")",Firefox 117.0,,,2023-10-05 07:56:08,2023-10-05 07:56:09,0.857s,FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-009,Firefox 117.0,"User mencari toko berdasarkan Nama toko ""pakai spasi""",,2023-10-05 07:56:09,2023-10-05 07:56:21,11.945s,FAILED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:56:09,2023-10-05 07:56:19,9.253s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), nama_toko)",Firefox 117.0,,,2023-10-05 07:56:19,2023-10-05 07:56:19,0.638s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:56:19,2023-10-05 07:56:20,1.247s,PASSED
+regional1 = text,Firefox 117.0,,,2023-10-05 07:56:20,2023-10-05 07:56:21,0.488s,PASSED
+"regional = regional1.substring(9, regional1.size())",Firefox 117.0,,,2023-10-05 07:56:21,2023-10-05 07:56:21,0.000s,PASSED
+assert trim().equalsIgnoreCase(regional.trim()),Firefox 117.0,,,2023-10-05 07:56:21,2023-10-05 07:56:21,0.004s,FAILED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-010,Firefox 117.0,User melihat Detail Toko ketika menekan tombol kunjungi Toko,,2023-10-05 07:56:21,2023-10-05 07:56:37,16.276s,PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-002""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:56:21,2023-10-05 07:56:34,12.323s,PASSED
+verified1 = text,Firefox 117.0,,,2023-10-05 07:56:34,2023-10-05 07:56:34,0.333s,PASSED
+nama_toko1 = text,Firefox 117.0,,,2023-10-05 07:56:34,2023-10-05 07:56:34,0.334s,PASSED
+"nama_toko = nama_toko1.substring(9, nama_toko1.size())",Firefox 117.0,,,2023-10-05 07:56:34,2023-10-05 07:56:34,0.000s,PASSED
+no_hp1 = text,Firefox 117.0,,,2023-10-05 07:56:34,2023-10-05 07:56:35,0.327s,PASSED
+"click(findTestObject(""Fitur search/button Kunjungi Toko""))",Firefox 117.0,,,2023-10-05 07:56:35,2023-10-05 07:56:35,0.816s,PASSED
+"verifyElementPresent(findTestObject(""Fitur search/tittle Kerupuk husna""), 0)",Firefox 117.0,,,2023-10-05 07:56:35,2023-10-05 07:56:36,0.784s,PASSED
+"verified2 = getText(findTestObject(""Object Repository/Nama toko detail 2 Tajalapak/Verified2""))",Firefox 117.0,,,2023-10-05 07:56:36,2023-10-05 07:56:37,0.349s,PASSED
+"nama_toko2 = getText(findTestObject(""Object Repository/Nama toko detail 2 Tajalapak/NAMA TOKO 2""))",Firefox 117.0,,,2023-10-05 07:56:37,2023-10-05 07:56:37,0.346s,PASSED
+"no_hp2 = getText(findTestObject(""Nama toko detail 2 Tajalapak/nomor hp detail 2""))",Firefox 117.0,,,2023-10-05 07:56:37,2023-10-05 07:56:37,0.331s,PASSED
+assert trim().equalsIgnoreCase(verified2.trim()),Firefox 117.0,,,2023-10-05 07:56:37,2023-10-05 07:56:37,0.001s,PASSED
+assert trim().equalsIgnoreCase(nama_toko2.trim()),Firefox 117.0,,,2023-10-05 07:56:37,2023-10-05 07:56:37,0.001s,PASSED
+assert trim().equalsIgnoreCase(no_hp2.trim()),Firefox 117.0,,,2023-10-05 07:56:37,2023-10-05 07:56:37,0.000s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-011,Firefox 117.0,User melakukan search nama toko menggunakan huruf besar  dan kecil,,2023-10-05 07:56:37,2023-10-05 07:56:50,12.400s,PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:56:38,2023-10-05 07:56:48,9.973s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), nama_toko)",Firefox 117.0,,,2023-10-05 07:56:48,2023-10-05 07:56:48,0.628s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:56:48,2023-10-05 07:56:49,0.804s,PASSED
+nama_toko1 = text,Firefox 117.0,,,2023-10-05 07:56:49,2023-10-05 07:56:50,0.673s,PASSED
+"nama_toko2 = nama_toko1.substring(9, nama_toko1.size())",Firefox 117.0,,,2023-10-05 07:56:50,2023-10-05 07:56:50,0.000s,PASSED
+assert trim().equalsIgnoreCase(nama_toko2.trim()),Firefox 117.0,,,2023-10-05 07:56:50,2023-10-05 07:56:50,0.000s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PT-012,Firefox 117.0,User melakukan search nama toko berulang-ulang dengan kata sama,,2023-10-05 07:56:50,2023-10-05 07:57:02,12.611s,PASSED
+"callTestCase(findTestCase(""T05 Pencarian Toko/PT-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:56:50,2023-10-05 07:57:00,10.039s,PASSED
+"setText(findTestObject(""Fitur search/input_Semua Toko_cari_reseller""), nama_toko)",Firefox 117.0,,,2023-10-05 07:57:00,2023-10-05 07:57:01,0.639s,PASSED
+"click(findTestObject(""Fitur search/button_Semua Toko_submit""))",Firefox 117.0,,,2023-10-05 07:57:01,2023-10-05 07:57:02,0.919s,PASSED
+nama_toko1 = text,Firefox 117.0,,,2023-10-05 07:57:02,2023-10-05 07:57:02,0.695s,PASSED
+"nama_toko2 = nama_toko1.substring(9, nama_toko1.size())",Firefox 117.0,,,2023-10-05 07:57:02,2023-10-05 07:57:02,0.000s,PASSED
+assert nama_toko.contains(nama_toko2),Firefox 117.0,,,2023-10-05 07:57:02,2023-10-05 07:57:02,0.001s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PTA-001,Firefox 117.0,admin melakukan search Nama toko (pelapak),,2023-10-05 07:57:02,2023-10-05 07:57:37,35.237s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:57:03,2023-10-05 07:57:30,27.215s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Firefox 117.0,,,2023-10-05 07:57:30,2023-10-05 07:57:31,0.784s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Reseller  Pelapak""))",Firefox 117.0,,,2023-10-05 07:57:31,2023-10-05 07:57:32,1.276s,PASSED
+"verifyElementPresent(findTestObject(""Menu pencarian Toko admin/Tittle Daftar Semua reseller""), 0)",Firefox 117.0,,,2023-10-05 07:57:32,2023-10-05 07:57:36,3.768s,PASSED
+"setText(findTestObject(""Menu pencarian Toko admin/input_Search_form""), ""Kerupuk husna"")",Firefox 117.0,,,2023-10-05 07:57:36,2023-10-05 07:57:37,1.107s,PASSED
+"verifyElementText(findTestObject(""Menu pencarian Toko admin/isi search admin Kerupuk husna""), ""Kerupuk husna"")",Firefox 117.0,,,2023-10-05 07:57:37,2023-10-05 07:57:37,0.787s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PTA-002,Firefox 117.0,admin Mencari Toko berdasarkan Nama Toko Asal,,2023-10-05 07:57:37,2023-10-05 07:58:12,34.958s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:57:38,2023-10-05 07:58:04,26.062s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Firefox 117.0,,,2023-10-05 07:58:04,2023-10-05 07:58:05,0.805s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Reseller  Pelapak""))",Firefox 117.0,,,2023-10-05 07:58:05,2023-10-05 07:58:06,1.331s,PASSED
+"setText(findTestObject(""Menu pencarian Toko admin/input_Search_form""), ""abc12zs"")",Firefox 117.0,,,2023-10-05 07:58:06,2023-10-05 07:58:12,5.834s,PASSED
+"verifyElementText(findTestObject(""Menu pencarian Toko admin/Massage Error""), ""No matching records found"")",Firefox 117.0,,,2023-10-05 07:58:12,2023-10-05 07:58:12,0.579s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PTA-003,Firefox 117.0,admin pelapak Mencari nama toko dengan spasi didepan ,,2023-10-05 07:58:12,2023-10-05 07:58:46,33.926s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:58:13,2023-10-05 07:58:37,24.070s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Firefox 117.0,,,2023-10-05 07:58:37,2023-10-05 07:58:37,0.652s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Reseller  Pelapak""))",Firefox 117.0,,,2023-10-05 07:58:37,2023-10-05 07:58:39,1.627s,PASSED
+"setText(findTestObject(""Menu pencarian Toko admin/input_Search_form""), nama_toko)",Firefox 117.0,,,2023-10-05 07:58:39,2023-10-05 07:58:46,6.614s,PASSED
+"verifyTextPresent(""Kerupuk husna"", false)",Firefox 117.0,,,2023-10-05 07:58:46,2023-10-05 07:58:46,0.653s,PASSED
+,,,,,,,
+Test Cases/T05 Pencarian Toko/PTA-004,Firefox 117.0,admin pelapak Mencari nama toko menggunakan huruf besar kecil,,2023-10-05 07:58:46,2023-10-05 07:59:19,32.656s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:58:47,2023-10-05 07:59:10,23.647s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Firefox 117.0,,,2023-10-05 07:59:10,2023-10-05 07:59:11,0.911s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Reseller  Pelapak""))",Firefox 117.0,,,2023-10-05 07:59:11,2023-10-05 07:59:13,1.245s,PASSED
+"setText(findTestObject(""Menu pencarian Toko admin/input_Search_form""), nama_toko)",Firefox 117.0,,,2023-10-05 07:59:13,2023-10-05 07:59:18,5.816s,PASSED
+"verifyTextPresent(""Kerupuk husna"", false)",Firefox 117.0,,,2023-10-05 07:59:18,2023-10-05 07:59:19,0.632s,PASSED

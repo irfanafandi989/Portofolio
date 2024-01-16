@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_History Pembelian_img-circle img-thumbnail</name>
+   <tag></tag>
+   <elementGuidId>7e22107a-8c0c-4247-a9c9-f3eeb785e961</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.img-circle.img-thumbnail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='profile']/div/table/tbody/tr/th/center/img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://10.9.2.63/ecommerce/asset/foto_user/1200px-Manchester_United_FC_crest_svg1.png']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>6c7ff851-9852-4271-b238-55221e1063a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/asset/foto_user/1200px-Manchester_United_FC_crest_svg1.png</value>
+      <webElementGuid>3f191587-8a2d-4b48-9a24-9777339a3c53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-circle img-thumbnail</value>
+      <webElementGuid>0265e1d5-ee79-422e-9cc3-659ffa3484d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;profile&quot;)/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-condensed table-bordered&quot;]/tbody[1]/tr[1]/th[1]/center[1]/img[@class=&quot;img-circle img-thumbnail&quot;]</value>
+      <webElementGuid>8f2a7336-bf2e-44c3-a83d-7d5b36c619be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='profile']/div/table/tbody/tr/th/center/img</value>
+      <webElementGuid>39021f0d-1845-4888-8286-d58a2c3915f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/foto_user/1200px-Manchester_United_FC_crest_svg1.png')]</value>
+      <webElementGuid>e24b1a13-0d7a-4ec3-8f5e-a6a9249892b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//center/img</value>
+      <webElementGuid>df5fa9a3-c8f6-474d-a19b-629123b83e38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://10.9.2.63/ecommerce/asset/foto_user/1200px-Manchester_United_FC_crest_svg1.png']</value>
+      <webElementGuid>c2e2b300-861b-4b17-89f7-dd24d0bfb226</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

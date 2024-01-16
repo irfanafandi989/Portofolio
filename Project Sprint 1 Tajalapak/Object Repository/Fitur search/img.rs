@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>8641b2a3-88b3-4477-804e-f727cbd14f3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/foto_user/toko.jpg')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ps-block__user > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>6fae08e0-3668-44c9-9ef0-43947e42e9b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/asset/foto_user/toko.jpg</value>
+      <webElementGuid>65fcaa0b-5cf5-47a1-b371-d9bb154633d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/section[@class=&quot;ps-store-list&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12&quot;]/article[@class=&quot;ps-block--store-2&quot;]/div[@class=&quot;ps-block__author&quot;]/a[@class=&quot;ps-block__user&quot;]/img[1]</value>
+      <webElementGuid>ead26847-26d5-4fb3-ad58-821c144ce2af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/foto_user/toko.jpg')]</value>
+      <webElementGuid>4cab3d1a-c122-4ede-97e7-7b0183722297</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/img</value>
+      <webElementGuid>f90fe37d-6f8b-417f-9151-7dc0de9140b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://10.9.2.63/ecommerce/asset/foto_user/toko.jpg']</value>
+      <webElementGuid>5c9dad76-1986-4fb9-96f5-492d7e744323</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

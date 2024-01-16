@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cari Toko berdasarkan nama toko</description>
+   <name>PT-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>335c682e-672a-4707-9b8c-b24d9c6c8815</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d59df108-4831-4055-818e-266926cd5f36</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Kerupuk husna'</defaultValue>
+      <description></description>
+      <id>d59df108-4831-4055-818e-266926cd5f36</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>

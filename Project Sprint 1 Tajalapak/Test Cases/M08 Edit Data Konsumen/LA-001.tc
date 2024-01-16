@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin Melakukan Login dengan memasukkan Username dan password yang valid</description>
+   <name>LA-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c9cf670-31c0-4fe0-abfd-885317df8865</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ef26606-1db7-47ae-9eab-06ba3c51b30b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>baa4bfbc-5dc3-4af4-9644-5ec49e865048</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>3ef26606-1db7-47ae-9eab-06ba3c51b30b</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123admin123'</defaultValue>
+      <description></description>
+      <id>baa4bfbc-5dc3-4af4-9644-5ec49e865048</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

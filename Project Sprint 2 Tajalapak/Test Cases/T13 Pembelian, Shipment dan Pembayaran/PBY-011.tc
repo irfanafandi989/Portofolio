@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User input tanggal transfer yang akan datang</description>
+   <name>PBY-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a24e63b-853e-4164-8981-c3f4c7c118b5</testCaseGuid>
+</TestCaseEntity>

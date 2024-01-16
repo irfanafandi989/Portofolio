@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Melakukan Login dengan memasukkan Username dan password yang valid</description>
+   <name>LU-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fb3fbd4-5d91-4b9a-a411-96f904d676f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>639c8d70-9d10-46ca-bd0c-3a2dd5940f1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d173eb1-de6f-4b20-9e85-43bd5dc1b3d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'irfanafandi'</defaultValue>
+      <description></description>
+      <id>639c8d70-9d10-46ca-bd0c-3a2dd5940f1a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345irfan'</defaultValue>
+      <description></description>
+      <id>2d173eb1-de6f-4b20-9e85-43bd5dc1b3d1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

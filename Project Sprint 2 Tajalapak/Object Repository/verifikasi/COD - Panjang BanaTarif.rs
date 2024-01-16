@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>COD - Panjang BanaTarif</name>
+   <tag></tag>
+   <elementGuidId>eb342f67-de60-4bd2-8dd6-88067e5ec425</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#1serv-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='1serv-2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>81c434fb-0cc9-4843-9b6d-42091de95df3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>1serv-2</value>
+      <webElementGuid>fb21ce82-b964-4442-a5b5-6a5c54a0a49f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item clearall-kurir</value>
+      <webElementGuid>70e9f5b3-259c-4fe0-8b20-4679be73a5a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>klikongkir1('COD (Cash on delivery)','Panjang Bana','3700','3,700',this.id)</value>
+      <webElementGuid>eea6d256-a6df-4cfa-88dc-ff3d3637b69c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                              COD - Panjang BanaTarif. Rp 3,700 - Bayar Di tempat
+                                                        </value>
+      <webElementGuid>29fddc63-7cd1-46a0-b04a-f78c20c706a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1serv-2&quot;)</value>
+      <webElementGuid>9c91c19e-c459-4f80-a2de-740b4affceea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='1serv-2']</value>
+      <webElementGuid>6f25ef12-674e-465e-a0b6-8ecda5b2d308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='kurir-list1']/li[2]</value>
+      <webElementGuid>852ea8f7-ecf0-4e1c-8125-58e4aff601f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 0'])[1]/following::li[1]</value>
+      <webElementGuid>5de15cb9-0d74-43cc-829e-e69e39853b8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tarif.'])[1]/following::li[1]</value>
+      <webElementGuid>9a70a388-8421-413a-8e39-2b062de3385b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[3]/li[2]</value>
+      <webElementGuid>a12559a3-5123-4c5e-8a64-242aa9b38d37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@id = '1serv-2' and (text() = '
+                                                              COD - Panjang BanaTarif. Rp 3,700 - Bayar Di tempat
+                                                        ' or . = '
+                                                              COD - Panjang BanaTarif. Rp 3,700 - Bayar Di tempat
+                                                        ')]</value>
+      <webElementGuid>7b6001cf-ee70-40e6-9465-759846a12ac0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Kota  Kabupaten</name>
+   <tag></tag>
+   <elementGuidId>1abb1a34-e690-4b08-a7fd-1e0af3398c96</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#list_kotakab</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='list_kotakab']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c9b37b13-c190-48f4-9fcb-0ecc6488fa14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-mini</value>
+      <webElementGuid>3f805fe1-a0eb-493d-a390-54810d28011f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>kota</value>
+      <webElementGuid>bb654dda-974d-4592-8777-48bf57798c52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>list_kotakab</value>
+      <webElementGuid>7e1f552d-6a75-4bc3-8fa5-e8b586d9daae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kota / KabupatenKabupaten AgamKota BukittinggiKabupaten DharmasrayaKabupaten Kepulauan MentawaiKabupaten Lima Puluh Koto/KotaKota PadangKota Padang PanjangKabupaten Padang PariamanKota PariamanKabupaten PasamanKabupaten Pasaman BaratKota PayakumbuhKabupaten Pesisir SelatanKota Sawah LuntoKabupaten Sijunjung (Sawah Lunto Sijunjung)Kabupaten SolokKota SolokKabupaten Solok SelatanKabupaten Tanah Datar</value>
+      <webElementGuid>07556406-0cc8-45f6-8ef1-9c0cb0470895</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_kotakab&quot;)</value>
+      <webElementGuid>1a45edba-e494-4bc2-98e9-08c6322b14da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='list_kotakab']</value>
+      <webElementGuid>bb40a519-8c3e-4624-af67-be7ae04c1abc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Kirim'])[1]/following::select[2]</value>
+      <webElementGuid>aca66478-bedf-4410-bea4-9dee3d08a87b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontak'])[1]/following::select[2]</value>
+      <webElementGuid>4fa8847a-378f-4a19-9d0b-32ba237bc98e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Produk'])[1]/preceding::select[2]</value>
+      <webElementGuid>10d45729-08b4-4be7-adb0-aa46e082fcd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segitiga Instan Madeira - MDB5.3 Sunset'])[4]/preceding::select[2]</value>
+      <webElementGuid>59272414-97aa-479b-b3ac-b8789b0c6b39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+      <webElementGuid>e03fa173-f7c7-4880-a411-2303f9406720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'kota' and @id = 'list_kotakab' and (text() = 'Kota / KabupatenKabupaten AgamKota BukittinggiKabupaten DharmasrayaKabupaten Kepulauan MentawaiKabupaten Lima Puluh Koto/KotaKota PadangKota Padang PanjangKabupaten Padang PariamanKota PariamanKabupaten PasamanKabupaten Pasaman BaratKota PayakumbuhKabupaten Pesisir SelatanKota Sawah LuntoKabupaten Sijunjung (Sawah Lunto Sijunjung)Kabupaten SolokKota SolokKabupaten Solok SelatanKabupaten Tanah Datar' or . = 'Kota / KabupatenKabupaten AgamKota BukittinggiKabupaten DharmasrayaKabupaten Kepulauan MentawaiKabupaten Lima Puluh Koto/KotaKota PadangKota Padang PanjangKabupaten Padang PariamanKota PariamanKabupaten PasamanKabupaten Pasaman BaratKota PayakumbuhKabupaten Pesisir SelatanKota Sawah LuntoKabupaten Sijunjung (Sawah Lunto Sijunjung)Kabupaten SolokKota SolokKabupaten Solok SelatanKabupaten Tanah Datar')]</value>
+      <webElementGuid>3b63fb49-b621-4069-8f15-a26889a7254a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

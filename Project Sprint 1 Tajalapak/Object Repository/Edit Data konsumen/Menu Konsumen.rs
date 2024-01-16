@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu Konsumen</name>
+   <tag></tag>
+   <elementGuidId>0e728e42-0a89-4fe4-833d-5e83620c67f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Konsumen')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.treeview-menu.active > li.active > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>640f7177-9538-4d98-abfb-a977cdffadda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/administrator/konsumen</value>
+      <webElementGuid>c4658463-ee06-43b7-a37c-99596dff0ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Konsumen</value>
+      <webElementGuid>fdf6b009-16bc-41c9-8ed7-c895f019c3f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;active&quot;]/body[@class=&quot;skin-black-light sidebar-mini  active pace-done&quot;]/div[@class=&quot;wrapper active&quot;]/aside[@class=&quot;main-sidebar active&quot;]/section[@class=&quot;sidebar active&quot;]/ul[@class=&quot;sidebar-menu active&quot;]/li[@class=&quot;treeview active&quot;]/ul[@class=&quot;treeview-menu active&quot;]/li[@class=&quot;active&quot;]/a[1]</value>
+      <webElementGuid>8a69f52c-7222-4382-9f3e-51302e8ef82c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Konsumen')]</value>
+      <webElementGuid>6c89510e-c39a-4488-9f67-6eea442f1da1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Market'])[1]/following::a[1]</value>
+      <webElementGuid>9ab8f8d9-3ffe-4af9-9908-a66e95d5f962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-mail Subscribe'])[1]/following::a[2]</value>
+      <webElementGuid>b1532701-1a4e-4ee0-a1d9-a03f1afc3025</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reseller / Pelapak'])[1]/preceding::a[1]</value>
+      <webElementGuid>d20ab00e-c234-4196-a727-b635efb6f9b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sopir / Kurir Internal'])[1]/preceding::a[2]</value>
+      <webElementGuid>073a242a-7966-4c81-9684-e57276557cc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Konsumen']/parent::*</value>
+      <webElementGuid>23239a38-5485-4b6b-a5dd-ab53162b1e4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/administrator/konsumen')]</value>
+      <webElementGuid>9c9ca710-bf2f-496a-a9cf-bfc60d0ede91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li/a</value>
+      <webElementGuid>5b0ec9c4-bb58-4d3d-a675-ad9553bc1031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/administrator/konsumen' and (text() = ' Konsumen' or . = ' Konsumen')]</value>
+      <webElementGuid>84c2a5d7-1b56-4bff-9139-6854d3ef58f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

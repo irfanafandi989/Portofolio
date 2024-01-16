@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user menginputkan plat nomor yang tidak terdaftar wilayah indoensia</description>
+   <name>JK-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b712d54-749e-4cfe-b791-a0271d6e9d60</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e42c2e15-dae2-4361-b112-08a77cf20681</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38ba3f1f-eeb8-47ad-8b18-de7a0710aaeb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb5a0e42-8e9d-4c93-a491-bed7298d14aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>063513c4-f6ed-4ade-aca5-b71694968b1b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>feccbc36-3407-410a-a55b-0bcfa67b9e12</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>e42c2e15-dae2-4361-b112-08a77cf20681</id>
+      <masked>false</masked>
+      <name>Jenis</name>
+   </variable>
+   <variable>
+      <defaultValue>'toyota supra'</defaultValue>
+      <description></description>
+      <id>38ba3f1f-eeb8-47ad-8b18-de7a0710aaeb</id>
+      <masked>false</masked>
+      <name>Merek_Kendaraan</name>
+   </variable>
+   <variable>
+      <defaultValue>'AB 4 NG'</defaultValue>
+      <description></description>
+      <id>eb5a0e42-8e9d-4c93-a491-bed7298d14aa</id>
+      <masked>false</masked>
+      <name>Plat_Nomor</name>
+   </variable>
+   <variable>
+      <defaultValue>'mau daftar dong bang'</defaultValue>
+      <description></description>
+      <id>063513c4-f6ed-4ade-aca5-b71694968b1b</id>
+      <masked>false</masked>
+      <name>Keterangan</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\IRFAN\\Downloads\\Berkas2.pdf'</defaultValue>
+      <description></description>
+      <id>feccbc36-3407-410a-a55b-0bcfa67b9e12</id>
+      <masked>false</masked>
+      <name>Berkas</name>
+   </variable>
+</TestCaseEntity>

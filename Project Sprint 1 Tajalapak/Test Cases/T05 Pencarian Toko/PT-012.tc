@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan search nama toko berulang-ulang dengan kata sama</description>
+   <name>PT-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4aed9e03-c0f8-44f5-8c40-3af6338c5c1f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db132d7e-471d-4e24-a553-f75f83a9758b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Kerupuk husna Kerupuk husna Kerupuk husna'</defaultValue>
+      <description></description>
+      <id>db132d7e-471d-4e24-a553-f75f83a9758b</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>

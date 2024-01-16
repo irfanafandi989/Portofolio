@@ -1,0 +1,230 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+T05 jadi kurir,Firefox 117.0,,,2023-10-03 13:58:52,2023-10-03 14:05:39,6m - 46.972s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-001,Firefox 117.0,User melihat peryaratan pendaftaran jadi kurir,,2023-10-03 13:58:53,2023-10-03 13:59:09,16.369s,PASSED
+"callTestCase(findTestCase(""T05 Jadi Kurir/LU-001""), [""username"":""irfanafandi"", ""password"":""12345irfan""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 13:58:53,2023-10-03 13:59:07,14.223s,PASSED
+"click(findTestObject(""Jadi kurir/a_Jadi Kurir""))",Firefox 117.0,,,2023-10-03 13:59:07,2023-10-03 13:59:08,1.012s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 13:59:08,2023-10-03 13:59:09,0.715s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-002,Firefox 117.0,User mendaftar jadi kurir,,2023-10-03 13:59:09,2023-10-03 13:59:40,30.813s,PASSED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 13:59:11,2023-10-03 13:59:25,14.711s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 13:59:25,2023-10-03 13:59:26,0.961s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 13:59:26,2023-10-03 13:59:27,0.813s,PASSED
+"selectOptionByLabel(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 13:59:27,2023-10-03 13:59:28,0.922s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 13:59:28,2023-10-03 13:59:29,0.769s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 13:59:29,2023-10-03 13:59:29,0.709s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 13:59:29,2023-10-03 13:59:30,0.812s,PASSED
+waitForPageLoad(3),Firefox 117.0,,,2023-10-03 13:59:30,2023-10-03 13:59:30,0.165s,PASSED
+delay(2),Firefox 117.0,,,2023-10-03 13:59:30,2023-10-03 13:59:32,2.030s,PASSED
+"uploadFile(findTestObject(""Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 13:59:32,2023-10-03 13:59:33,0.526s,PASSED
+delay(3),Firefox 117.0,,,2023-10-03 13:59:33,2023-10-03 13:59:36,3.010s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 13:59:36,2023-10-03 13:59:37,1.213s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 13:59:37,2023-10-03 13:59:38,0.816s,PASSED
+"Hasil_Jenis = getText(findTestObject(""Hasil Edit/div_Roda 4""))",Firefox 117.0,,,2023-10-03 13:59:38,2023-10-03 13:59:38,0.395s,PASSED
+"Hasil_Merek = getText(findTestObject(""Hasil Edit/div_toyota supra""))",Firefox 117.0,,,2023-10-03 13:59:38,2023-10-03 13:59:39,0.360s,PASSED
+"Hasil_Plat = getText(findTestObject(""Hasil Edit/div_AB 1 S""))",Firefox 117.0,,,2023-10-03 13:59:39,2023-10-03 13:59:39,0.348s,PASSED
+"Hasil_Ket = getText(findTestObject(""Hasil Edit/div_mau daftar dong bang""))",Firefox 117.0,,,2023-10-03 13:59:39,2023-10-03 13:59:40,0.349s,PASSED
+"berkas1 = getAttribute(findTestObject(""Object Repository/Hasil Edit/Hasil edit berkas""), ""href"").split(""/"")",Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.361s,PASSED
+println(berkas1),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.009s,PASSED
+"berkasUrl = size() - 1].replace("".pdf"", """")",Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.016s,PASSED
+println(berkasUrl),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.001s,PASSED
+"berkas_sebelumEdit = Berkas.split(""\\"")",Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.001s,PASSED
+println(berkas_sebelumEdit),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.000s,PASSED
+"urlBerkas = size() - 1].replace("".pdf"", """")",Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.000s,PASSED
+println(urlBerkas),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.001s,PASSED
+assert berkasUrl.contains(urlBerkas),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.003s,PASSED
+assert trim().equalsIgnoreCase(Jenis.trim()),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.001s,PASSED
+assert trim().equalsIgnoreCase(Merek_Kendaraan.trim()),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.000s,PASSED
+assert trim().equalsIgnoreCase(Plat_Nomor.trim()),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.000s,PASSED
+assert trim().equalsIgnoreCase(Keterangan.trim()),Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:40,0.000s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-003,Firefox 117.0,User tidak memilih kolom jenis kendaraan,,2023-10-03 13:59:40,2023-10-03 14:00:03,22.917s,PASSED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 13:59:40,2023-10-03 13:59:55,14.538s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 13:59:55,2023-10-03 13:59:56,0.877s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 13:59:56,2023-10-03 13:59:57,0.802s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 13:59:57,2023-10-03 13:59:58,1.003s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 13:59:58,2023-10-03 13:59:58,0.686s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 13:59:58,2023-10-03 13:59:59,0.809s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 13:59:59,2023-10-03 14:00:00,0.751s,PASSED
+"uploadFile(findTestObject(""Jadi kurir/input_Choose files_uploadFile""), berkas)",Firefox 117.0,,,2023-10-03 14:00:00,2023-10-03 14:00:00,0.550s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:00:00,2023-10-03 14:00:02,1.664s,PASSED
+"verifyElementPresent(findTestObject(""Hasil Edit/Massage""), 0)",Firefox 117.0,,,2023-10-03 14:00:02,2023-10-03 14:00:03,0.778s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-004,Firefox 117.0,"User mendaftar jadi kurir, mengosongkan inputan pada kolom merek kendaraan",,2023-10-03 14:00:03,2023-10-03 14:00:23,20.524s,PASSED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:00:03,2023-10-03 14:00:17,13.677s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:00:17,2023-10-03 14:00:18,0.876s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:00:18,2023-10-03 14:00:19,0.805s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:00:19,2023-10-03 14:00:20,0.924s,PASSED
+"clearText(findTestObject(""Jadi kurir/input_Merek Kendaraan""))",Firefox 117.0,,,2023-10-03 14:00:20,2023-10-03 14:00:20,0.401s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:00:20,2023-10-03 14:00:21,0.660s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:00:21,2023-10-03 14:00:21,0.737s,PASSED
+"uploadFile(findTestObject(""Jadi kurir/input_Choose files_uploadFile""), ""C:\Users\IRFAN\Downloads\KTP.jpg"")",Firefox 117.0,,,2023-10-03 14:00:21,2023-10-03 14:00:22,0.542s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:00:22,2023-10-03 14:00:23,0.992s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 14:00:23,2023-10-03 14:00:23,0.001s,PASSED
+"Merek = webDriver.findElement(By.xpath(""//input[@name=""merek""]""))",Firefox 117.0,,,2023-10-03 14:00:23,2023-10-03 14:00:23,0.402s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", Merek)",Firefox 117.0,,,2023-10-03 14:00:23,2023-10-03 14:00:23,0.025s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 14:00:23,2023-10-03 14:00:23,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-10-03 14:00:23,2023-10-03 14:00:23,0.001s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-005,Firefox 117.0,User input spesial karakter pada kolom merek kendaraan,,2023-10-03 14:00:23,2023-10-03 14:00:47,23.828s,FAILED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:00:24,2023-10-03 14:00:39,14.868s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:00:39,2023-10-03 14:00:40,0.939s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:00:40,2023-10-03 14:00:40,0.805s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:00:40,2023-10-03 14:00:41,0.945s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:00:41,2023-10-03 14:00:42,0.686s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:00:42,2023-10-03 14:00:43,0.711s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:00:43,2023-10-03 14:00:44,0.757s,PASSED
+"uploadFile(findTestObject(""Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:00:44,2023-10-03 14:00:44,0.557s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:00:44,2023-10-03 14:00:46,1.986s,PASSED
+"verifyTextPresent(""Please fill in the correct column."", false)",Firefox 117.0,,,2023-10-03 14:00:46,2023-10-03 14:00:47,1.078s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-006,Firefox 117.0,User mengosongkan inputan pada kolom plat nomor,,2023-10-03 14:00:47,2023-10-03 14:01:09,21.682s,PASSED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:00:48,2023-10-03 14:01:02,14.719s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:01:02,2023-10-03 14:01:03,1.064s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:01:03,2023-10-03 14:01:04,0.693s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:01:04,2023-10-03 14:01:05,0.835s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:01:05,2023-10-03 14:01:06,0.664s,PASSED
+"clearText(findTestObject(""Jadi kurir/input_Plat Nomor""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:01:06,2023-10-03 14:01:06,0.407s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:01:06,2023-10-03 14:01:07,0.819s,PASSED
+"uploadFile(findTestObject(""Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:01:07,2023-10-03 14:01:07,0.531s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:01:07,2023-10-03 14:01:08,1.036s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 14:01:08,2023-10-03 14:01:08,0.000s,PASSED
+"Plat = webDriver.findElement(By.xpath(""//input[@name=""plat_nomor""]""))",Firefox 117.0,,,2023-10-03 14:01:08,2023-10-03 14:01:09,0.396s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", Plat)",Firefox 117.0,,,2023-10-03 14:01:09,2023-10-03 14:01:09,0.016s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 14:01:09,2023-10-03 14:01:09,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-10-03 14:01:09,2023-10-03 14:01:09,0.000s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-007,Firefox 117.0,User mengosongkan inputan pada kolom plat nomor,,2023-10-03 14:01:09,2023-10-03 14:01:32,23.157s,FAILED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:01:09,2023-10-03 14:01:24,14.299s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:01:24,2023-10-03 14:01:25,0.945s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:01:25,2023-10-03 14:01:25,0.779s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:01:25,2023-10-03 14:01:26,0.700s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:01:26,2023-10-03 14:01:27,0.683s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:01:27,2023-10-03 14:01:27,0.665s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:01:27,2023-10-03 14:01:28,0.835s,PASSED
+"uploadFile(findTestObject(""Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:01:28,2023-10-03 14:01:29,0.510s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:01:29,2023-10-03 14:01:31,2.062s,PASSED
+"verifyTextPresent(""Please fill in the correct column."", false)",Firefox 117.0,,,2023-10-03 14:01:31,2023-10-03 14:01:32,1.164s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-008,Firefox 117.0,User mengosongkan inputan pada kolom plat nomor,,2023-10-03 14:01:32,2023-10-03 14:01:55,23.208s,FAILED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:01:33,2023-10-03 14:01:47,14.458s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:01:47,2023-10-03 14:01:48,0.813s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:01:48,2023-10-03 14:01:48,0.698s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:01:48,2023-10-03 14:01:49,0.657s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:01:49,2023-10-03 14:01:50,0.696s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:01:50,2023-10-03 14:01:51,0.678s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:01:51,2023-10-03 14:01:51,0.848s,PASSED
+"uploadFile(findTestObject(""Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:01:51,2023-10-03 14:01:52,0.548s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:01:52,2023-10-03 14:01:54,2.168s,PASSED
+"verifyTextPresent(""Please complete the file."", false)",Firefox 117.0,,,2023-10-03 14:01:54,2023-10-03 14:01:55,1.166s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-009,Firefox 117.0,User input plat nomor hanya mengandung huruf alfabet,,2023-10-03 14:01:55,2023-10-03 14:02:18,22.694s,FAILED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:01:56,2023-10-03 14:02:10,14.095s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:02:10,2023-10-03 14:02:11,1.028s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:02:11,2023-10-03 14:02:11,0.605s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:02:11,2023-10-03 14:02:12,0.805s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:02:12,2023-10-03 14:02:13,0.671s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:02:13,2023-10-03 14:02:14,0.650s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:02:14,2023-10-03 14:02:14,0.706s,PASSED
+"uploadFile(findTestObject(""Object Repository/Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:02:14,2023-10-03 14:02:15,0.547s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:02:15,2023-10-03 14:02:17,1.800s,PASSED
+"verifyTextPresent(""plat nomor kendaraan tidak sesuai dengan format wilayah indonesia"", false)",Firefox 117.0,,,2023-10-03 14:02:17,2023-10-03 14:02:18,1.287s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-010,Firefox 117.0,User input plat nomor dengan format luar negeri,,2023-10-03 14:02:18,2023-10-03 14:02:40,22.373s,FAILED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:02:18,2023-10-03 14:02:33,14.099s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:02:33,2023-10-03 14:02:34,1.028s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:02:34,2023-10-03 14:02:34,0.683s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:02:34,2023-10-03 14:02:35,0.627s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:02:35,2023-10-03 14:02:36,0.656s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:02:36,2023-10-03 14:02:36,0.697s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:02:36,2023-10-03 14:02:37,0.811s,PASSED
+"uploadFile(findTestObject(""Object Repository/Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:02:37,2023-10-03 14:02:38,0.470s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:02:38,2023-10-03 14:02:39,1.584s,PASSED
+"verifyTextPresent(""""plat nomor tidak terdaftar diseluruh wilayah SAMSAT indonesia"", false)",Firefox 117.0,,,2023-10-03 14:02:39,2023-10-03 14:02:40,1.233s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-011,Firefox 117.0,user menginputkan plat nomor yang tidak terdaftar wilayah indoensia,,2023-10-03 14:02:40,2023-10-03 14:03:05,24.267s,FAILED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:02:41,2023-10-03 14:02:57,15.665s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:02:57,2023-10-03 14:02:57,0.920s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:02:57,2023-10-03 14:02:58,0.790s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:02:58,2023-10-03 14:02:59,0.676s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:02:59,2023-10-03 14:03:00,0.721s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:03:00,2023-10-03 14:03:00,0.702s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:03:00,2023-10-03 14:03:01,0.809s,PASSED
+"uploadFile(findTestObject(""Object Repository/Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:03:01,2023-10-03 14:03:02,0.477s,PASSED
+"click(findTestObject(""Jadi kurir/button_Simpan Perubahan""))",Firefox 117.0,,,2023-10-03 14:03:02,2023-10-03 14:03:04,1.962s,PASSED
+"verifyTextPresent(""plat nomor tidak terdaftar diseluruh wilayah SAMSAT indonesia"", false)",Firefox 117.0,,,2023-10-03 14:03:04,2023-10-03 14:03:05,1.048s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-012,Firefox 117.0,User upload berkas lampiran dengan format docx,,2023-10-03 14:03:05,2023-10-03 14:03:25,20.816s,FAILED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:03:05,2023-10-03 14:03:19,14.104s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:03:19,2023-10-03 14:03:20,1.018s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:03:20,2023-10-03 14:03:21,0.630s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:03:21,2023-10-03 14:03:22,0.642s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:03:22,2023-10-03 14:03:22,0.672s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:03:22,2023-10-03 14:03:23,0.696s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:03:23,2023-10-03 14:03:24,0.776s,PASSED
+"uploadFile(findTestObject(""Object Repository/Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:03:24,2023-10-03 14:03:24,0.565s,PASSED
+"verifyTextPresent(""Profile Kurir"", false)",Firefox 117.0,,,2023-10-03 14:03:24,2023-10-03 14:03:25,1.223s,FAILED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JK-013,Firefox 117.0,User upload berkas lampiran dengan format file video,,2023-10-03 14:03:25,2023-10-03 14:03:46,20.403s,PASSED
+"callTestCase(findTestCase(""T05 Jadi Kurir/JK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 14:03:26,2023-10-03 14:03:40,14.073s,PASSED
+"click(findTestObject(""Jadi kurir/a_Daftar  Edit Data""))",Firefox 117.0,,,2023-10-03 14:03:40,2023-10-03 14:03:41,0.904s,PASSED
+"verifyElementPresent(findTestObject(""Jadi kurir/li_Profile Kurir""), 0)",Firefox 117.0,,,2023-10-03 14:03:41,2023-10-03 14:03:42,0.744s,PASSED
+"selectOptionByValue(findTestObject(""Jadi kurir/select_- Pilih Kendaraan -Roda 2Roda 4""), Jenis, false)",Firefox 117.0,,,2023-10-03 14:03:42,2023-10-03 14:03:42,0.698s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Merek Kendaraan""), Merek_Kendaraan)",Firefox 117.0,,,2023-10-03 14:03:42,2023-10-03 14:03:43,0.700s,PASSED
+"setText(findTestObject(""Jadi kurir/input_Plat Nomor""), Plat_Nomor)",Firefox 117.0,,,2023-10-03 14:03:43,2023-10-03 14:03:44,0.710s,PASSED
+"setText(findTestObject(""Jadi kurir/textarea_Keterangan""), Keterangan)",Firefox 117.0,,,2023-10-03 14:03:44,2023-10-03 14:03:45,0.738s,PASSED
+"uploadFile(findTestObject(""Object Repository/Jadi kurir/input_Choose files_uploadFile""), Berkas)",Firefox 117.0,,,2023-10-03 14:03:45,2023-10-03 14:03:45,0.521s,PASSED
+"verifyTextPresent(""video.mp4 is not allowed. Allowed extensions: jpg,png,jpeg,gif,zip,rar,pdf,doc,docx,xls,xlsx"", false)",Firefox 117.0,,,2023-10-03 14:03:45,2023-10-03 14:03:46,0.784s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JKA-001,Firefox 117.0,Admin kurir melakukan verifikasi kurir yang telah mendaftar,,2023-10-03 14:03:46,2023-10-03 14:04:38,52.006s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-03 14:03:46,2023-10-03 14:03:52,5.506s,PASSED
+"verifyElementPresent(findTestObject(""admin/Tittle ADMIN Login""), 0)",Firefox 117.0,,,2023-10-03 14:03:52,2023-10-03 14:03:52,0.353s,PASSED
+"setText(findTestObject(""admin/Username""), ""admin"")",Firefox 117.0,,,2023-10-03 14:03:52,2023-10-03 14:03:53,0.696s,PASSED
+"setText(findTestObject(""admin/Password""), ""123admin123"")",Firefox 117.0,,,2023-10-03 14:03:53,2023-10-03 14:03:53,0.649s,PASSED
+"click(findTestObject(""admin/Remember Me""))",Firefox 117.0,,,2023-10-03 14:03:53,2023-10-03 14:03:54,0.564s,PASSED
+delay(10),Firefox 117.0,,,2023-10-03 14:03:54,2023-10-03 14:04:04,10.017s,PASSED
+"click(findTestObject(""admin/buttom submit""))",Firefox 117.0,,,2023-10-03 14:04:04,2023-10-03 14:04:06,1.743s,PASSED
+"verifyElementPresent(findTestObject(""admin/Konf order konsumen/Tittle Dashboard""), 0)",Firefox 117.0,,,2023-10-03 14:04:06,2023-10-03 14:04:12,5.852s,PASSED
+"click(findTestObject(""Admin kurir/Master Market""))",Firefox 117.0,,,2023-10-03 14:04:12,2023-10-03 14:04:12,0.811s,PASSED
+"click(findTestObject(""Admin kurir/Sopir  Kurir Internal""))",Firefox 117.0,,,2023-10-03 14:04:12,2023-10-03 14:04:14,1.499s,PASSED
+"verifyElementPresent(findTestObject(""Admin kurir/Daftar Sopir""), 0)",Firefox 117.0,,,2023-10-03 14:04:14,2023-10-03 14:04:21,7.092s,PASSED
+"click(findTestObject(""Admin kurir/input_Search""))",Firefox 117.0,,,2023-10-03 14:04:21,2023-10-03 14:04:22,0.904s,PASSED
+"setText(findTestObject(""Admin kurir/input_Search""), ""irfan.afandi"")",Firefox 117.0,,,2023-10-03 14:04:22,2023-10-03 14:04:23,0.851s,PASSED
+"click(findTestObject(""Admin kurir/buttom verifikasi""))",Firefox 117.0,,,2023-10-03 14:04:23,2023-10-03 14:04:24,1.098s,PASSED
+acceptAlert(),Firefox 117.0,,,2023-10-03 14:04:24,2023-10-03 14:04:24,0.058s,PASSED
+delay(5),Firefox 117.0,,,2023-10-03 14:04:24,2023-10-03 14:04:29,5.014s,PASSED
+"click(findTestObject(""Admin kurir/input_Search""))",Firefox 117.0,,,2023-10-03 14:04:29,2023-10-03 14:04:31,2.093s,PASSED
+"setText(findTestObject(""Admin kurir/input_Search""), ""irfan.afandi"")",Firefox 117.0,,,2023-10-03 14:04:31,2023-10-03 14:04:32,1.429s,PASSED
+"click(findTestObject(""Admin kurir/buttom detail""))",Firefox 117.0,,,2023-10-03 14:04:32,2023-10-03 14:04:33,0.897s,PASSED
+"verifyElementText(findTestObject(""Admin kurir/Ter-verifikasi""), ""Ter-verifikasi"")",Firefox 117.0,,,2023-10-03 14:04:33,2023-10-03 14:04:38,4.603s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/JKA-002,Firefox 117.0,Admin kurir hapus data daftar sopir kurir,,2023-10-03 14:04:38,2023-10-03 14:05:24,45.977s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-03 14:04:38,2023-10-03 14:04:45,7.199s,PASSED
+"verifyElementPresent(findTestObject(""admin/Tittle ADMIN Login""), 0)",Firefox 117.0,,,2023-10-03 14:04:45,2023-10-03 14:04:46,0.402s,PASSED
+"setText(findTestObject(""admin/Username""), ""admin"")",Firefox 117.0,,,2023-10-03 14:04:46,2023-10-03 14:04:47,0.870s,PASSED
+"setText(findTestObject(""admin/Password""), ""123admin123"")",Firefox 117.0,,,2023-10-03 14:04:47,2023-10-03 14:04:47,0.703s,PASSED
+"click(findTestObject(""admin/Remember Me""))",Firefox 117.0,,,2023-10-03 14:04:47,2023-10-03 14:04:48,0.635s,PASSED
+delay(10),Firefox 117.0,,,2023-10-03 14:04:48,2023-10-03 14:04:58,10.010s,PASSED
+"click(findTestObject(""admin/buttom submit""))",Firefox 117.0,,,2023-10-03 14:04:58,2023-10-03 14:05:00,1.531s,PASSED
+"verifyElementPresent(findTestObject(""admin/Konf order konsumen/Tittle Dashboard""), 0)",Firefox 117.0,,,2023-10-03 14:05:00,2023-10-03 14:05:05,5.166s,PASSED
+"click(findTestObject(""Admin kurir/Master Market""))",Firefox 117.0,,,2023-10-03 14:05:05,2023-10-03 14:05:05,0.810s,PASSED
+"click(findTestObject(""Admin kurir/Sopir  Kurir Internal""))",Firefox 117.0,,,2023-10-03 14:05:05,2023-10-03 14:05:07,1.381s,PASSED
+"verifyElementPresent(findTestObject(""Admin kurir/Daftar Sopir""), 0)",Firefox 117.0,,,2023-10-03 14:05:07,2023-10-03 14:05:14,7.036s,PASSED
+"click(findTestObject(""Admin kurir/input_Search""))",Firefox 117.0,,,2023-10-03 14:05:14,2023-10-03 14:05:15,0.680s,PASSED
+"setText(findTestObject(""Admin kurir/input_Search""), ""irfan.afandi"")",Firefox 117.0,,,2023-10-03 14:05:15,2023-10-03 14:05:16,1.170s,PASSED
+"click(findTestObject(""Admin kurir/buttom delete""))",Firefox 117.0,,,2023-10-03 14:05:16,2023-10-03 14:05:16,0.545s,PASSED
+acceptAlert(),Firefox 117.0,,,2023-10-03 14:05:16,2023-10-03 14:05:16,0.046s,PASSED
+delay(5),Firefox 117.0,,,2023-10-03 14:05:16,2023-10-03 14:05:21,5.003s,PASSED
+"verifyTextNotPresent(""irfan.afandi"", false)",Firefox 117.0,,,2023-10-03 14:05:21,2023-10-03 14:05:24,2.510s,PASSED
+,,,,,,,
+Test Cases/T05 Jadi Kurir/LU-001,Firefox 117.0,User Melakukan Login dengan memasukkan Username dan password yang valid,,2023-10-03 14:05:24,2023-10-03 14:05:39,15.540s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Firefox 117.0,,,2023-10-03 14:05:24,2023-10-03 14:05:33,9.587s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 14:05:33,2023-10-03 14:05:34,0.035s,PASSED
+"verifyElementPresent(findTestObject(""Login/Home""), 0)",Firefox 117.0,,,2023-10-03 14:05:34,2023-10-03 14:05:34,0.436s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 117.0,,,2023-10-03 14:05:34,2023-10-03 14:05:35,0.701s,PASSED
+"verifyElementPresent(findTestObject(""Login/Tittle Login""), 0)",Firefox 117.0,,,2023-10-03 14:05:35,2023-10-03 14:05:35,0.437s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), username)",Firefox 117.0,,,2023-10-03 14:05:35,2023-10-03 14:05:36,0.765s,PASSED
+"setText(findTestObject(""Login/input_Password_b""), password)",Firefox 117.0,,,2023-10-03 14:05:36,2023-10-03 14:05:37,0.723s,PASSED
+"click(findTestObject(""Login/label_Ingat saya""))",Firefox 117.0,,,2023-10-03 14:05:37,2023-10-03 14:05:37,0.736s,PASSED
+"click(findTestObject(""Login/button_Masuk""))",Firefox 117.0,,,2023-10-03 14:05:37,2023-10-03 14:05:39,1.307s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Firefox 117.0,,,2023-10-03 14:05:39,2023-10-03 14:05:39,0.780s,PASSED

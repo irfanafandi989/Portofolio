@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan pembelian via COD tetapi dengan pembayaran transfer</description>
+   <name>PBL-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5810bc23-89c9-4341-b968-b2473f89a208</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ae4a22b-7d49-4cef-8cac-61f99dee1ff8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4794c5a5-84a2-477f-9c61-1ac294a1e959</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Roda 2'</defaultValue>
+      <description></description>
+      <id>6ae4a22b-7d49-4cef-8cac-61f99dee1ff8</id>
+      <masked>false</masked>
+      <name>Kurir</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description></description>
+      <id>4794c5a5-84a2-477f-9c61-1ac294a1e959</id>
+      <masked>false</masked>
+      <name>tf</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Admin Merubah Email konsumen username udin padinding oii  Menggunakan Domain typo
+&quot;</description>
+   <name>EDK-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ab3b51e-f189-41f9-bbcc-47a53761c78b</testCaseGuid>
+</TestCaseEntity>

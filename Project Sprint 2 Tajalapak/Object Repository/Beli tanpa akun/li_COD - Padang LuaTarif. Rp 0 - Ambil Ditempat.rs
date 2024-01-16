@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_COD - Padang LuaTarif. Rp 0 - Ambil Ditempat</name>
+   <tag></tag>
+   <elementGuidId>4bc7696b-4bff-4731-a217-029869b02b1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#1serv-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='1serv-1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e8ae22f0-f904-42a2-b47f-5d7c907c6d5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>1serv-1</value>
+      <webElementGuid>fa7a07cb-f331-482f-89bf-39aa09c6e34e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item clearall-kurir selected-ongkir1</value>
+      <webElementGuid>2c7389a4-b675-453f-b527-934b9fe62039</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>klikongkir1('COD (Cash on delivery)','Padang Lua','0','0',this.id)</value>
+      <webElementGuid>829ab3f6-976e-46e7-8553-562f5c4814a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                              COD - Padang LuaTarif. Rp 0 - Ambil Ditempat
+                                                        </value>
+      <webElementGuid>d1aff253-27ca-432e-b4b3-cb8488c8a613</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1serv-1&quot;)</value>
+      <webElementGuid>599327d4-b559-4865-9cd4-336557c2f005</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='1serv-1']</value>
+      <webElementGuid>849a96e6-6b17-4b50-85f8-585d1c26c88f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='kurir-list1']/li</value>
+      <webElementGuid>750691b7-aa5f-42ef-b819-5fa881814393</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim via COD (Bayar Di tempat)'])[1]/following::li[1]</value>
+      <webElementGuid>9238312b-41fb-47b1-bb8b-e12b48521690</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarii Sentral Java'])[2]/following::li[1]</value>
+      <webElementGuid>b3796954-ffa4-4226-88cb-c568b7d60620</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/div/ul[2]/li</value>
+      <webElementGuid>01fd3efc-b706-4146-beb4-51a45c3f03c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@id = '1serv-1' and (text() = '
+                                                              COD - Padang LuaTarif. Rp 0 - Ambil Ditempat
+                                                        ' or . = '
+                                                              COD - Padang LuaTarif. Rp 0 - Ambil Ditempat
+                                                        ')]</value>
+      <webElementGuid>a948a761-9114-4fbd-b69f-8b92560968f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

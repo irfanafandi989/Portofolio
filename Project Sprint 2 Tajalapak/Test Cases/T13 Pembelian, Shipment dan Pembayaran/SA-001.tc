@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin penjual  dapat melihat Data Transaksi Penjualan / Orderan Konsumen</description>
+   <name>SA-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2fb90c1-dcf7-492a-9eac-4c8d6b0639f1</testCaseGuid>
+</TestCaseEntity>

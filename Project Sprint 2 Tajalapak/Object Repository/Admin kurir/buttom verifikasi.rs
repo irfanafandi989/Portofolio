@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttom verifikasi</name>
+   <tag></tag>
+   <elementGuidId>afea91ff-6a15-491a-841c-fda6180c1694</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-xs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;example1&quot;]/tbody/tr/td[7]/center/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>19ba8f4d-6e34-435c-a29d-22bb374b6f25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-xs</value>
+      <webElementGuid>da988d0b-e320-4070-af74-b4ff70fcdc97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Verifikasi Data</value>
+      <webElementGuid>6b3ebe65-e03d-4ec6-9796-6d4deae69153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/administrator/verifikasi_sopir/12/Y</value>
+      <webElementGuid>9519a43e-c7c6-4456-9c99-773b7aa97efe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm('Yakin ingin Verifikasi data ini?')</value>
+      <webElementGuid>ffc9ed19-4af1-4412-ba7c-1bad5661f2c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;example1&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[7]/center[1]/a[@class=&quot;btn btn-primary btn-xs&quot;]</value>
+      <webElementGuid>bc0f97e0-4e04-4866-9e2f-55cb608da112</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;return confirm('Yakin ingin Verifikasi data ini?')&quot;]</value>
+      <webElementGuid>5c555221-893e-4f83-9319-192624d6845f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='example1']/tbody/tr/td[7]/center/a</value>
+      <webElementGuid>667cab48-cd33-47ce-9280-3bb13981840c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guguk Panjang (Guguak Panjang), Kota Bukittinggi, Sumatera Barat'])[1]/following::a[1]</value>
+      <webElementGuid>2f72e557-1618-413c-b21c-3c53b49ca7c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AB 1140 NG'])[1]/following::a[1]</value>
+      <webElementGuid>f77fa16a-5ed9-490a-bfb7-281569e1cb6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries (filtered from 12 total entries)'])[1]/preceding::a[3]</value>
+      <webElementGuid>8fe708da-7096-45d1-8b71-f24ea44b345f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::a[6]</value>
+      <webElementGuid>4d2413dc-91f3-4b11-bb7b-d6e4b6703c03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/administrator/verifikasi_sopir/12/Y')]</value>
+      <webElementGuid>d1f6f875-6861-4283-94fd-8b2572d00cbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//center/a</value>
+      <webElementGuid>5ceec8ca-e027-488e-8267-7c2aa4ff6237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Verifikasi Data' and @href = 'https://10.9.2.63/ecommerce/administrator/verifikasi_sopir/12/Y']</value>
+      <webElementGuid>74582429-e420-4f2c-9bad-e28e96ec8e94</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

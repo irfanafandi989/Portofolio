@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User mengosongkan nama jalan pada kolom alamat kirim pada proses checkout order</description>
+   <name>PBL-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5c65898-2929-4b1b-a6f3-8598a689aed6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6b6cda8-a19d-45f1-bfe0-70ed80da7a25</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9536b717-b21c-4c8f-9a96-81c4ef7acfc8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Roda 2'</defaultValue>
+      <description></description>
+      <id>a6b6cda8-a19d-45f1-bfe0-70ed80da7a25</id>
+      <masked>false</masked>
+      <name>Kurir</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description></description>
+      <id>9536b717-b21c-4c8f-9a96-81c4ef7acfc8</id>
+      <masked>false</masked>
+      <name>tf</name>
+   </variable>
+</TestCaseEntity>

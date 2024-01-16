@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User input nomor pesanan/ invoice dengan data yang tidak valid dibagian Tracking order</description>
+   <name>SU-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7c51099-d87c-4272-acdb-0471cd3854f8</testCaseGuid>
+</TestCaseEntity>

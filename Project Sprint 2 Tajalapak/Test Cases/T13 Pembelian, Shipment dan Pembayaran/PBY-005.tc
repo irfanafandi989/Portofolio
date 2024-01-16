@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User hanya mengosongkan total tagihan/transfer</description>
+   <name>PBY-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe1763f7-ff7e-4a16-b054-bd0e7cc49a15</testCaseGuid>
+</TestCaseEntity>

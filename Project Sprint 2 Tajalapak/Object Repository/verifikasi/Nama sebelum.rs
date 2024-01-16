@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nama sebelum</name>
+   <tag></tag>
+   <elementGuidId>8fe6bbd2-5682-4ef9-b345-3e685d692d1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-1']/div/div/div[4]/div/div[2]/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5f9a5415-1e92-4e07-adea-c416c000440b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-product__title</value>
+      <webElementGuid>b4d5645c-369f-4dd8-9e00-a2e265f52554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/produk/detail/segitiga-instan-madeira--mdb53-sunset</value>
+      <webElementGuid>14352495-f785-4b46-a5db-9a6185ea2a84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Segitiga Instan Madeira - MDB5.3 Sunse,..</value>
+      <webElementGuid>1c363077-e10b-483a-9640-fcf938332217</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/div[@class=&quot;ps-shopping-product&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6&quot;]/div[@class=&quot;ps-product&quot;]/div[@class=&quot;ps-product__container&quot;]/div[@class=&quot;ps-product__content hover&quot;]/a[@class=&quot;ps-product__title&quot;]</value>
+      <webElementGuid>8ca010ac-233f-4229-b73d-f3e01a578f76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-1']/div/div/div[4]/div/div[2]/div[2]/a</value>
+      <webElementGuid>342fc19e-856d-49dc-9cdc-425fd66af783</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Segitiga Instan Madeira - MDB5.3 Sunse,..')])[2]</value>
+      <webElementGuid>0bf7a1ea-9223-4a9c-b900-ab7035ee5d80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segitiga Instan Madeira - MDB5.3 Sunse,..'])[1]/following::a[1]</value>
+      <webElementGuid>a1eaebc2-d27a-4b22-967d-75b1e77b38b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarii Sentral Java'])[4]/following::a[2]</value>
+      <webElementGuid>849972d5-04da-4bfe-ba6b-009ad4578d72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarii Sentral Java'])[5]/preceding::a[5]</value>
+      <webElementGuid>a1f6e1f8-577a-47ee-886f-14391b758aef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segitiga Instan KEINA - KN54.38 Delfin,..'])[1]/preceding::a[6]</value>
+      <webElementGuid>a9c42e94-ecdb-4eae-b6f0-ee0c25949fb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/produk/detail/segitiga-instan-madeira--mdb53-sunset')])[3]</value>
+      <webElementGuid>0dde5fa9-47d2-4e0e-a511-3bbeaede416a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div[2]/a</value>
+      <webElementGuid>e0232e7f-f2ef-4f29-8e58-1d4e588ab154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/produk/detail/segitiga-instan-madeira--mdb53-sunset' and (text() = 'Segitiga Instan Madeira - MDB5.3 Sunse,..' or . = 'Segitiga Instan Madeira - MDB5.3 Sunse,..')]</value>
+      <webElementGuid>6c697dac-c018-4654-ba3a-c0ea9720c649</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

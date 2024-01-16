@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tambah Keranjang busana wanita</name>
+   <tag></tag>
+   <elementGuidId>f6466c15-f612-41d6-a9f9-470ad3791a61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='4'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f227230f-fc43-419f-9195-6ea27bebdccb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>3864f54a-6674-49d6-9931-27acbb5a8858</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-btn ps-btn--black ml-3 add-to-cart</value>
+      <webElementGuid>02e86195-3599-40ee-9220-9f262fd9a9ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Keranjang</value>
+      <webElementGuid>98e3bbf5-3a54-4425-91c2-534c5442ca6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-page--product&quot;]/div[@class=&quot;ps-container&quot;]/div[@class=&quot;ps-page__container&quot;]/div[@class=&quot;ps-page__left&quot;]/div[@class=&quot;ps-product--detail ps-product--fullwidth&quot;]/form[1]/div[@class=&quot;ps-product__header&quot;]/div[@class=&quot;ps-product__info&quot;]/div[@class=&quot;ps-product__shopping d-none d-sm-block&quot;]/a[@id=&quot;4&quot;]</value>
+      <webElementGuid>23396e19-ce8d-4df7-86ed-277e651c09f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='4'])[2]</value>
+      <webElementGuid>8bd4e009-362b-4a1d-bc72-6952cb9a1a2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Tambah Keranjang')])[2]</value>
+      <webElementGuid>db97abed-f8b2-4172-87f3-404affc9459e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/following::a[1]</value>
+      <webElementGuid>010d4a27-9dfc-4bf2-90e3-b526979b4cdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ukuran'])[1]/following::a[1]</value>
+      <webElementGuid>3b3d24c6-e25b-4557-91d9-def52153f18d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporkan Penyalahgunaan'])[1]/preceding::a[1]</value>
+      <webElementGuid>0f657e42-bd3e-475b-b62c-031ab106bcc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories :'])[1]/preceding::a[2]</value>
+      <webElementGuid>f7c276e3-f45f-4c5c-b70d-af99ac6de8e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/a</value>
+      <webElementGuid>6046bfa0-d6b7-4529-b2d6-ba3c00fd6f02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = '4' and (text() = 'Tambah Keranjang' or . = 'Tambah Keranjang')]</value>
+      <webElementGuid>4c84c7af-9d6a-4793-bde9-0cae279edf59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

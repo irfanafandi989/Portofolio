@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User tidak memilih kolom jenis kendaraan</description>
+   <name>JK-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6dbeff8f-f22f-40bc-9281-d76ce4da0c90</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f19f2e64-3191-4c5e-8afa-995f8c712df1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b996393-743a-474e-886f-966289340dd5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c679ad2-c675-426a-a6c9-333781a92568</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>124f0796-1dac-40e4-82d4-0f5b597efa2d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b118922a-53d2-4220-9735-8b9bb6abfabc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29408fcb-e57c-4f30-8a7a-fa8a903abe6d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>f19f2e64-3191-4c5e-8afa-995f8c712df1</id>
+      <masked>false</masked>
+      <name>Jenis</name>
+   </variable>
+   <variable>
+      <defaultValue>'toyota supra'</defaultValue>
+      <description></description>
+      <id>2b996393-743a-474e-886f-966289340dd5</id>
+      <masked>false</masked>
+      <name>Merek_Kendaraan</name>
+   </variable>
+   <variable>
+      <defaultValue>'AB 1 S'</defaultValue>
+      <description></description>
+      <id>3c679ad2-c675-426a-a6c9-333781a92568</id>
+      <masked>false</masked>
+      <name>Plat_Nomor</name>
+   </variable>
+   <variable>
+      <defaultValue>'mau daftar dong bang'</defaultValue>
+      <description></description>
+      <id>124f0796-1dac-40e4-82d4-0f5b597efa2d</id>
+      <masked>false</masked>
+      <name>Keterangan</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\IRFAN\\Downloads\\Berkas2.pdf'</defaultValue>
+      <description></description>
+      <id>b118922a-53d2-4220-9735-8b9bb6abfabc</id>
+      <masked>false</masked>
+      <name>berkas</name>
+   </variable>
+   <variable>
+      <defaultValue>'PENTING - Halo kak! Mau ikutan jadi Kurir untuk mengantarkan pesanan?.\r\nyuk isikan dulu data kendaraannya, Daftarkan Kendaraan disini.'</defaultValue>
+      <description></description>
+      <id>29408fcb-e57c-4f30-8a7a-fa8a903abe6d</id>
+      <masked>false</masked>
+      <name>massage</name>
+   </variable>
+</TestCaseEntity>

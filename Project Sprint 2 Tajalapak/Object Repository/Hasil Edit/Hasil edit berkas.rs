@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Hasil edit berkas</name>
+   <tag></tag>
+   <elementGuidId>571c2f6f-971b-425b-a490-e2ae890b0e8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://10.9.2.63/ecommerce/members/download_file/images/Berkas2.pdf']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[10]/div/div/div/div[2]/figure/div[9]/div/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e2a473ed-07a6-455e-950f-a527bb93543b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/members/download_file/images/Berkas2.pdf</value>
+      <webElementGuid>fcd3e7a5-f582-41ef-8438-1f75c655daed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Berkas2.pdf</value>
+      <webElementGuid>f75c6bfa-4be3-4c49-854b-f247b16055a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-dashboard pro&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12&quot;]/figure[@class=&quot;ps-block--vendor-status biodata&quot;]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-9&quot;]/p[1]/a[1]</value>
+      <webElementGuid>6cc96c98-88be-4731-b5dd-6fef1b8ef0bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Berkas2.pdf')]</value>
+      <webElementGuid>0ed7a6e8-cf24-4dab-bc79-c8171b03150a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lampiran / File'])[1]/following::a[1]</value>
+      <webElementGuid>019898fc-b1b2-4365-8d8b-9a794ff0d602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak ada keterangan,..'])[1]/following::a[1]</value>
+      <webElementGuid>4d37fbbb-0f9a-43b4-895f-5b863813c475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::a[1]</value>
+      <webElementGuid>40df6d44-9b51-46d1-83ff-9a69dd3a0b8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Aktif (Menunggu Verifikasi)'])[1]/preceding::a[1]</value>
+      <webElementGuid>60ef2e7d-1de5-47e8-b986-282b1b564da9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Berkas2.pdf']/parent::*</value>
+      <webElementGuid>79c9f3ab-034d-4c35-b8e5-62bf12b437e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/members/download_file/images/Berkas2.pdf')]</value>
+      <webElementGuid>f484b0cc-ec13-4618-b4b3-076fa063193e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>f9ee2dc8-e6a8-4557-8687-54f9f17bb3be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/members/download_file/images/Berkas2.pdf' and (text() = 'Berkas2.pdf' or . = 'Berkas2.pdf')]</value>
+      <webElementGuid>4df207c5-3b6d-468e-b664-36e9b336d9f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

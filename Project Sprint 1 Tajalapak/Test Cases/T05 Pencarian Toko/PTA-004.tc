@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>admin pelapak Mencari nama toko menggunakan huruf besar kecil</description>
+   <name>PTA-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fc37225-4733-42b5-92bf-810409028df7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7079c9aa-3d65-4e8b-9fe7-b5e19c1c9e4f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KeRuPuk HuSnA'</defaultValue>
+      <description></description>
+      <id>7079c9aa-3d65-4e8b-9fe7-b5e19c1c9e4f</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>

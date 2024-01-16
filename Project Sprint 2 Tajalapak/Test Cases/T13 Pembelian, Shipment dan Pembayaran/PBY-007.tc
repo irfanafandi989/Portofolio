@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User hanya mengosongkan nama pengirim</description>
+   <name>PBY-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c13e479-6ce0-4e2b-bb88-4f2e07a66b87</testCaseGuid>
+</TestCaseEntity>

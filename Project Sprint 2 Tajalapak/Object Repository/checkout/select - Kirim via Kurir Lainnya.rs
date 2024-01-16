@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select - Kirim via Kurir Lainnya</name>
+   <tag></tag>
+   <elementGuidId>e1341dec-267c-4d00-82c9-8b0869382ac0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#list_kurir1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='list_kurir1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>dc7781f0-d9b6-4ae7-b7ff-84c91e07682c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-mini text-success</value>
+      <webElementGuid>0dbbc099-d29d-4d19-a5f6-40a619883c17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>kode_kurir1</value>
+      <webElementGuid>2470f465-ff71-4546-a9b0-d35e050b4a2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>list_kurir1</value>
+      <webElementGuid>cd823b56-1fab-4d17-b81b-4b599b5efc19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                  - Kirim via Kurir Lainnya -JNETIKIPOS IndonesiaLion Parcel</value>
+      <webElementGuid>2c6a0d18-b865-4182-85c6-02822bf70860</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_kurir1&quot;)</value>
+      <webElementGuid>6c8cf30a-0e18-41ef-8546-595faf4f56a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='list_kurir1']</value>
+      <webElementGuid>cf2f9f8e-8e11-4f07-8a47-d7d6c3f0f73c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim via COD (Bayar Di tempat)'])[1]/following::select[2]</value>
+      <webElementGuid>debbc291-e8c8-43ea-8fd2-315cf8877895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarii Sentral Java'])[2]/following::select[2]</value>
+      <webElementGuid>8b591616-310c-4861-8ab0-2ee540e01b7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COD - Padang Lua'])[1]/preceding::select[1]</value>
+      <webElementGuid>20510f52-6003-460a-8e8b-9c611bf5dfda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[2]</value>
+      <webElementGuid>c8c94c05-1165-464f-b2e9-c65098013124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'kode_kurir1' and @id = 'list_kurir1' and (text() = '
+                                                  - Kirim via Kurir Lainnya -JNETIKIPOS IndonesiaLion Parcel' or . = '
+                                                  - Kirim via Kurir Lainnya -JNETIKIPOS IndonesiaLion Parcel')]</value>
+      <webElementGuid>0bc24ff8-6e04-4a11-8561-aef2f42a7da0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

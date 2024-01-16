@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin kurir hapus data daftar sopir kurir</description>
+   <name>JKA-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67e3eb37-39de-47e6-b45d-d8aa28cc56b4</testCaseGuid>
+</TestCaseEntity>

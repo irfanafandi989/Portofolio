@@ -1,0 +1,227 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit Data Konsumen,Firefox 117.0,,,2023-10-05 07:59:49,2023-10-05 08:13:36,13m - 47.584s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-001,Firefox 117.0,Admin melihat Daftar Semua Konsumen,,2023-10-05 07:59:49,2023-10-05 08:00:22,32.778s,PASSED
+"callTestCase(findTestCase(""Login/TC-Login Admin-Success-001""), [""Username"":""admin"", ""Password"":""123admin123""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 07:59:49,2023-10-05 08:00:13,23.582s,PASSED
+"click(findTestObject(""Menu pencarian Toko admin/Menu Master Market""))",Firefox 117.0,,,2023-10-05 08:00:13,2023-10-05 08:00:14,1.133s,PASSED
+"click(findTestObject(""Edit Data konsumen/Menu Konsumen""))",Firefox 117.0,,,2023-10-05 08:00:14,2023-10-05 08:00:16,1.811s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/Tittle Daftar Semua Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:00:16,2023-10-05 08:00:22,5.798s,PASSED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-002,Firefox 117.0,"Admin merubah data konsumen username udin pan 
+berupa 
+password 
+Nama lengkap
+Alamat email
+No hp
+Tanggal lahir 
+Alamat user
+",,2023-10-05 08:00:22,2023-10-05 08:01:26,1m - 4.116s,PASSED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:00:22,2023-10-05 08:00:56,34.059s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:00:56,2023-10-05 08:00:57,0.785s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin pan"")",Firefox 117.0,,,2023-10-05 08:00:57,2023-10-05 08:00:58,0.677s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:00:58,2023-10-05 08:01:04,5.699s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:01:04,2023-10-05 08:01:04,0.343s,PASSED
+"setText(findTestObject(""Edit Data konsumen/ganti password/input_Ganti Password""), password)",Firefox 117.0,,,2023-10-05 08:01:04,2023-10-05 08:01:11,7.603s,PASSED
+"setText(findTestObject(""Edit Data konsumen/input_Nama Lengkap""), nama_lengkap)",Firefox 117.0,,,2023-10-05 08:01:11,2023-10-05 08:01:12,0.864s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input Alamat email/input Alamat Email""), email)",Firefox 117.0,,,2023-10-05 08:01:12,2023-10-05 08:01:13,0.862s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input no Hp/input No Hp""), no_hp)",Firefox 117.0,,,2023-10-05 08:01:13,2023-10-05 08:01:14,0.965s,PASSED
+"uploadFile(findTestObject(""upload foto/input_Ganti Foto_gg""), foto)",Firefox 117.0,,,2023-10-05 08:01:14,2023-10-05 08:01:15,0.352s,PASSED
+"if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-05 08:01:15,2023-10-05 08:01:15,0.346s,PASSED
+"setText(findTestObject(""Edit Data konsumen/input tanggal lahir/input_Tanggal Lahir""), tanggal_lahir)",Firefox 117.0,,,2023-10-05 08:01:15,2023-10-05 08:01:16,0.920s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Alamat/input_Alamat""), Alamat)",Firefox 117.0,,,2023-10-05 08:01:16,2023-10-05 08:01:17,0.744s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:01:17,2023-10-05 08:01:18,1.568s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/Ttitle Detail Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:01:18,2023-10-05 08:01:22,4.278s,PASSED
+"nama = getText(findTestObject(""hasil edit konsumen/hasil edit nama""))",Firefox 117.0,,,2023-10-05 08:01:22,2023-10-05 08:01:23,0.701s,PASSED
+"emaill = getText(findTestObject(""hasil edit konsumen/hasil edit email""))",Firefox 117.0,,,2023-10-05 08:01:23,2023-10-05 08:01:24,0.661s,PASSED
+"nomorHp = getText(findTestObject(""hasil edit konsumen/hasil edit no_hp""))",Firefox 117.0,,,2023-10-05 08:01:24,2023-10-05 08:01:24,0.337s,PASSED
+"jenis_kelamin = getText(findTestObject(""Edit Data konsumen/Jenis_Kelamin/Hasil edit Jenis_kelamin""))",Firefox 117.0,,,2023-10-05 08:01:24,2023-10-05 08:01:25,0.692s,PASSED
+"tgl_lahir_show = getText(findTestObject(""hasil edit konsumen/hasil edit tgl_lahir""))",Firefox 117.0,,,2023-10-05 08:01:25,2023-10-05 08:01:25,0.345s,PASSED
+"alamat = getText(findTestObject(""hasil edit konsumen/hasil edit alamat""))",Firefox 117.0,,,2023-10-05 08:01:25,2023-10-05 08:01:25,0.320s,PASSED
+"foto1 = getAttribute(findTestObject(""Object Repository/Edit Data konsumen/Edit foto/hasil edit foto""), ""src"").split(""/"")",Firefox 117.0,,,2023-10-05 08:01:25,2023-10-05 08:01:26,0.351s,PASSED
+println(foto1),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.002s,PASSED
+"fotoUrl = size() - 1].replace("".png"", """")",Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+println(fotoUrl),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+"foto_sebelumEdit = foto.split(""\\"")",Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+println(foto_sebelumEdit),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+"urlfoto = size() - 1].replace("".png"", """")",Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+println(urlfoto),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.008s,PASSED
+assert fotoUrl.contains(urlfoto),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.001s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyy-MM-dd),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.011s,PASSED
+parsedDate = null,Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+SentDate = tanggal_lahir,Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+parsedDate = sdf.parse(SentDate),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+print = new java.text.SimpleDateFormat(dd MMM yyyy),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+tanggal_lahir = print.format(parsedDate),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+assert trim().equalsIgnoreCase(nama.trim()),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+assert trim().equalsIgnoreCase(emaill.trim()),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+assert trim().equalsIgnoreCase(nomorHp.trim()),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.009s,PASSED
+assert trim().equalsIgnoreCase(jenis_kelamin.trim()),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.001s,PASSED
+assert trim().equalsIgnoreCase(tgl_lahir_show.trim()),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+assert trim().equalsIgnoreCase(alamat.trim()),Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:26,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-003,Firefox 117.0,"Admin merubah NamaLengkap konsumen username udin123 menggunakan Spesial Karakter
+",,2023-10-05 08:01:26,2023-10-05 08:02:22,56.319s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:01:26,2023-10-05 08:01:59,32.546s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:01:59,2023-10-05 08:01:59,0.782s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin123"")",Firefox 117.0,,,2023-10-05 08:01:59,2023-10-05 08:02:00,0.903s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:02:00,2023-10-05 08:02:05,4.697s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:02:05,2023-10-05 08:02:12,7.295s,PASSED
+"setText(findTestObject(""Edit Data konsumen/input_Nama Lengkap""), ""//"")",Firefox 117.0,,,2023-10-05 08:02:12,2023-10-05 08:02:13,1.076s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:02:13,2023-10-05 08:02:15,1.399s,PASSED
+"verifyTextPresent(""Nama tidak boleh menggunakan Symbol"", false)",Firefox 117.0,,,2023-10-05 08:02:15,2023-10-05 08:02:22,7.274s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-004,Firefox 117.0,"Admin merubah Password Konsumen username udin pan  menggunakan 3 Karakter
+",,2023-10-05 08:02:22,2023-10-05 08:03:23,1m - 0.384s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:02:22,2023-10-05 08:02:59,36.385s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:02:59,2023-10-05 08:03:00,0.781s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:03:00,2023-10-05 08:03:01,1.143s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:03:01,2023-10-05 08:03:05,4.729s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:03:05,2023-10-05 08:03:13,7.053s,PASSED
+"setText(findTestObject(""Edit Data konsumen/ganti password/input_Ganti Password""), ""abc"")",Firefox 117.0,,,2023-10-05 08:03:13,2023-10-05 08:03:14,1.075s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:03:14,2023-10-05 08:03:15,1.343s,PASSED
+"verifyTextPresent(""Password Minimal 8 karakter"", false)",Firefox 117.0,,,2023-10-05 08:03:15,2023-10-05 08:03:23,7.576s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-005,Firefox 117.0,"Admin Merubah Tanggal Lahir konsumen username udin padinding oii menggunakan Tanggal di bulan depan
+",,2023-10-05 08:03:23,2023-10-05 08:04:18,55.109s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:03:23,2023-10-05 08:03:56,33.177s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:03:56,2023-10-05 08:03:57,0.770s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:03:57,2023-10-05 08:03:57,0.680s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:03:57,2023-10-05 08:04:03,5.203s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:04:03,2023-10-05 08:04:09,6.395s,PASSED
+"setText(findTestObject(""Edit Data konsumen/input tanggal lahir/input_Tanggal Lahir""), ""2023-09-01"")",Firefox 117.0,,,2023-10-05 08:04:09,2023-10-05 08:04:10,1.133s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:04:10,2023-10-05 08:04:11,1.196s,PASSED
+"verifyTextPresent(""Tanggal Lahir tidak Valid"", false)",Firefox 117.0,,,2023-10-05 08:04:11,2023-10-05 08:04:18,6.257s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-006,Firefox 117.0,"Admin Merubah Tanggal Lahir konsumen username udin padinding oii  dengan format 0000-00-00
+ ",,2023-10-05 08:04:18,2023-10-05 08:05:15,57.431s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:04:18,2023-10-05 08:04:51,33.113s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:04:51,2023-10-05 08:04:52,0.769s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:04:52,2023-10-05 08:04:53,0.895s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:04:53,2023-10-05 08:04:58,5.103s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:04:58,2023-10-05 08:05:05,7.467s,PASSED
+"setText(findTestObject(""Edit Data konsumen/input tanggal lahir/input_Tanggal Lahir""), ""0000-00-00"")",Firefox 117.0,,,2023-10-05 08:05:05,2023-10-05 08:05:07,1.464s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:05:07,2023-10-05 08:05:08,1.009s,PASSED
+"verifyTextPresent(""Tanggal Lahir tidak Valid"", false)",Firefox 117.0,,,2023-10-05 08:05:08,2023-10-05 08:05:15,7.246s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-007,Firefox 117.0,"Admin Merubah Nomor Hp konsumen username udin padinding oii Menggunakan Huruf
+",,2023-10-05 08:05:15,2023-10-05 08:06:06,51.064s,PASSED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:05:15,2023-10-05 08:05:51,35.252s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:05:51,2023-10-05 08:05:51,0.789s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:05:51,2023-10-05 08:05:52,0.674s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:05:52,2023-10-05 08:05:57,4.699s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:05:57,2023-10-05 08:06:04,7.328s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input no Hp/input No Hp""), ""e"")",Firefox 117.0,,,2023-10-05 08:06:04,2023-10-05 08:06:05,1.055s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:06:05,2023-10-05 08:06:06,0.558s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-05 08:06:06,2023-10-05 08:06:06,0.014s,PASSED
+"field_noHP = webDriver.findElement(By.xpath(""//input[@name=""k""]""))",Firefox 117.0,,,2023-10-05 08:06:06,2023-10-05 08:06:06,0.306s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_noHP)",Firefox 117.0,,,2023-10-05 08:06:06,2023-10-05 08:06:06,0.019s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-05 08:06:06,2023-10-05 08:06:06,0.000s,PASSED
+"assert error_message == ""Please enter a number.""",Firefox 117.0,,,2023-10-05 08:06:06,2023-10-05 08:06:06,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-008,Firefox 117.0,"Admin Merubah Email konsumen username udin padinding oii tanpa Menggunakan Domain
+",,2023-10-05 08:06:06,2023-10-05 08:06:57,50.875s,PASSED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:06:07,2023-10-05 08:06:41,34.443s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:06:41,2023-10-05 08:06:42,0.908s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:06:42,2023-10-05 08:06:43,0.915s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:06:43,2023-10-05 08:06:48,4.747s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:06:48,2023-10-05 08:06:55,7.641s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input Alamat email/input Alamat Email""), ""testing"")",Firefox 117.0,,,2023-10-05 08:06:55,2023-10-05 08:06:56,0.865s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:06:56,2023-10-05 08:06:57,0.698s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-05 08:06:57,2023-10-05 08:06:57,0.000s,PASSED
+"field_email = webDriver.findElement(By.xpath(""//input[@name=""c""]""))",Firefox 117.0,,,2023-10-05 08:06:57,2023-10-05 08:06:57,0.263s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_email)",Firefox 117.0,,,2023-10-05 08:06:57,2023-10-05 08:06:57,0.018s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-05 08:06:57,2023-10-05 08:06:57,0.000s,PASSED
+"assert error_message == ""Please enter an email address.""",Firefox 117.0,,,2023-10-05 08:06:57,2023-10-05 08:06:57,0.000s,PASSED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-009,Firefox 117.0,"Admin Merubah Nomor Hp konsumen username udin padinding oii Menggunakan Angka Minus
+",,2023-10-05 08:06:57,2023-10-05 08:07:52,54.799s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:06:57,2023-10-05 08:07:32,34.212s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:07:32,2023-10-05 08:07:32,0.777s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:07:32,2023-10-05 08:07:33,0.718s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:07:33,2023-10-05 08:07:38,4.941s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:07:38,2023-10-05 08:07:44,5.743s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input no Hp/input No Hp""), ""-1"")",Firefox 117.0,,,2023-10-05 08:07:44,2023-10-05 08:07:45,0.892s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:07:45,2023-10-05 08:07:46,1.117s,PASSED
+"verifyTextPresent(""number not valid"", false)",Firefox 117.0,,,2023-10-05 08:07:46,2023-10-05 08:07:52,6.036s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-010,Firefox 117.0,"""Admin Merubah Email konsumen username udin padinding oii  Menggunakan Domain typo
+""",,2023-10-05 08:07:52,2023-10-05 08:08:44,52.523s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:07:52,2023-10-05 08:08:22,29.344s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:08:22,2023-10-05 08:08:22,0.667s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:08:22,2023-10-05 08:08:23,1.257s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:08:23,2023-10-05 08:08:28,4.669s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:08:28,2023-10-05 08:08:36,7.532s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input Alamat email/input Alamat Email""), ""testing@gmail.con"")",Firefox 117.0,,,2023-10-05 08:08:36,2023-10-05 08:08:37,1.435s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:08:37,2023-10-05 08:08:38,0.852s,PASSED
+"verifyTextPresent(""Email not valid"", false)",Firefox 117.0,,,2023-10-05 08:08:38,2023-10-05 08:08:44,6.418s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-011,Firefox 117.0,"Admin Merubah Nomor Hp konsumen username udin padinding oii  kurang dari 11 digit
+",,2023-10-05 08:08:44,2023-10-05 08:09:36,51.263s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:08:45,2023-10-05 08:09:15,30.480s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:09:15,2023-10-05 08:09:16,0.894s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:09:16,2023-10-05 08:09:17,0.799s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:09:17,2023-10-05 08:09:23,5.781s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:09:23,2023-10-05 08:09:27,3.933s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input no Hp/input No Hp""), ""081"")",Firefox 117.0,,,2023-10-05 08:09:27,2023-10-05 08:09:28,1.173s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:09:28,2023-10-05 08:09:29,1.227s,PASSED
+"verifyTextPresent(""number not valid"", false)",Firefox 117.0,,,2023-10-05 08:09:29,2023-10-05 08:09:36,6.609s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-012,Firefox 117.0,"""Admin Merubah Nomor Hp konsumen username udin padinding oii lebih dari 13 digit
+""",,2023-10-05 08:09:36,2023-10-05 08:10:31,55.230s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:09:36,2023-10-05 08:10:07,31.129s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:10:07,2023-10-05 08:10:08,0.703s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:10:08,2023-10-05 08:10:09,1.019s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:10:09,2023-10-05 08:10:14,5.078s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:10:14,2023-10-05 08:10:21,7.430s,PASSED
+"setText(findTestObject(""Edit Data konsumen/Input no Hp/input No Hp""), ""08128987678987"")",Firefox 117.0,,,2023-10-05 08:10:21,2023-10-05 08:10:23,1.178s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:10:23,2023-10-05 08:10:24,1.199s,PASSED
+"verifyTextPresent(""number not valid"", false)",Firefox 117.0,,,2023-10-05 08:10:24,2023-10-05 08:10:31,7.139s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-013,Firefox 117.0,"Admin merubah Password Konsumen username udin padinding oii  hanya menggunakan huruf
+",,2023-10-05 08:10:31,2023-10-05 08:11:27,56.615s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:10:31,2023-10-05 08:11:06,35.006s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:11:06,2023-10-05 08:11:07,0.771s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:11:07,2023-10-05 08:11:08,0.719s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:11:08,2023-10-05 08:11:13,4.798s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:11:13,2023-10-05 08:11:19,6.072s,PASSED
+"setText(findTestObject(""Edit Data konsumen/ganti password/input_Ganti Password""), password)",Firefox 117.0,,,2023-10-05 08:11:19,2023-10-05 08:11:20,1.067s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:11:20,2023-10-05 08:11:21,1.393s,PASSED
+"verifyTextPresent(""Password must include Aplanumeric"", false)",Firefox 117.0,,,2023-10-05 08:11:21,2023-10-05 08:11:27,6.384s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-014,Firefox 117.0,"Admin melakukan edit ganti foto konsumen username udin padinding oii menggunakan file format pdf
+",,2023-10-05 08:11:27,2023-10-05 08:12:14,46.810s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:11:28,2023-10-05 08:12:04,35.969s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:12:04,2023-10-05 08:12:05,0.790s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:12:05,2023-10-05 08:12:06,0.925s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:12:06,2023-10-05 08:12:11,5.488s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:12:11,2023-10-05 08:12:14,2.724s,PASSED
+"uploadFile(findTestObject(""upload foto/input_Ganti Foto_gg""), foto)",Firefox 117.0,,,2023-10-05 08:12:14,2023-10-05 08:12:14,0.516s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/EDK-015,Firefox 117.0,"Admin melakukan edit data konsumen username udin padinding oii  dengan mengosongkan data Email, No Hp, Alamat Baru
+",,2023-10-05 08:12:14,2023-10-05 08:13:10,55.369s,FAILED
+"callTestCase(findTestCase(""M08 Edit Data Konsumen/EDK-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:12:15,2023-10-05 08:12:47,32.274s,PASSED
+"click(findTestObject(""file baru/search""))",Firefox 117.0,,,2023-10-05 08:12:47,2023-10-05 08:12:48,0.772s,PASSED
+"setText(findTestObject(""file baru/search""), ""udin padinding oii"")",Firefox 117.0,,,2023-10-05 08:12:48,2023-10-05 08:12:49,0.895s,PASSED
+"click(findTestObject(""file baru/buttom edit""))",Firefox 117.0,,,2023-10-05 08:12:49,2023-10-05 08:12:54,5.446s,PASSED
+"verifyElementPresent(findTestObject(""Edit Data konsumen/tittle Edit Data Konsumen""), 0)",Firefox 117.0,,,2023-10-05 08:12:54,2023-10-05 08:13:00,6.302s,PASSED
+"setText(findTestObject(""Edit Data konsumen/ganti password/input_Ganti Password""), password)",Firefox 117.0,,,2023-10-05 08:13:00,2023-10-05 08:13:01,1.094s,PASSED
+"setText(findTestObject(""Edit Data konsumen/input_Nama Lengkap""), nama_lengkap)",Firefox 117.0,,,2023-10-05 08:13:01,2023-10-05 08:13:03,1.074s,PASSED
+"clearText(findTestObject(""Edit Data konsumen/Input Alamat email/input Alamat Email""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:13:03,2023-10-05 08:13:03,0.692s,PASSED
+"clearText(findTestObject(""Edit Data konsumen/Input no Hp/input No Hp""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:13:03,2023-10-05 08:13:04,0.342s,PASSED
+"uploadFile(findTestObject(""upload foto/input_Ganti Foto_gg""), foto)",Firefox 117.0,,,2023-10-05 08:13:04,2023-10-05 08:13:04,0.338s,PASSED
+"if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-05 08:13:04,2023-10-05 08:13:04,0.333s,PASSED
+"setText(findTestObject(""Edit Data konsumen/input tanggal lahir/input_Tanggal Lahir""), tanggal_lahir)",Firefox 117.0,,,2023-10-05 08:13:04,2023-10-05 08:13:05,0.899s,PASSED
+"clearText(findTestObject(""Edit Data konsumen/Alamat/input_Alamat""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-05 08:13:05,2023-10-05 08:13:06,0.469s,PASSED
+"click(findTestObject(""Edit Data konsumen/button_Update""))",Firefox 117.0,,,2023-10-05 08:13:06,2023-10-05 08:13:07,1.564s,PASSED
+"verifyTextPresent(""This is a required field."", false)",Firefox 117.0,,,2023-10-05 08:13:07,2023-10-05 08:13:10,2.442s,FAILED
+,,,,,,,
+Test Cases/M08 Edit Data Konsumen/LA-001,Firefox 117.0,Admin Melakukan Login dengan memasukkan Username dan password yang valid,,2023-10-05 08:13:10,2023-10-05 08:13:36,26.567s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-05 08:13:10,2023-10-05 08:13:15,4.899s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-05 08:13:15,2023-10-05 08:13:15,0.030s,PASSED
+"verifyElementPresent(findTestObject(""Login admin/Tittle ADMIN""), 0)",Firefox 117.0,,,2023-10-05 08:13:15,2023-10-05 08:13:15,0.350s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), Username)",Firefox 117.0,,,2023-10-05 08:13:15,2023-10-05 08:13:16,0.663s,PASSED
+"setText(findTestObject(""Login/input_Password""), Password)",Firefox 117.0,,,2023-10-05 08:13:16,2023-10-05 08:13:17,0.666s,PASSED
+"click(findTestObject(""Login admin/buttom Remember Me""))",Firefox 117.0,,,2023-10-05 08:13:17,2023-10-05 08:13:17,0.556s,PASSED
+delay(10),Firefox 117.0,,,2023-10-05 08:13:17,2023-10-05 08:13:27,10.011s,PASSED
+"click(findTestObject(""Login admin/buttom sign in""))",Firefox 117.0,,,2023-10-05 08:13:27,2023-10-05 08:13:29,1.495s,PASSED
+"verifyElementPresent(findTestObject(""Login admin/Tittle Dashboard""), 0)",Firefox 117.0,,,2023-10-05 08:13:29,2023-10-05 08:13:36,7.513s,PASSED

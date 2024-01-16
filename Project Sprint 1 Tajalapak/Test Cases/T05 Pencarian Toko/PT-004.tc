@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Mencari Toko berdasarkan Nama Toko yang tidak valid</description>
+   <name>PT-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccfec557-0fab-4139-9636-0ad4bd5588dd</testCaseGuid>
+</TestCaseEntity>

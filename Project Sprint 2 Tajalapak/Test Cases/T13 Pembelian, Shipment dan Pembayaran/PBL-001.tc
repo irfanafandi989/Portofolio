@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User menambahkan product ke keranjang</description>
+   <name>PBL-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8307d8e-2399-44ba-b3b4-7757d43521eb</testCaseGuid>
+</TestCaseEntity>

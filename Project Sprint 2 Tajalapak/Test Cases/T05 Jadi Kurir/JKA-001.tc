@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin kurir melakukan verifikasi kurir yang telah mendaftar</description>
+   <name>JKA-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f84412b7-22a5-4e16-8e0d-2e272d788b23</testCaseGuid>
+</TestCaseEntity>

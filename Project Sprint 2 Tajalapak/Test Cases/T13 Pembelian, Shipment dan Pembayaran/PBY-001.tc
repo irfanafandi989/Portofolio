@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan pencocokan data order barang dengan menggunakan metode pembayaran Transfer Bank</description>
+   <name>PBY-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae98a807-74e1-434d-8474-7ffd9c145080</testCaseGuid>
+</TestCaseEntity>

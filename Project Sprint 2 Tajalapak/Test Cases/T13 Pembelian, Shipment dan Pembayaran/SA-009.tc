@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin penjual melakukan edit data jumlah barang menggunakan huruf afabet pada transaksi penjualan / orderan konsumen</description>
+   <name>SA-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74ccd4d5-2069-4a50-8aad-e4c177ce959d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>caf25abf-d48c-4efd-80a3-bde7f483d7cf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'e'</defaultValue>
+      <description></description>
+      <id>caf25abf-d48c-4efd-80a3-bde7f483d7cf</id>
+      <masked>false</masked>
+      <name>jumlah</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Daftar  Edit Data</name>
+   <tag></tag>
+   <elementGuidId>935bd690-4134-49a6-a819-9a760659950d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ps-btn.btn-block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[10]/div/div/div/div[1]/a/center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0156df52-97e1-47c0-b1cd-6e467507e362</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/members/daftar_sopir</value>
+      <webElementGuid>5723795a-231b-43ac-ac05-2d988ba8327c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-btn btn-block</value>
+      <webElementGuid>f09320d3-540a-49ae-82ac-9c9d4614fd84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Daftar / Edit Data</value>
+      <webElementGuid>d266f797-c9fe-42af-819c-a3014cdc98f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-dashboard pro&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12&quot;]/a[@class=&quot;ps-btn btn-block&quot;]</value>
+      <webElementGuid>3eebcde3-34e6-46b7-aec4-a2bf5224c3ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadi Kurir'])[1]/following::a[1]</value>
+      <webElementGuid>d4369dfa-dff6-4c5d-a454-b847641aff76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PPOB'])[3]/following::a[2]</value>
+      <webElementGuid>6e53c6de-184b-4f2f-ab57-69287fac5407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/members/daftar_sopir')]</value>
+      <webElementGuid>8f105aaa-e1f1-4058-9c0c-ebb6e10c92c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div/div/div/a</value>
+      <webElementGuid>5d38c508-8083-481e-b3ea-b8b540910cd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/members/daftar_sopir' and (text() = ' Daftar / Edit Data' or . = ' Daftar / Edit Data')]</value>
+      <webElementGuid>7af0d286-0f04-43c9-b1be-2e98fd409b8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

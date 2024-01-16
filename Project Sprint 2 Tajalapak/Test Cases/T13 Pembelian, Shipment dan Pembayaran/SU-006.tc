@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Tracking order pesanan tetapi tidak mengisi data nomor pesanan dan email</description>
+   <name>SU-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d5a8bc4-0311-42ab-bc26-8731ed79bb93</testCaseGuid>
+</TestCaseEntity>

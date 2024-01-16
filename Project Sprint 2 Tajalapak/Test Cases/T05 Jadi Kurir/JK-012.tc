@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User upload berkas lampiran dengan format docx</description>
+   <name>JK-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23ecc14e-622f-474c-9c95-62b8406193e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e279a1f-a022-48f0-8d34-606041f73896</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96f2ff6c-3cad-45b0-8ebb-a6232f9f9fb3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5189053-40c9-495f-bd90-8b8297936482</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7370fd5-f937-404e-9aae-f0d9ebb8e21b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b132bc1f-cbe2-4194-81c7-bae79db4d6b0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>3e279a1f-a022-48f0-8d34-606041f73896</id>
+      <masked>false</masked>
+      <name>Jenis</name>
+   </variable>
+   <variable>
+      <defaultValue>'toyota supra'</defaultValue>
+      <description></description>
+      <id>96f2ff6c-3cad-45b0-8ebb-a6232f9f9fb3</id>
+      <masked>false</masked>
+      <name>Merek_Kendaraan</name>
+   </variable>
+   <variable>
+      <defaultValue>'AB 1140 NG'</defaultValue>
+      <description></description>
+      <id>f5189053-40c9-495f-bd90-8b8297936482</id>
+      <masked>false</masked>
+      <name>Plat_Nomor</name>
+   </variable>
+   <variable>
+      <defaultValue>'mau daftar dong bang'</defaultValue>
+      <description></description>
+      <id>c7370fd5-f937-404e-9aae-f0d9ebb8e21b</id>
+      <masked>false</masked>
+      <name>Keterangan</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\IRFAN\\Videos\\katalon\\Doc1.docx'</defaultValue>
+      <description></description>
+      <id>b132bc1f-cbe2-4194-81c7-bae79db4d6b0</id>
+      <masked>false</masked>
+      <name>Berkas</name>
+   </variable>
+</TestCaseEntity>

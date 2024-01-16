@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>total</name>
+   <tag></tag>
+   <elementGuidId>da4ba6a4-a5fc-4913-9a61-cb4f774c3331</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '7,818' or . = '7,818')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b.nominaltrx2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[10]/div/div/div/div/div[2]/div/div[2]/h3/span/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>4c08d414-265d-4d3a-a8ac-d67d7f9c7eb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nominaltrx2</value>
+      <webElementGuid>c732b3bf-ebdf-41a6-9c5b-755cda813b75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>7,818</value>
+      <webElementGuid>8002a186-3eff-426d-9362-1a1a5ccd290a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-section--shopping ps-shopping-cart&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12&quot;]/div[@class=&quot;ps-block--shopping-total&quot;]/div[@class=&quot;ps-block__content&quot;]/h3[1]/span[1]/b[@class=&quot;nominaltrx2&quot;]</value>
+      <webElementGuid>4a9d735d-fb6f-4821-b2d0-11e57ceeb401</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail Pesanan'])[1]/following::b[1]</value>
+      <webElementGuid>974c6c9d-2886-4e9c-8e64-d1b755d4e2f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::b[1]</value>
+      <webElementGuid>3e6b9ef5-1086-4065-a243-f741ccfd2226</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3/span/b</value>
+      <webElementGuid>0f5a3aa9-c571-4e91-971a-2ea1f6e9fab0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = '7,818' or . = '7,818')]</value>
+      <webElementGuid>1d5632d9-eef2-4a8c-a1b0-87c6c161957a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan pengecekan pembelian bagian Menunggu Pembayaran</description>
+   <name>SU-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e427f2ae-10dd-4368-be46-37b6ce2bd880</testCaseGuid>
+</TestCaseEntity>

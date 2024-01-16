@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Claim kode Kupon / Voucer yang tidak valid</description>
+   <name>PBL-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>299f5669-a0b1-423a-a769-e23025021a79</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16bdce24-9aa3-420d-9e69-3addc4eb0880</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fddd8f74-0a55-4697-81e9-dd719274f0c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Roda 2'</defaultValue>
+      <description></description>
+      <id>16bdce24-9aa3-420d-9e69-3addc4eb0880</id>
+      <masked>false</masked>
+      <name>Kurir</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description></description>
+      <id>fddd8f74-0a55-4697-81e9-dd719274f0c6</id>
+      <masked>false</masked>
+      <name>tf</name>
+   </variable>
+</TestCaseEntity>

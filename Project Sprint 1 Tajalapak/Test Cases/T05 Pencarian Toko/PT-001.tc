@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melihat Toko dihalaman semua toko</description>
+   <name>PT-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75ed6b70-cbcb-4cd5-8c14-4f1806945de5</testCaseGuid>
+</TestCaseEntity>

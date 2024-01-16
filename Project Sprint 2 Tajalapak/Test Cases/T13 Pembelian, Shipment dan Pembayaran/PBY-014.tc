@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User input nomor pesanan/ invoice dengan data yang tidak valid</description>
+   <name>PBY-014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c56edb22-47e0-4b0a-8a8d-562678173c30</testCaseGuid>
+</TestCaseEntity>

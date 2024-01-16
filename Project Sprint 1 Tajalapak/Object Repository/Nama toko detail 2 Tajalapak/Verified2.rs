@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verified2</name>
+   <tag></tag>
+   <elementGuidId>e61bbd46-252c-4a62-8a12-567a40f3b2c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Kerupuk husna'])[1]/following::i[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>small > i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f2b4ae70-3e4b-4218-a496-6bb2df4b6f2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Verified </value>
+      <webElementGuid>635694b0-bfdc-4935-8393-f853b30300da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-store&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__container&quot;]/div[@class=&quot;ps-section__left&quot;]/div[@class=&quot;ps-block--vendor&quot;]/div[@class=&quot;ps-block__container&quot;]/div[@class=&quot;ps-block__header&quot;]/small[1]/i[1]</value>
+      <webElementGuid>c298f56b-5fe2-4317-841d-ec7c603c4ad7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kerupuk husna'])[1]/following::i[1]</value>
+      <webElementGuid>755ad6bb-74ee-4ea6-908b-eb67c71fed1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produk'])[1]/following::i[1]</value>
+      <webElementGuid>c517429b-2911-4ca4-bd28-f0f9972f9157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kerupuk husna'])[2]/preceding::i[1]</value>
+      <webElementGuid>e49fd7c0-0d11-4e67-982e-74e789c0946d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Verified']/parent::*</value>
+      <webElementGuid>567c936b-19c3-47ce-87e9-85354a2d1e2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//small/i</value>
+      <webElementGuid>ea1abdab-c4e5-4cf0-964b-229ea7d4583b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = ' Verified ' or . = ' Verified ')]</value>
+      <webElementGuid>d49455a5-32b1-4335-be55-0a9ad20bc3f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

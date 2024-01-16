@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User hanya mengosongkan tanggal transfer</description>
+   <name>PBY-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb85a19a-04d6-4d05-aab9-2c699fa9417e</testCaseGuid>
+</TestCaseEntity>

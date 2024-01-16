@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melihat peryaratan pendaftaran jadi kurir</description>
+   <name>JK-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9796f582-a498-4f01-a6b7-5f72b262b59a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan pengecekan pembelian  bagian Sampai Tujuan</description>
+   <name>SU-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbe5c58c-4baf-4d40-86bb-a22b8403f1b2</testCaseGuid>
+</TestCaseEntity>

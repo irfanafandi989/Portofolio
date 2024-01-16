@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin Merubah Email konsumen username udin padinding oii tanpa Menggunakan Domain
+</description>
+   <name>EDK-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c74f36ac-0ba0-4818-99a6-0082010a5dfb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>admin pelapak Mencari nama toko dengan spasi didepan </description>
+   <name>PTA-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b182bda-c33a-4a57-a177-8cb347e1b687</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4c4e67c-4db2-4791-983a-02aa741cccf6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'        Kerupuk husna'</defaultValue>
+      <description></description>
+      <id>c4c4e67c-4db2-4791-983a-02aa741cccf6</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>

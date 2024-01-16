@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User menambahkan product ke keranjang</description>
+   <name>PBL-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50833e74-9ff6-46fc-9703-d4451cb54fa9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6a16665-b6f8-404c-8f9d-7889fcc9564b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2cb85d2-8232-4e16-9c60-a6d498f46d56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Merah'</defaultValue>
+      <description></description>
+      <id>d6a16665-b6f8-404c-8f9d-7889fcc9564b</id>
+      <masked>false</masked>
+      <name>warna</name>
+   </variable>
+   <variable>
+      <defaultValue>'Menengah'</defaultValue>
+      <description></description>
+      <id>e2cb85d2-8232-4e16-9c60-a6d498f46d56</id>
+      <masked>false</masked>
+      <name>ukuran</name>
+   </variable>
+</TestCaseEntity>

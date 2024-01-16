@@ -1,0 +1,984 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"T13 Pembelian, Shipment dan Pembayaran",Edge Chromium 117,,,2023-10-05 08:49:37,2023-10-05 09:38:16,48m - 39.270s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/LU-001",Edge Chromium 117,User Melakukan Login dengan memasukkan Username dan password yang valid,,2023-10-05 08:49:37,2023-10-05 08:49:51,13.754s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-05 08:49:38,2023-10-05 08:49:45,6.938s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-05 08:49:45,2023-10-05 08:49:45,0.168s,PASSED
+"verifyElementPresent(findTestObject(""Login/Home""), 0)",Edge Chromium 117,,,2023-10-05 08:49:45,2023-10-05 08:49:46,0.816s,PASSED
+"click(findTestObject(""Login/a_Login""))",Edge Chromium 117,,,2023-10-05 08:49:46,2023-10-05 08:49:46,0.510s,PASSED
+"verifyElementPresent(findTestObject(""Login/Tittle Login""), 0)",Edge Chromium 117,,,2023-10-05 08:49:46,2023-10-05 08:49:47,0.633s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), username)",Edge Chromium 117,,,2023-10-05 08:49:47,2023-10-05 08:49:48,0.823s,PASSED
+"setText(findTestObject(""Login/input_Password_b""), password)",Edge Chromium 117,,,2023-10-05 08:49:48,2023-10-05 08:49:49,0.896s,PASSED
+"click(findTestObject(""Login/label_Ingat saya""))",Edge Chromium 117,,,2023-10-05 08:49:49,2023-10-05 08:49:49,0.444s,PASSED
+"click(findTestObject(""Login/button_Masuk""))",Edge Chromium 117,,,2023-10-05 08:49:49,2023-10-05 08:49:50,1.276s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Edge Chromium 117,,,2023-10-05 08:49:50,2023-10-05 08:49:51,0.721s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-001",Edge Chromium 117,User menambahkan product ke keranjang,,2023-10-05 08:49:51,2023-10-05 08:50:12,21.350s,PASSED
+"callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/LU-001""), [""username"":""irfanafandi"", ""password"":""12345irfan""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:49:52,2023-10-05 08:50:05,13.609s,PASSED
+"mouseOver(findTestObject(""beli barang/i_Mulai Belanja_icon-menu""))",Edge Chromium 117,,,2023-10-05 08:50:05,2023-10-05 08:50:06,0.599s,PASSED
+"click(findTestObject(""beli barang/a_Fashion  Busana Wanita""))",Edge Chromium 117,,,2023-10-05 08:50:06,2023-10-05 08:50:07,1.204s,PASSED
+"NamaSebelum = getText(findTestObject(""verifikasi/Nama sebelum""))",Edge Chromium 117,,,2023-10-05 08:50:07,2023-10-05 08:50:08,0.607s,PASSED
+"HargaSebelum = getText(findTestObject(""verifikasi/Harga sebelum""))",Edge Chromium 117,,,2023-10-05 08:50:08,2023-10-05 08:50:08,0.381s,PASSED
+"mouseOver(findTestObject(""beli barang/barang mouse over""))",Edge Chromium 117,,,2023-10-05 08:50:08,2023-10-05 08:50:09,0.701s,PASSED
+"click(findTestObject(""beli barang/buttom add to cart""))",Edge Chromium 117,,,2023-10-05 08:50:09,2023-10-05 08:50:10,1.463s,PASSED
+"NamaSesudah = getText(findTestObject(""verifikasi/Nama sesudah""))",Edge Chromium 117,,,2023-10-05 08:50:10,2023-10-05 08:50:11,0.531s,PASSED
+"HargaSesudah = getText(findTestObject(""verifikasi/Harga sesudah""))",Edge Chromium 117,,,2023-10-05 08:50:11,2023-10-05 08:50:11,0.435s,PASSED
+assert NamaSesudah.contains(NamaSebelum),Edge Chromium 117,,,2023-10-05 08:50:11,2023-10-05 08:50:11,0.001s,PASSED
+assert HargaSesudah.contains(HargaSebelum),Edge Chromium 117,,,2023-10-05 08:50:11,2023-10-05 08:50:11,0.000s,PASSED
+"click(findTestObject(""beli barang/Tambah Keranjang busana wanita""))",Edge Chromium 117,,,2023-10-05 08:50:11,2023-10-05 08:50:12,0.425s,PASSED
+"verifyElementPresent(findTestObject(""checkout/Notifikasi keranjang""), 1)",Edge Chromium 117,,,2023-10-05 08:50:12,2023-10-05 08:50:12,0.963s,PASSED
+data = new java.util.HashMap(),Edge Chromium 117,,,2023-10-05 08:50:12,2023-10-05 08:50:12,0.000s,PASSED
+"data.put(""nama_barang"", NamaSesudah)",Edge Chromium 117,,,2023-10-05 08:50:12,2023-10-05 08:50:12,0.000s,PASSED
+"data.put(""price_barang"", HargaSesudah)",Edge Chromium 117,,,2023-10-05 08:50:12,2023-10-05 08:50:12,0.001s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:50:12,2023-10-05 08:50:12,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-002",Edge Chromium 117,"User dapat mengakses halaman keranjang setelah ""tambahkan ke troli"" 1 produk",,2023-10-05 08:50:12,2023-10-05 08:50:40,27.966s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:50:13,2023-10-05 08:50:33,20.448s,PASSED
+"mouseOver(findTestObject(""beli barang/keranjang""))",Edge Chromium 117,,,2023-10-05 08:50:33,2023-10-05 08:50:34,0.542s,PASSED
+"click(findTestObject(""beli barang/Lihat Sekarang""))",Edge Chromium 117,,,2023-10-05 08:50:34,2023-10-05 08:50:35,1.013s,PASSED
+"verifyElementPresent(findTestObject(""keranjang/li_Keranjang Belanja""), 0)",Edge Chromium 117,,,2023-10-05 08:50:35,2023-10-05 08:50:36,1.323s,PASSED
+"NamaKeranjang = getText(findTestObject(""verifikasi/Nama keranjang""))",Edge Chromium 117,,,2023-10-05 08:50:36,2023-10-05 08:50:37,0.387s,PASSED
+"HargaKeranjang = getText(findTestObject(""verifikasi/Harga Keranjang""))",Edge Chromium 117,,,2023-10-05 08:50:37,2023-10-05 08:50:37,0.344s,PASSED
+"if (toString().equalsIgnoreCase(""Merah""))",Edge Chromium 117,,,2023-10-05 08:50:37,2023-10-05 08:50:38,0.513s,PASSED
+"if (toString().equalsIgnoreCase(""Menengah""))",Edge Chromium 117,,,2023-10-05 08:50:38,2023-10-05 08:50:38,0.510s,PASSED
+"data.put(""Warna"", warna)",Edge Chromium 117,,,2023-10-05 08:50:38,2023-10-05 08:50:38,0.000s,PASSED
+"data.put(""Ukuran"", ukuran)",Edge Chromium 117,,,2023-10-05 08:50:38,2023-10-05 08:50:38,0.000s,PASSED
+"click(findTestObject(""keranjang/button_Lanjut ke Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:50:38,2023-10-05 08:50:40,1.553s,PASSED
+"verifyElementPresent(findTestObject(""checkout/Tittle Checkout Order""), 0)",Edge Chromium 117,,,2023-10-05 08:50:40,2023-10-05 08:50:40,0.853s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:50:40,2023-10-05 08:50:40,0.001s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:50:40,2023-10-05 08:50:40,0.000s,PASSED
+assert name_product == NamaKeranjang,Edge Chromium 117,,,2023-10-05 08:50:40,2023-10-05 08:50:40,0.000s,PASSED
+assert price_product == HargaKeranjang,Edge Chromium 117,,,2023-10-05 08:50:40,2023-10-05 08:50:40,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:50:40,2023-10-05 08:50:40,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-003",Edge Chromium 117,User tidak pilih warna dan ukuran pada produk yang dibeli,,2023-10-05 08:50:40,2023-10-05 08:51:11,30.269s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:50:41,2023-10-05 08:51:01,20.581s,PASSED
+"mouseOver(findTestObject(""beli barang/keranjang""))",Edge Chromium 117,,,2023-10-05 08:51:01,2023-10-05 08:51:02,0.517s,PASSED
+"click(findTestObject(""beli barang/Lihat Sekarang""))",Edge Chromium 117,,,2023-10-05 08:51:02,2023-10-05 08:51:03,0.948s,PASSED
+"verifyElementPresent(findTestObject(""keranjang/li_Keranjang Belanja""), 0)",Edge Chromium 117,,,2023-10-05 08:51:03,2023-10-05 08:51:04,1.617s,PASSED
+"click(findTestObject(""keranjang/button_Lanjut ke Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:51:04,2023-10-05 08:51:06,1.430s,PASSED
+"mouseOver(findTestObject(""beli barang/keranjang""))",Edge Chromium 117,,,2023-10-05 08:51:06,2023-10-05 08:51:07,0.944s,PASSED
+"click(findTestObject(""hapus barang/buttom x""))",Edge Chromium 117,,,2023-10-05 08:51:07,2023-10-05 08:51:07,0.429s,PASSED
+"click(findTestObject(""hapus barang/button_Hapus Barang""))",Edge Chromium 117,,,2023-10-05 08:51:07,2023-10-05 08:51:08,0.744s,PASSED
+"verifyTextPresent(""Silakan pilih warna dan ukuran produk"", false)",Edge Chromium 117,,,2023-10-05 08:51:08,2023-10-05 08:51:11,2.682s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-004",Edge Chromium 117,User melakukan Checkout menggunakan metode pembayaran Transfer Bank,,2023-10-05 08:51:11,2023-10-05 08:51:54,43.379s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:51:11,2023-10-05 08:51:38,27.049s,PASSED
+"warnaa = getText(findTestObject(""verifikasi/warna Merah""))",Edge Chromium 117,,,2023-10-05 08:51:38,2023-10-05 08:51:39,0.395s,PASSED
+"ukurann = getText(findTestObject(""verifikasi/Ukuran Menengah""))",Edge Chromium 117,,,2023-10-05 08:51:39,2023-10-05 08:51:39,0.395s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:51:39,2023-10-05 08:51:39,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:51:39,2023-10-05 08:51:39,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:51:39,2023-10-05 08:51:39,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:51:39,2023-10-05 08:51:39,0.001s,PASSED
+"NamaCheckout = getText(findTestObject(""verifikasi/NamaCheckout""))",Edge Chromium 117,,,2023-10-05 08:51:39,2023-10-05 08:51:40,0.353s,PASSED
+"HargaCheckout = getText(findTestObject(""verifikasi/HargaCheckout""))",Edge Chromium 117,,,2023-10-05 08:51:40,2023-10-05 08:51:40,0.399s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:51:40,2023-10-05 08:51:40,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:51:40,2023-10-05 08:51:40,0.000s,PASSED
+assert name_product.contains(NamaCheckout),Edge Chromium 117,,,2023-10-05 08:51:40,2023-10-05 08:51:40,0.000s,PASSED
+assert price_product.contains(HargaCheckout),Edge Chromium 117,,,2023-10-05 08:51:40,2023-10-05 08:51:40,0.000s,PASSED
+"selectOptionByLabel(findTestObject(""checkout/select - Kirim via Kurir Lokal""), Kurir, false)",Edge Chromium 117,,,2023-10-05 08:51:40,2023-10-05 08:51:41,0.850s,PASSED
+"click(findTestObject(""checkout/Kendaraan Kurir""))",Edge Chromium 117,,,2023-10-05 08:51:41,2023-10-05 08:51:42,0.788s,PASSED
+"OngkosKirim = getText(findTestObject(""Object Repository/verifikasi/Ongkos Kirim checkout""))",Edge Chromium 117,,,2023-10-05 08:51:42,2023-10-05 08:51:42,0.522s,PASSED
+"Ongkos = OngkosKirim.substring(3, OngkosKirim.size())",Edge Chromium 117,,,2023-10-05 08:51:42,2023-10-05 08:51:42,0.001s,PASSED
+"rep = Ongkos.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:51:42,2023-10-05 08:51:42,0.000s,PASSED
+Ongkos_kirim = Double.parseDouble(rep),Edge Chromium 117,,,2023-10-05 08:51:42,2023-10-05 08:51:42,0.005s,PASSED
+println(Ongkos_kirim),Edge Chromium 117,,,2023-10-05 08:51:42,2023-10-05 08:51:42,0.000s,PASSED
+"FeeAdmin = getText(findTestObject(""verifikasi/Fee Admin checkout""))",Edge Chromium 117,,,2023-10-05 08:51:42,2023-10-05 08:51:43,0.422s,PASSED
+"Fee_Admin = FeeAdmin.substring(12, FeeAdmin.size())",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+"fee = Fee_Admin.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+fee_admin = Double.parseDouble(fee),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+println(fee_admin),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+"Subtotal = getText(findTestObject(""verifikasi/subtotal checkout""))",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.541s,PASSED
+"sub_total = Subtotal.substring(12, Subtotal.size())",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+"sub = sub_total.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+sub_total = Double.parseDouble(sub),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+println(sub_total),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.001s,PASSED
+"Total = getText(findTestObject(""verifikasi/Total checkout""))",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.378s,PASSED
+"totall = Total.substring(3, Total.size())",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+"total = totall.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+totall = Double.parseDouble(total),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+println(totall),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+Total_Harga = Ongkos_kirim + fee_admin + sub_total,Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+println(Total_Harga),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+TotalHarga = Math.round(Total_Harga * 1000) / 1000,Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.007s,PASSED
+println(TotalHarga),Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+assert totall == TotalHarga,Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:43,0.000s,PASSED
+"click(findTestObject(""verifikasi/Metode Transfer""))",Edge Chromium 117,,,2023-10-05 08:51:43,2023-10-05 08:51:44,0.450s,PASSED
+"click(findTestObject(""checkout/button_Proses Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:51:44,2023-10-05 08:51:53,9.452s,PASSED
+"verifyElementPresent(findTestObject(""pembayaran/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 08:51:53,2023-10-05 08:51:54,0.739s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:51:54,2023-10-05 08:51:54,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-005",Edge Chromium 117,User melakukan Checkout 1 barang menggunakan metode pembayaran Saldo Akun,,2023-10-05 08:51:54,2023-10-05 08:52:35,41.236s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:51:55,2023-10-05 08:52:21,26.575s,PASSED
+"warnaa = getText(findTestObject(""verifikasi/warna Merah""))",Edge Chromium 117,,,2023-10-05 08:52:21,2023-10-05 08:52:22,0.525s,PASSED
+"ukurann = getText(findTestObject(""verifikasi/Ukuran Menengah""))",Edge Chromium 117,,,2023-10-05 08:52:22,2023-10-05 08:52:22,0.448s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:52:22,2023-10-05 08:52:22,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:52:22,2023-10-05 08:52:22,0.001s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:52:22,2023-10-05 08:52:22,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:52:22,2023-10-05 08:52:22,0.000s,PASSED
+"NamaCheckout = getText(findTestObject(""verifikasi/NamaCheckout""))",Edge Chromium 117,,,2023-10-05 08:52:22,2023-10-05 08:52:23,0.422s,PASSED
+"HargaCheckout = getText(findTestObject(""verifikasi/HargaCheckout""))",Edge Chromium 117,,,2023-10-05 08:52:23,2023-10-05 08:52:23,0.404s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:52:23,2023-10-05 08:52:23,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:52:23,2023-10-05 08:52:23,0.000s,PASSED
+assert name_product.contains(NamaCheckout),Edge Chromium 117,,,2023-10-05 08:52:23,2023-10-05 08:52:23,0.000s,PASSED
+assert price_product.contains(HargaCheckout),Edge Chromium 117,,,2023-10-05 08:52:23,2023-10-05 08:52:23,0.001s,PASSED
+"selectOptionByLabel(findTestObject(""checkout/select - Kirim via Kurir Lokal""), Kurir, false)",Edge Chromium 117,,,2023-10-05 08:52:23,2023-10-05 08:52:24,0.741s,PASSED
+"click(findTestObject(""checkout/Kendaraan Kurir""))",Edge Chromium 117,,,2023-10-05 08:52:24,2023-10-05 08:52:25,0.877s,PASSED
+"OngkosKirim = getText(findTestObject(""Object Repository/verifikasi/Ongkos Kirim checkout""))",Edge Chromium 117,,,2023-10-05 08:52:25,2023-10-05 08:52:25,0.507s,PASSED
+"Ongkos = OngkosKirim.substring(3, OngkosKirim.size())",Edge Chromium 117,,,2023-10-05 08:52:25,2023-10-05 08:52:25,0.000s,PASSED
+"rep = Ongkos.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:52:25,2023-10-05 08:52:25,0.000s,PASSED
+Ongkos_kirim = Double.parseDouble(rep),Edge Chromium 117,,,2023-10-05 08:52:25,2023-10-05 08:52:25,0.000s,PASSED
+println(Ongkos_kirim),Edge Chromium 117,,,2023-10-05 08:52:25,2023-10-05 08:52:25,0.000s,PASSED
+"FeeAdmin = getText(findTestObject(""verifikasi/Fee Admin checkout""))",Edge Chromium 117,,,2023-10-05 08:52:25,2023-10-05 08:52:26,0.762s,PASSED
+"Fee_Admin = FeeAdmin.substring(12, FeeAdmin.size())",Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.000s,PASSED
+"fee = Fee_Admin.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.001s,PASSED
+fee_admin = Double.parseDouble(fee),Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.000s,PASSED
+println(fee_admin),Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.000s,PASSED
+"Subtotal = getText(findTestObject(""verifikasi/subtotal checkout""))",Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.416s,PASSED
+"sub_total = Subtotal.substring(12, Subtotal.size())",Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.000s,PASSED
+"sub = sub_total.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.000s,PASSED
+sub_total = Double.parseDouble(sub),Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.000s,PASSED
+println(sub_total),Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:26,0.000s,PASSED
+"Total = getText(findTestObject(""verifikasi/Total checkout""))",Edge Chromium 117,,,2023-10-05 08:52:26,2023-10-05 08:52:27,0.391s,PASSED
+"totall = Total.substring(3, Total.size())",Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+"total = totall.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.001s,PASSED
+totall = Double.parseDouble(total),Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+println(totall),Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+Total_Harga = Ongkos_kirim + fee_admin + sub_total,Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+println(Total_Harga),Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+TotalHarga = Math.round(Total_Harga * 1000) / 1000,Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+println(TotalHarga),Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+assert totall == TotalHarga,Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.000s,PASSED
+"click(findTestObject(""Object Repository/checkout/metode pembayaran""))",Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:27,0.440s,PASSED
+"click(findTestObject(""checkout/button_Proses Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:52:27,2023-10-05 08:52:35,7.355s,PASSED
+"verifyElementPresent(findTestObject(""pembayaran/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 08:52:35,2023-10-05 08:52:35,0.771s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:52:35,2023-10-05 08:52:35,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-006",Edge Chromium 117,User mengosongkan nama jalan pada kolom alamat kirim pada proses checkout order,,2023-10-05 08:52:35,2023-10-05 08:53:12,36.575s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:52:36,2023-10-05 08:53:03,27.409s,PASSED
+"clearText(findTestObject(""checkout/input_Alamat Kirim""))",Edge Chromium 117,,,2023-10-05 08:53:03,2023-10-05 08:53:04,0.596s,PASSED
+"warnaa = getText(findTestObject(""verifikasi/warna Merah""))",Edge Chromium 117,,,2023-10-05 08:53:04,2023-10-05 08:53:04,0.391s,PASSED
+"ukurann = getText(findTestObject(""verifikasi/Ukuran Menengah""))",Edge Chromium 117,,,2023-10-05 08:53:04,2023-10-05 08:53:05,0.392s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:53:05,2023-10-05 08:53:05,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:53:05,2023-10-05 08:53:05,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:53:05,2023-10-05 08:53:05,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:53:05,2023-10-05 08:53:05,0.001s,PASSED
+"NamaCheckout = getText(findTestObject(""verifikasi/NamaCheckout""))",Edge Chromium 117,,,2023-10-05 08:53:05,2023-10-05 08:53:05,0.399s,PASSED
+"HargaCheckout = getText(findTestObject(""verifikasi/HargaCheckout""))",Edge Chromium 117,,,2023-10-05 08:53:05,2023-10-05 08:53:06,0.401s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:53:06,2023-10-05 08:53:06,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:53:06,2023-10-05 08:53:06,0.001s,PASSED
+assert name_product.contains(NamaCheckout),Edge Chromium 117,,,2023-10-05 08:53:06,2023-10-05 08:53:06,0.000s,PASSED
+assert price_product.contains(HargaCheckout),Edge Chromium 117,,,2023-10-05 08:53:06,2023-10-05 08:53:06,0.000s,PASSED
+"selectOptionByLabel(findTestObject(""checkout/select - Kirim via Kurir Lokal""), Kurir, false)",Edge Chromium 117,,,2023-10-05 08:53:06,2023-10-05 08:53:06,0.746s,PASSED
+"click(findTestObject(""checkout/Kendaraan Kurir""))",Edge Chromium 117,,,2023-10-05 08:53:06,2023-10-05 08:53:07,0.737s,PASSED
+"OngkosKirim = getText(findTestObject(""Object Repository/verifikasi/Ongkos Kirim checkout""))",Edge Chromium 117,,,2023-10-05 08:53:07,2023-10-05 08:53:08,0.484s,PASSED
+"Ongkos = OngkosKirim.substring(3, OngkosKirim.size())",Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.000s,PASSED
+"rep = Ongkos.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.000s,PASSED
+Ongkos_kirim = Double.parseDouble(rep),Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.000s,PASSED
+println(Ongkos_kirim),Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.001s,PASSED
+"FeeAdmin = getText(findTestObject(""verifikasi/Fee Admin checkout""))",Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.581s,PASSED
+"Fee_Admin = FeeAdmin.substring(12, FeeAdmin.size())",Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.000s,PASSED
+"fee = Fee_Admin.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.000s,PASSED
+fee_admin = Double.parseDouble(fee),Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.000s,PASSED
+println(fee_admin),Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:08,0.001s,PASSED
+"Subtotal = getText(findTestObject(""verifikasi/subtotal checkout""))",Edge Chromium 117,,,2023-10-05 08:53:08,2023-10-05 08:53:09,0.390s,PASSED
+"sub_total = Subtotal.substring(12, Subtotal.size())",Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+"sub = sub_total.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+sub_total = Double.parseDouble(sub),Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+println(sub_total),Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.001s,PASSED
+"Total = getText(findTestObject(""verifikasi/Total checkout""))",Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.395s,PASSED
+"totall = Total.substring(3, Total.size())",Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+"total = totall.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+totall = Double.parseDouble(total),Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+println(totall),Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.001s,PASSED
+Total_Harga = Ongkos_kirim + fee_admin + sub_total,Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+println(Total_Harga),Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+TotalHarga = Math.round(Total_Harga * 1000) / 1000,Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+println(TotalHarga),Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+assert totall == TotalHarga,Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.000s,PASSED
+"click(findTestObject(""Object Repository/checkout/metode pembayaran""))",Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:09,0.474s,PASSED
+"click(findTestObject(""checkout/button_Proses Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:53:09,2023-10-05 08:53:10,0.443s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-05 08:53:10,2023-10-05 08:53:10,0.000s,PASSED
+"field_alamat = webDriver.findElement(By.xpath(""//input[@name=""alamat""]""))",Edge Chromium 117,,,2023-10-05 08:53:10,2023-10-05 08:53:10,0.312s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_alamat)",Edge Chromium 117,,,2023-10-05 08:53:10,2023-10-05 08:53:10,0.017s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-05 08:53:10,2023-10-05 08:53:10,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-05 08:53:10,2023-10-05 08:53:10,0.000s,PASSED
+"mouseOver(findTestObject(""beli barang/keranjang""))",Edge Chromium 117,,,2023-10-05 08:53:10,2023-10-05 08:53:11,0.535s,PASSED
+"click(findTestObject(""hapus barang/buttom x""))",Edge Chromium 117,,,2023-10-05 08:53:11,2023-10-05 08:53:11,0.435s,PASSED
+"click(findTestObject(""hapus barang/button_Hapus Barang""))",Edge Chromium 117,,,2023-10-05 08:53:11,2023-10-05 08:53:12,0.750s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:53:12,2023-10-05 08:53:12,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-007",Edge Chromium 117,User melakukan pembelian via COD tetapi dengan pembayaran transfer,,2023-10-05 08:53:12,2023-10-05 08:53:48,35.804s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:53:12,2023-10-05 08:53:40,27.411s,PASSED
+"warnaa = getText(findTestObject(""verifikasi/warna Merah""))",Edge Chromium 117,,,2023-10-05 08:53:40,2023-10-05 08:53:40,0.381s,PASSED
+"ukurann = getText(findTestObject(""verifikasi/Ukuran Menengah""))",Edge Chromium 117,,,2023-10-05 08:53:40,2023-10-05 08:53:41,0.366s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+"NamaCheckout = getText(findTestObject(""verifikasi/NamaCheckout""))",Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.408s,PASSED
+"HargaCheckout = getText(findTestObject(""verifikasi/HargaCheckout""))",Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.416s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+assert name_product.contains(NamaCheckout),Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+assert price_product.contains(HargaCheckout),Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:41,0.000s,PASSED
+"click(findTestObject(""checkout/COD""))",Edge Chromium 117,,,2023-10-05 08:53:41,2023-10-05 08:53:42,0.424s,PASSED
+"click(findTestObject(""verifikasi/COD - Panjang BanaTarif""))",Edge Chromium 117,,,2023-10-05 08:53:42,2023-10-05 08:53:42,0.387s,PASSED
+"click(findTestObject(""verifikasi/Metode Transfer""))",Edge Chromium 117,,,2023-10-05 08:53:42,2023-10-05 08:53:43,0.526s,PASSED
+"click(findTestObject(""checkout/button_Proses Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:53:43,2023-10-05 08:53:47,3.986s,PASSED
+"verifyTextPresent(""Massage Error"" pilih metode pembayaran cod"""", false)",Edge Chromium 117,,,2023-10-05 08:53:47,2023-10-05 08:53:48,1.020s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-008",Edge Chromium 117,User melakukan pembelian via COD tetapi dengan pembayaran Saldo Akun,,2023-10-05 08:53:48,2023-10-05 08:54:23,35.701s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:53:48,2023-10-05 08:54:16,27.723s,PASSED
+"warnaa = getText(findTestObject(""verifikasi/warna Merah""))",Edge Chromium 117,,,2023-10-05 08:54:16,2023-10-05 08:54:16,0.352s,PASSED
+"ukurann = getText(findTestObject(""verifikasi/Ukuran Menengah""))",Edge Chromium 117,,,2023-10-05 08:54:16,2023-10-05 08:54:17,0.541s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:54:17,2023-10-05 08:54:17,0.001s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:54:17,2023-10-05 08:54:17,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:54:17,2023-10-05 08:54:17,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:54:17,2023-10-05 08:54:17,0.000s,PASSED
+"NamaCheckout = getText(findTestObject(""verifikasi/NamaCheckout""))",Edge Chromium 117,,,2023-10-05 08:54:17,2023-10-05 08:54:17,0.379s,PASSED
+"HargaCheckout = getText(findTestObject(""verifikasi/HargaCheckout""))",Edge Chromium 117,,,2023-10-05 08:54:17,2023-10-05 08:54:18,0.417s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:54:18,2023-10-05 08:54:18,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:54:18,2023-10-05 08:54:18,0.000s,PASSED
+assert name_product.contains(NamaCheckout),Edge Chromium 117,,,2023-10-05 08:54:18,2023-10-05 08:54:18,0.000s,PASSED
+assert price_product.contains(HargaCheckout),Edge Chromium 117,,,2023-10-05 08:54:18,2023-10-05 08:54:18,0.000s,PASSED
+"click(findTestObject(""checkout/COD""))",Edge Chromium 117,,,2023-10-05 08:54:18,2023-10-05 08:54:18,0.431s,PASSED
+"click(findTestObject(""verifikasi/COD - Panjang BanaTarif""))",Edge Chromium 117,,,2023-10-05 08:54:18,2023-10-05 08:54:18,0.413s,PASSED
+"click(findTestObject(""Object Repository/checkout/metode pembayaran""))",Edge Chromium 117,,,2023-10-05 08:54:18,2023-10-05 08:54:19,0.578s,PASSED
+"click(findTestObject(""checkout/button_Proses Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:54:19,2023-10-05 08:54:23,3.576s,PASSED
+"verifyTextPresent(""Massage Error"" pilih metode pembayaran cod"""", false)",Edge Chromium 117,,,2023-10-05 08:54:23,2023-10-05 08:54:23,0.901s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-009",Edge Chromium 117,User Claim kode Kupon / Voucer yang tidak valid,,2023-10-05 08:54:23,2023-10-05 08:55:02,38.433s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:54:24,2023-10-05 08:54:52,27.689s,PASSED
+"warnaa = getText(findTestObject(""verifikasi/warna Merah""))",Edge Chromium 117,,,2023-10-05 08:54:52,2023-10-05 08:54:52,0.376s,PASSED
+"ukurann = getText(findTestObject(""verifikasi/Ukuran Menengah""))",Edge Chromium 117,,,2023-10-05 08:54:52,2023-10-05 08:54:52,0.353s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:54:52,2023-10-05 08:54:52,0.001s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:54:52,2023-10-05 08:54:52,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:54:52,2023-10-05 08:54:52,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:54:52,2023-10-05 08:54:52,0.000s,PASSED
+"NamaCheckout = getText(findTestObject(""verifikasi/NamaCheckout""))",Edge Chromium 117,,,2023-10-05 08:54:52,2023-10-05 08:54:53,0.372s,PASSED
+"HargaCheckout = getText(findTestObject(""verifikasi/HargaCheckout""))",Edge Chromium 117,,,2023-10-05 08:54:53,2023-10-05 08:54:53,0.360s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:54:53,2023-10-05 08:54:53,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:54:53,2023-10-05 08:54:53,0.000s,PASSED
+assert name_product.contains(NamaCheckout),Edge Chromium 117,,,2023-10-05 08:54:53,2023-10-05 08:54:53,0.000s,PASSED
+assert price_product.contains(HargaCheckout),Edge Chromium 117,,,2023-10-05 08:54:53,2023-10-05 08:54:53,0.000s,PASSED
+"selectOptionByLabel(findTestObject(""checkout/select - Kirim via Kurir Lokal""), Kurir, false)",Edge Chromium 117,,,2023-10-05 08:54:53,2023-10-05 08:54:54,0.681s,PASSED
+"click(findTestObject(""checkout/Kendaraan Kurir""))",Edge Chromium 117,,,2023-10-05 08:54:54,2023-10-05 08:54:55,0.822s,PASSED
+"OngkosKirim = getText(findTestObject(""Object Repository/verifikasi/Ongkos Kirim checkout""))",Edge Chromium 117,,,2023-10-05 08:54:55,2023-10-05 08:54:55,0.512s,PASSED
+"Ongkos = OngkosKirim.substring(3, OngkosKirim.size())",Edge Chromium 117,,,2023-10-05 08:54:55,2023-10-05 08:54:55,0.000s,PASSED
+"rep = Ongkos.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:54:55,2023-10-05 08:54:55,0.000s,PASSED
+Ongkos_kirim = Double.parseDouble(rep),Edge Chromium 117,,,2023-10-05 08:54:55,2023-10-05 08:54:55,0.000s,PASSED
+println(Ongkos_kirim),Edge Chromium 117,,,2023-10-05 08:54:55,2023-10-05 08:54:55,0.001s,PASSED
+"FeeAdmin = getText(findTestObject(""verifikasi/Fee Admin checkout""))",Edge Chromium 117,,,2023-10-05 08:54:55,2023-10-05 08:54:56,0.436s,PASSED
+"Fee_Admin = FeeAdmin.substring(12, FeeAdmin.size())",Edge Chromium 117,,,2023-10-05 08:54:56,2023-10-05 08:54:56,0.000s,PASSED
+"fee = Fee_Admin.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:54:56,2023-10-05 08:54:56,0.000s,PASSED
+fee_admin = Double.parseDouble(fee),Edge Chromium 117,,,2023-10-05 08:54:56,2023-10-05 08:54:56,0.001s,PASSED
+println(fee_admin),Edge Chromium 117,,,2023-10-05 08:54:56,2023-10-05 08:54:56,0.000s,PASSED
+"Subtotal = getText(findTestObject(""verifikasi/subtotal checkout""))",Edge Chromium 117,,,2023-10-05 08:54:56,2023-10-05 08:54:57,0.898s,PASSED
+"sub_total = Subtotal.substring(12, Subtotal.size())",Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+"sub = sub_total.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+sub_total = Double.parseDouble(sub),Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+println(sub_total),Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+"Total = getText(findTestObject(""verifikasi/Total checkout""))",Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.398s,PASSED
+"totall = Total.substring(3, Total.size())",Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.002s,PASSED
+"total = totall.replace("","", ""."")",Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+totall = Double.parseDouble(total),Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+println(totall),Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+Total_Harga = Ongkos_kirim + fee_admin + sub_total,Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+println(Total_Harga),Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+TotalHarga = Math.round(Total_Harga * 1000) / 1000,Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+println(TotalHarga),Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+assert totall == TotalHarga,Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:57,0.000s,PASSED
+"setText(findTestObject(""voucher/input kupon""), ""kupon99"")",Edge Chromium 117,,,2023-10-05 08:54:57,2023-10-05 08:54:58,0.784s,PASSED
+"click(findTestObject(""voucher/button kupon""))",Edge Chromium 117,,,2023-10-05 08:54:58,2023-10-05 08:54:58,0.429s,PASSED
+"verifyElementText(findTestObject(""voucher/Maaf, Kode Kupon  Voucher Tidak ditemukan""), ""Maaf, Kode Kupon / Voucher Tidak ditemukan."")",Edge Chromium 117,,,2023-10-05 08:54:58,2023-10-05 08:54:59,0.995s,PASSED
+"click(findTestObject(""hapus barang/button_Kembali""))",Edge Chromium 117,,,2023-10-05 08:54:59,2023-10-05 08:55:00,0.473s,PASSED
+"mouseOver(findTestObject(""beli barang/keranjang""))",Edge Chromium 117,,,2023-10-05 08:55:00,2023-10-05 08:55:01,1.042s,PASSED
+"click(findTestObject(""hapus barang/buttom x""))",Edge Chromium 117,,,2023-10-05 08:55:01,2023-10-05 08:55:01,0.442s,PASSED
+"click(findTestObject(""hapus barang/button_Hapus Barang""))",Edge Chromium 117,,,2023-10-05 08:55:01,2023-10-05 08:55:02,0.758s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:55:02,2023-10-05 08:55:02,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-010",Edge Chromium 117,User menambahkan product ke keranjang,,2023-10-05 08:55:02,2023-10-05 08:55:22,20.079s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-05 08:55:02,2023-10-05 08:55:09,7.064s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-05 08:55:09,2023-10-05 08:55:10,0.156s,PASSED
+"mouseOver(findTestObject(""beli barang/i_Mulai Belanja_icon-menu""))",Edge Chromium 117,,,2023-10-05 08:55:10,2023-10-05 08:55:11,0.956s,PASSED
+"click(findTestObject(""beli barang/a_Fashion  Busana Wanita""))",Edge Chromium 117,,,2023-10-05 08:55:11,2023-10-05 08:55:12,1.213s,PASSED
+"NamaSebelum = getText(findTestObject(""verifikasi/Nama sebelum""))",Edge Chromium 117,,,2023-10-05 08:55:12,2023-10-05 08:55:12,0.610s,PASSED
+"HargaSebelum = getText(findTestObject(""verifikasi/Harga sebelum""))",Edge Chromium 117,,,2023-10-05 08:55:12,2023-10-05 08:55:13,0.350s,PASSED
+"mouseOver(findTestObject(""beli barang/barang mouse over""))",Edge Chromium 117,,,2023-10-05 08:55:13,2023-10-05 08:55:13,0.747s,PASSED
+"click(findTestObject(""beli barang/buttom add to cart""))",Edge Chromium 117,,,2023-10-05 08:55:13,2023-10-05 08:55:15,1.338s,PASSED
+"NamaSesudah = getText(findTestObject(""verifikasi/Nama sesudah""))",Edge Chromium 117,,,2023-10-05 08:55:15,2023-10-05 08:55:15,0.583s,PASSED
+"HargaSesudah = getText(findTestObject(""verifikasi/Harga sesudah""))",Edge Chromium 117,,,2023-10-05 08:55:15,2023-10-05 08:55:16,0.369s,PASSED
+assert NamaSesudah.contains(NamaSebelum),Edge Chromium 117,,,2023-10-05 08:55:16,2023-10-05 08:55:16,0.000s,PASSED
+assert HargaSesudah.contains(HargaSebelum),Edge Chromium 117,,,2023-10-05 08:55:16,2023-10-05 08:55:16,0.000s,PASSED
+"click(findTestObject(""Beli tanpa akun/button_Beli Sekarang""))",Edge Chromium 117,,,2023-10-05 08:55:16,2023-10-05 08:55:17,1.130s,PASSED
+data = new java.util.HashMap(),Edge Chromium 117,,,2023-10-05 08:55:17,2023-10-05 08:55:17,0.001s,PASSED
+"data.put(""nama_barang"", NamaSesudah)",Edge Chromium 117,,,2023-10-05 08:55:17,2023-10-05 08:55:17,0.000s,PASSED
+"data.put(""price_barang"", HargaSesudah)",Edge Chromium 117,,,2023-10-05 08:55:17,2023-10-05 08:55:17,0.001s,PASSED
+"verifyElementPresent(findTestObject(""keranjang/li_Keranjang Belanja""), 0)",Edge Chromium 117,,,2023-10-05 08:55:17,2023-10-05 08:55:18,1.260s,PASSED
+"NamaKeranjang = getText(findTestObject(""verifikasi/Nama keranjang""))",Edge Chromium 117,,,2023-10-05 08:55:18,2023-10-05 08:55:19,0.380s,PASSED
+"HargaKeranjang = getText(findTestObject(""verifikasi/Harga Keranjang""))",Edge Chromium 117,,,2023-10-05 08:55:19,2023-10-05 08:55:19,0.379s,PASSED
+"if (toString().equalsIgnoreCase(""Merah""))",Edge Chromium 117,,,2023-10-05 08:55:19,2023-10-05 08:55:19,0.452s,PASSED
+"if (toString().equalsIgnoreCase(""Menengah""))",Edge Chromium 117,,,2023-10-05 08:55:19,2023-10-05 08:55:20,0.447s,PASSED
+"data.put(""Warna"", warna)",Edge Chromium 117,,,2023-10-05 08:55:20,2023-10-05 08:55:20,0.000s,PASSED
+"data.put(""Ukuran"", ukuran)",Edge Chromium 117,,,2023-10-05 08:55:20,2023-10-05 08:55:20,0.000s,PASSED
+"click(findTestObject(""keranjang/button_Lanjut ke Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:55:20,2023-10-05 08:55:21,1.239s,PASSED
+"verifyElementPresent(findTestObject(""checkout/Tittle Checkout Order""), 0)",Edge Chromium 117,,,2023-10-05 08:55:21,2023-10-05 08:55:22,0.877s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:55:22,2023-10-05 08:55:22,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:55:22,2023-10-05 08:55:22,0.000s,PASSED
+assert name_product == NamaKeranjang,Edge Chromium 117,,,2023-10-05 08:55:22,2023-10-05 08:55:22,0.000s,PASSED
+assert price_product == HargaKeranjang,Edge Chromium 117,,,2023-10-05 08:55:22,2023-10-05 08:55:22,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:55:22,2023-10-05 08:55:22,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBL-011",Edge Chromium 117,User melakukan pembelian via COD tetapi dengan pembayaran transfer,,2023-10-05 08:55:22,2023-10-05 08:55:55,33.028s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-010""), [""warna"":""Merah"", ""ukuran"":""Menengah""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:55:22,2023-10-05 08:55:41,18.413s,PASSED
+"warnaa = getText(findTestObject(""verifikasi/warna Merah""))",Edge Chromium 117,,,2023-10-05 08:55:41,2023-10-05 08:55:41,0.344s,PASSED
+"ukurann = getText(findTestObject(""verifikasi/Ukuran Menengah""))",Edge Chromium 117,,,2023-10-05 08:55:41,2023-10-05 08:55:42,0.383s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.001s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.000s,PASSED
+"NamaCheckout = getText(findTestObject(""verifikasi/NamaCheckout""))",Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.362s,PASSED
+"HargaCheckout = getText(findTestObject(""verifikasi/HargaCheckout""))",Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.424s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.000s,PASSED
+assert name_product.contains(NamaCheckout),Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.001s,PASSED
+assert price_product.contains(HargaCheckout),Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:42,0.000s,PASSED
+"setText(findTestObject(""Beli tanpa akun/input_Nama anda_nama""), ""irfan"")",Edge Chromium 117,,,2023-10-05 08:55:42,2023-10-05 08:55:43,0.845s,PASSED
+"setText(findTestObject(""Beli tanpa akun/input_Kontak_telpon""), ""0811212121"")",Edge Chromium 117,,,2023-10-05 08:55:43,2023-10-05 08:55:44,0.788s,PASSED
+"setText(findTestObject(""Beli tanpa akun/input_Kontak_email""), ""fan@gmail.com"")",Edge Chromium 117,,,2023-10-05 08:55:44,2023-10-05 08:55:45,0.830s,PASSED
+"selectOptionByLabel(findTestObject(""Beli tanpa akun/select_Provinsi""), ""Sumatera Barat"", false)",Edge Chromium 117,,,2023-10-05 08:55:45,2023-10-05 08:55:46,1.207s,PASSED
+"selectOptionByLabel(findTestObject(""Beli tanpa akun/select_Kota  Kabupaten""), ""Kota Bukittinggi"", false)",Edge Chromium 117,,,2023-10-05 08:55:46,2023-10-05 08:55:47,1.131s,PASSED
+"selectOptionByLabel(findTestObject(""Beli tanpa akun/select_Kecamatan""), ""Guguk Panjang (Guguak Panjang)"", false)",Edge Chromium 117,,,2023-10-05 08:55:47,2023-10-05 08:55:48,1.284s,PASSED
+"setText(findTestObject(""Beli tanpa akun/input_Alamat Kirim_alamat""), ""guguk"")",Edge Chromium 117,,,2023-10-05 08:55:48,2023-10-05 08:55:49,0.792s,PASSED
+"click(findTestObject(""checkout/COD""))",Edge Chromium 117,,,2023-10-05 08:55:49,2023-10-05 08:55:50,0.410s,PASSED
+"click(findTestObject(""verifikasi/COD - Panjang BanaTarif""))",Edge Chromium 117,,,2023-10-05 08:55:50,2023-10-05 08:55:50,0.436s,PASSED
+"click(findTestObject(""checkout/button_Proses Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:55:50,2023-10-05 08:55:54,3.952s,PASSED
+"verifyTextPresent(""mohon login akun terlebih dahulu"", false)",Edge Chromium 117,,,2023-10-05 08:55:54,2023-10-05 08:55:55,1.026s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-001",Edge Chromium 117,User melakukan pencocokan data order barang dengan menggunakan metode pembayaran Transfer Bank,,2023-10-05 08:55:55,2023-10-05 08:56:46,50.755s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-004""), [""Kurir"":""Roda 2""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:55:56,2023-10-05 08:56:40,43.998s,PASSED
+"Invoice = getText(findTestObject(""pembayaran/nomor invoice""))",Edge Chromium 117,,,2023-10-05 08:56:40,2023-10-05 08:56:40,0.819s,PASSED
+"data.put(""invoice"", Invoice)",Edge Chromium 117,,,2023-10-05 08:56:40,2023-10-05 08:56:40,0.000s,PASSED
+"NamaPemesan = getText(findTestObject(""Konfirmasi pesanan shop/Nama pemesan""))",Edge Chromium 117,,,2023-10-05 08:56:40,2023-10-05 08:56:41,0.397s,PASSED
+"Nama = getText(findTestObject(""pembayaran/Nama barang""))",Edge Chromium 117,,,2023-10-05 08:56:41,2023-10-05 08:56:41,0.634s,PASSED
+"Harga = getText(findTestObject(""pembayaran/Harga barang""))",Edge Chromium 117,,,2023-10-05 08:56:41,2023-10-05 08:56:42,0.350s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:56:42,2023-10-05 08:56:42,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:56:42,2023-10-05 08:56:42,0.000s,PASSED
+assert name_product.contains(Nama),Edge Chromium 117,,,2023-10-05 08:56:42,2023-10-05 08:56:42,0.001s,PASSED
+assert price_product.contains(Harga),Edge Chromium 117,,,2023-10-05 08:56:42,2023-10-05 08:56:42,0.000s,PASSED
+"warnaa = getText(findTestObject(""pembayaran/warna""))",Edge Chromium 117,,,2023-10-05 08:56:42,2023-10-05 08:56:42,0.639s,PASSED
+"ukurann = getText(findTestObject(""pembayaran/ukuran""))",Edge Chromium 117,,,2023-10-05 08:56:42,2023-10-05 08:56:43,0.415s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:56:43,2023-10-05 08:56:43,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:56:43,2023-10-05 08:56:43,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:56:43,2023-10-05 08:56:43,0.001s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:56:43,2023-10-05 08:56:43,0.000s,PASSED
+"statusPembelian = getText(findTestObject(""verifikasi/Status pending di pembelian""))",Edge Chromium 117,,,2023-10-05 08:56:43,2023-10-05 08:56:43,0.635s,PASSED
+"data.put(""statusPem"", statusPembelian)",Edge Chromium 117,,,2023-10-05 08:56:43,2023-10-05 08:56:43,0.000s,PASSED
+"OngkosKirim = getText(findTestObject(""pembayaran/ongkos kirim""))",Edge Chromium 117,,,2023-10-05 08:56:43,2023-10-05 08:56:44,0.394s,PASSED
+"Ongkos = OngkosKirim.substring(3, OngkosKirim.size())",Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.000s,PASSED
+"rep = Ongkos.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.000s,PASSED
+Ongkos_kirimm = Integer.parseInt(rep),Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.001s,PASSED
+println(Ongkos_kirimm),Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.000s,PASSED
+"FeeAdmin = getText(findTestObject(""pembayaran/fee admin""))",Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.598s,PASSED
+"Fee_Admin = FeeAdmin.substring(3, FeeAdmin.size())",Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.000s,PASSED
+"fee = Fee_Admin.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.000s,PASSED
+fee_adminn = Integer.parseInt(fee),Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.000s,PASSED
+println(fee_adminn),Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:44,0.000s,PASSED
+"Subtotal = getText(findTestObject(""pembayaran/subtotal""))",Edge Chromium 117,,,2023-10-05 08:56:44,2023-10-05 08:56:45,0.415s,PASSED
+"sub_total = Subtotal.substring(3, Subtotal.size())",Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.000s,PASSED
+"sub = sub_total.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.000s,PASSED
+sub_totall = Integer.parseInt(sub),Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.001s,PASSED
+println(sub_totall),Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.000s,PASSED
+"unik = getText(findTestObject(""pembayaran/kode unik""))",Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.489s,PASSED
+"unikk = unik.replace(""+"", """")",Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.000s,PASSED
+kode_unik = Integer.parseInt(unikk),Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.001s,PASSED
+println(kode_unik),Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:45,0.000s,PASSED
+"Total = getText(findTestObject(""pembayaran/total""))",Edge Chromium 117,,,2023-10-05 08:56:45,2023-10-05 08:56:46,0.386s,PASSED
+"total = Total.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+totalll = Integer.parseInt(total),Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+println(totalll),Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+Total_Hargaa = Ongkos_kirimm + fee_adminn + sub_totall + kode_unik,Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+println(Total_Hargaa),Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+assert totalll == Total_Hargaa,Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+"data.put(""total"", Total)",Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+"data.put(""nama"", NamaPemesan)",Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:56:46,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-002",Edge Chromium 117,User melakukan pencocokan data order barang dengan metode pembayaran Saldo Akun,,2023-10-05 08:56:46,2023-10-05 08:57:32,46.724s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBL-005""), [""Kurir"":""Roda 2"", ""tf"":""transfer""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:56:46,2023-10-05 08:57:28,41.987s,PASSED
+"Invoice = getText(findTestObject(""pembayaran/nomor invoice""))",Edge Chromium 117,,,2023-10-05 08:57:28,2023-10-05 08:57:29,0.392s,PASSED
+"NamaPemesan = getText(findTestObject(""Konfirmasi pesanan shop/Nama pemesan""))",Edge Chromium 117,,,2023-10-05 08:57:29,2023-10-05 08:57:29,0.354s,PASSED
+"data.put(""invoice"", Invoice)",Edge Chromium 117,,,2023-10-05 08:57:29,2023-10-05 08:57:29,0.000s,PASSED
+"Nama = getText(findTestObject(""pembayaran/Nama barang""))",Edge Chromium 117,,,2023-10-05 08:57:29,2023-10-05 08:57:29,0.382s,PASSED
+"Harga = getText(findTestObject(""pembayaran/Harga barang""))",Edge Chromium 117,,,2023-10-05 08:57:29,2023-10-05 08:57:30,0.390s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:57:30,2023-10-05 08:57:30,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:57:30,2023-10-05 08:57:30,0.000s,PASSED
+assert name_product.contains(Nama),Edge Chromium 117,,,2023-10-05 08:57:30,2023-10-05 08:57:30,0.000s,PASSED
+assert price_product.contains(Harga),Edge Chromium 117,,,2023-10-05 08:57:30,2023-10-05 08:57:30,0.000s,PASSED
+"warnaa = getText(findTestObject(""pembayaran/warna""))",Edge Chromium 117,,,2023-10-05 08:57:30,2023-10-05 08:57:30,0.371s,PASSED
+"ukurann = getText(findTestObject(""pembayaran/ukuran""))",Edge Chromium 117,,,2023-10-05 08:57:30,2023-10-05 08:57:31,0.389s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+"OngkosKirim = getText(findTestObject(""pembayaran/ongkos kirim""))",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.361s,PASSED
+"Ongkos = OngkosKirim.substring(3, OngkosKirim.size())",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+"rep = Ongkos.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+Ongkos_kirimm = Integer.parseInt(rep),Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+println(Ongkos_kirimm),Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.001s,PASSED
+"FeeAdmin = getText(findTestObject(""pembayaran/fee admin""))",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.391s,PASSED
+"Fee_Admin = FeeAdmin.substring(3, FeeAdmin.size())",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.001s,PASSED
+"fee = Fee_Admin.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+fee_adminn = Integer.parseInt(fee),Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+println(fee_adminn),Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:31,0.000s,PASSED
+"Subtotal = getText(findTestObject(""pembayaran/subtotal""))",Edge Chromium 117,,,2023-10-05 08:57:31,2023-10-05 08:57:32,0.358s,PASSED
+"sub_total = Subtotal.substring(3, Subtotal.size())",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+"sub = sub_total.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+sub_totall = Integer.parseInt(sub),Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+println(sub_totall),Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+"unik = getText(findTestObject(""pembayaran/kode unik""))",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.380s,PASSED
+"unikk = unik.replace(""+"", """")",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+kode_unik = Integer.parseInt(unikk),Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+println(kode_unik),Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.001s,PASSED
+"Total = getText(findTestObject(""pembayaran/total""))",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.365s,PASSED
+"total = Total.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.001s,PASSED
+totalll = Integer.parseInt(total),Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+println(totalll),Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+Total_Hargaa = Ongkos_kirimm + fee_adminn + sub_totall + kode_unik,Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+println(Total_Hargaa),Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+assert totalll == Total_Hargaa,Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.001s,PASSED
+"data.put(""total"", Total)",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+"data.put(""nama"", NamaPemesan)",Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:57:32,2023-10-05 08:57:32,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-003",Edge Chromium 117,User melakukan pembayaran dengan metode pembayaran QRIS,,2023-10-05 08:57:33,2023-10-05 08:58:31,58.453s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:57:33,2023-10-05 08:58:22,48.519s,PASSED
+"Invoice = getText(findTestObject(""pembayaran/nomor invoice""))",Edge Chromium 117,,,2023-10-05 08:58:22,2023-10-05 08:58:22,0.591s,PASSED
+"data.put(""invoice"", Invoice)",Edge Chromium 117,,,2023-10-05 08:58:22,2023-10-05 08:58:22,0.000s,PASSED
+"NamaPemesan = getText(findTestObject(""Konfirmasi pesanan shop/Nama pemesan""))",Edge Chromium 117,,,2023-10-05 08:58:22,2023-10-05 08:58:23,0.365s,PASSED
+"Nama = getText(findTestObject(""pembayaran/Nama barang""))",Edge Chromium 117,,,2023-10-05 08:58:23,2023-10-05 08:58:23,0.731s,PASSED
+"Harga = getText(findTestObject(""pembayaran/Harga barang""))",Edge Chromium 117,,,2023-10-05 08:58:23,2023-10-05 08:58:24,0.385s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 08:58:24,2023-10-05 08:58:24,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 08:58:24,2023-10-05 08:58:24,0.000s,PASSED
+assert name_product.contains(Nama),Edge Chromium 117,,,2023-10-05 08:58:24,2023-10-05 08:58:24,0.001s,PASSED
+assert price_product.contains(Harga),Edge Chromium 117,,,2023-10-05 08:58:24,2023-10-05 08:58:24,0.000s,PASSED
+"warnaa = getText(findTestObject(""pembayaran/warna""))",Edge Chromium 117,,,2023-10-05 08:58:24,2023-10-05 08:58:24,0.621s,PASSED
+"ukurann = getText(findTestObject(""pembayaran/ukuran""))",Edge Chromium 117,,,2023-10-05 08:58:24,2023-10-05 08:58:25,0.377s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 08:58:25,2023-10-05 08:58:25,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 08:58:25,2023-10-05 08:58:25,0.000s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 08:58:25,2023-10-05 08:58:25,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 08:58:25,2023-10-05 08:58:25,0.000s,PASSED
+"statusPembelian = getText(findTestObject(""verifikasi/Status pending di pembelian""))",Edge Chromium 117,,,2023-10-05 08:58:25,2023-10-05 08:58:25,0.641s,PASSED
+"data.put(""statusPem"", statusPembelian)",Edge Chromium 117,,,2023-10-05 08:58:25,2023-10-05 08:58:25,0.000s,PASSED
+"OngkosKirim = getText(findTestObject(""pembayaran/ongkos kirim""))",Edge Chromium 117,,,2023-10-05 08:58:25,2023-10-05 08:58:26,0.411s,PASSED
+"Ongkos = OngkosKirim.substring(3, OngkosKirim.size())",Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.001s,PASSED
+"rep = Ongkos.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.000s,PASSED
+Ongkos_kirimm = Integer.parseInt(rep),Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.000s,PASSED
+println(Ongkos_kirimm),Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.000s,PASSED
+"FeeAdmin = getText(findTestObject(""pembayaran/fee admin""))",Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.542s,PASSED
+"Fee_Admin = FeeAdmin.substring(3, FeeAdmin.size())",Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.000s,PASSED
+"fee = Fee_Admin.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.000s,PASSED
+fee_adminn = Integer.parseInt(fee),Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.000s,PASSED
+println(fee_adminn),Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:26,0.000s,PASSED
+"Subtotal = getText(findTestObject(""pembayaran/subtotal""))",Edge Chromium 117,,,2023-10-05 08:58:26,2023-10-05 08:58:27,0.364s,PASSED
+"sub_total = Subtotal.substring(3, Subtotal.size())",Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.000s,PASSED
+"sub = sub_total.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.000s,PASSED
+sub_totall = Integer.parseInt(sub),Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.000s,PASSED
+println(sub_totall),Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.000s,PASSED
+"unik = getText(findTestObject(""pembayaran/kode unik""))",Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.608s,PASSED
+"unikk = unik.replace(""+"", """")",Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.000s,PASSED
+kode_unik = Integer.parseInt(unikk),Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.000s,PASSED
+println(kode_unik),Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:27,0.000s,PASSED
+"Total = getText(findTestObject(""pembayaran/total""))",Edge Chromium 117,,,2023-10-05 08:58:27,2023-10-05 08:58:28,0.404s,PASSED
+"total = Total.replace("","", """")",Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+totalll = Integer.parseInt(total),Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+println(totalll),Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+Total_Hargaa = Ongkos_kirimm + fee_adminn + sub_totall + kode_unik,Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+println(Total_Hargaa),Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+assert totalll == Total_Hargaa,Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+"data.put(""total"", Total)",Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+"data.put(""nama"", NamaPemesan)",Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.000s,PASSED
+"click(findTestObject(""QRIS/a_Lihat Metode Pembayaran Lainnya""))",Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.691s,PASSED
+switchToWindowIndex(1),Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:28,0.038s,PASSED
+"verifyElementPresent(findTestObject(""QRIS/ipaymu""), 0)",Edge Chromium 117,,,2023-10-05 08:58:28,2023-10-05 08:58:31,2.521s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:58:31,2023-10-05 08:58:31,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-004",Edge Chromium 117,User melakukan konfirmasi pembayaran produk yang telah dibeli,,2023-10-05 08:58:31,2023-10-05 08:59:35,1m - 3.592s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:58:31,2023-10-05 08:59:21,50.119s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 08:59:21,2023-10-05 08:59:21,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 08:59:21,2023-10-05 08:59:21,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 08:59:21,2023-10-05 08:59:21,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 08:59:21,2023-10-05 08:59:23,1.881s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 08:59:23,2023-10-05 08:59:24,0.653s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 08:59:24,2023-10-05 08:59:25,0.953s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 08:59:25,2023-10-05 08:59:26,0.742s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 08:59:26,2023-10-05 08:59:27,0.894s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 08:59:27,2023-10-05 08:59:27,0.795s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 08:59:27,2023-10-05 08:59:28,1.066s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 08:59:28,2023-10-05 08:59:29,0.726s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), Total)",Edge Chromium 117,,,2023-10-05 08:59:29,2023-10-05 08:59:30,1.014s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 08:59:30,2023-10-05 08:59:31,0.850s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), NamaPemesan)",Edge Chromium 117,,,2023-10-05 08:59:31,2023-10-05 08:59:32,0.897s,PASSED
+"uploadFile(findTestObject(""keranjang/konfirmasi/input_Upload Bukti Transfer_f""), ""C:\Users\IRFAN\Downloads\Berkas2.pdf"")",Edge Chromium 117,,,2023-10-05 08:59:32,2023-10-05 08:59:32,0.398s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 08:59:32,2023-10-05 08:59:33,1.144s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 08:59:33,2023-10-05 08:59:34,0.706s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle massage succes Konfirmasi Pembayaran Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 08:59:34,2023-10-05 08:59:35,0.400s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 08:59:35,2023-10-05 08:59:35,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-005",Edge Chromium 117,User hanya mengosongkan total tagihan/transfer,,2023-10-05 08:59:35,2023-10-05 09:00:36,1m - 1.376s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 08:59:35,2023-10-05 09:00:25,49.680s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:00:25,2023-10-05 09:00:25,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:00:25,2023-10-05 09:00:25,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:00:25,2023-10-05 09:00:25,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:00:25,2023-10-05 09:00:27,1.815s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:00:27,2023-10-05 09:00:27,0.584s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:00:27,2023-10-05 09:00:28,0.915s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:00:28,2023-10-05 09:00:29,1.007s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:00:29,2023-10-05 09:00:30,0.914s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:00:30,2023-10-05 09:00:31,0.813s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:00:31,2023-10-05 09:00:32,0.968s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 09:00:32,2023-10-05 09:00:32,0.738s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), Total)",Edge Chromium 117,,,2023-10-05 09:00:32,2023-10-05 09:00:33,1.031s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 09:00:33,2023-10-05 09:00:34,0.760s,PASSED
+"clearText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:00:34,2023-10-05 09:00:35,0.509s,PASSED
+"uploadFile(findTestObject(""Konfirmasi pesanan shop/input_Upload Bukti Transfer_f""), ""C:\Users\IRFAN\Downloads\Berkas2.pdf"")",Edge Chromium 117,,,2023-10-05 09:00:35,2023-10-05 09:00:35,0.427s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:00:35,2023-10-05 09:00:36,0.443s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-05 09:00:36,2023-10-05 09:00:36,0.000s,PASSED
+"field_tagihan = webDriver.findElement(By.xpath(""//input[@name=""d""]""))",Edge Chromium 117,,,2023-10-05 09:00:36,2023-10-05 09:00:36,0.310s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_tagihan)",Edge Chromium 117,,,2023-10-05 09:00:36,2023-10-05 09:00:36,0.013s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-05 09:00:36,2023-10-05 09:00:36,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-05 09:00:36,2023-10-05 09:00:36,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-006",Edge Chromium 117,User mengisikan total tagihan/transfer dengan angka minus,,2023-10-05 09:00:36,2023-10-05 09:01:39,1m - 3.034s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:00:36,2023-10-05 09:01:25,48.951s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:01:25,2023-10-05 09:01:25,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:01:25,2023-10-05 09:01:25,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:01:25,2023-10-05 09:01:25,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:01:25,2023-10-05 09:01:27,1.844s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:01:27,2023-10-05 09:01:28,0.659s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:01:28,2023-10-05 09:01:29,0.982s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:01:29,2023-10-05 09:01:30,0.817s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:01:30,2023-10-05 09:01:30,0.795s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:01:30,2023-10-05 09:01:31,0.862s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:01:31,2023-10-05 09:01:32,1.056s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 09:01:32,2023-10-05 09:01:33,0.746s,PASSED
+"clearText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:01:33,2023-10-05 09:01:34,0.405s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), ""-1"")",Edge Chromium 117,,,2023-10-05 09:01:34,2023-10-05 09:01:35,0.946s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 09:01:35,2023-10-05 09:01:35,0.796s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), NamaPemesan)",Edge Chromium 117,,,2023-10-05 09:01:35,2023-10-05 09:01:36,0.936s,PASSED
+"uploadFile(findTestObject(""Konfirmasi pesanan shop/input_Upload Bukti Transfer_f""), ""C:\Users\IRFAN\Downloads\Berkas2.pdf"")",Edge Chromium 117,,,2023-10-05 09:01:36,2023-10-05 09:01:37,0.419s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:01:37,2023-10-05 09:01:38,1.333s,PASSED
+"verifyTextPresent(""inputkan harus angka sesuai"", false)",Edge Chromium 117,,,2023-10-05 09:01:38,2023-10-05 09:01:39,1.007s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-007",Edge Chromium 117,User hanya mengosongkan nama pengirim,,2023-10-05 09:01:39,2023-10-05 09:02:40,1m - 0.595s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:01:39,2023-10-05 09:02:28,49.075s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:02:28,2023-10-05 09:02:28,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:02:28,2023-10-05 09:02:28,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:02:28,2023-10-05 09:02:28,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:02:28,2023-10-05 09:02:30,1.633s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:02:30,2023-10-05 09:02:31,0.657s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:02:31,2023-10-05 09:02:32,0.921s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:02:32,2023-10-05 09:02:33,0.845s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:02:33,2023-10-05 09:02:33,0.903s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:02:33,2023-10-05 09:02:34,0.773s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:02:34,2023-10-05 09:02:35,1.070s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 09:02:35,2023-10-05 09:02:36,0.740s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), Total)",Edge Chromium 117,,,2023-10-05 09:02:36,2023-10-05 09:02:37,1.033s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 09:02:37,2023-10-05 09:02:38,0.841s,PASSED
+"clearText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:02:38,2023-10-05 09:02:38,0.510s,PASSED
+"uploadFile(findTestObject(""Konfirmasi pesanan shop/input_Upload Bukti Transfer_f""), ""C:\Users\IRFAN\Downloads\Berkas2.pdf"")",Edge Chromium 117,,,2023-10-05 09:02:38,2023-10-05 09:02:39,0.399s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:02:39,2023-10-05 09:02:39,0.436s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-05 09:02:39,2023-10-05 09:02:39,0.000s,PASSED
+"field_nama = webDriver.findElement(By.xpath(""//input[@name=""d""]""))",Edge Chromium 117,,,2023-10-05 09:02:39,2023-10-05 09:02:40,0.305s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_nama)",Edge Chromium 117,,,2023-10-05 09:02:40,2023-10-05 09:02:40,0.018s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-05 09:02:40,2023-10-05 09:02:40,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-05 09:02:40,2023-10-05 09:02:40,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-008",Edge Chromium 117,User hanya mengosongkan tanggal transfer,,2023-10-05 09:02:40,2023-10-05 09:03:43,1m - 3.305s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:02:40,2023-10-05 09:03:30,49.540s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:03:30,2023-10-05 09:03:30,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:03:30,2023-10-05 09:03:30,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:03:30,2023-10-05 09:03:30,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:03:30,2023-10-05 09:03:31,1.825s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:03:31,2023-10-05 09:03:32,0.685s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:03:32,2023-10-05 09:03:33,0.987s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:03:33,2023-10-05 09:03:34,0.819s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:03:34,2023-10-05 09:03:35,0.792s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:03:35,2023-10-05 09:03:35,0.762s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:03:35,2023-10-05 09:03:36,1.005s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 09:03:36,2023-10-05 09:03:37,0.744s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), Total)",Edge Chromium 117,,,2023-10-05 09:03:37,2023-10-05 09:03:38,1.017s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 09:03:38,2023-10-05 09:03:39,0.885s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), NamaPemesan)",Edge Chromium 117,,,2023-10-05 09:03:39,2023-10-05 09:03:40,0.910s,PASSED
+"clearText(findTestObject(""Konfirmasi pesanan shop/input_Tanggal Transfer_e""))",Edge Chromium 117,,,2023-10-05 09:03:40,2023-10-05 09:03:40,0.420s,PASSED
+"uploadFile(findTestObject(""Konfirmasi pesanan shop/input_Upload Bukti Transfer_f""), ""C:\Users\IRFAN\Downloads\Berkas2.pdf"")",Edge Chromium 117,,,2023-10-05 09:03:40,2023-10-05 09:03:41,0.378s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:03:41,2023-10-05 09:03:42,1.235s,PASSED
+"verifyTextPresent(""Please fill out this field."", false)",Edge Chromium 117,,,2023-10-05 09:03:42,2023-10-05 09:03:43,0.872s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-009",Edge Chromium 117,User hanya mengosongkan upload bukti transfer,,2023-10-05 09:03:43,2023-10-05 09:04:44,1m - 1.574s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:03:43,2023-10-05 09:04:33,49.952s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:04:33,2023-10-05 09:04:33,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:04:33,2023-10-05 09:04:33,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:04:33,2023-10-05 09:04:33,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:04:33,2023-10-05 09:04:35,1.897s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:04:35,2023-10-05 09:04:36,0.699s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:04:36,2023-10-05 09:04:37,1.004s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:04:37,2023-10-05 09:04:38,0.725s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:04:38,2023-10-05 09:04:38,0.904s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:04:38,2023-10-05 09:04:39,0.772s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:04:39,2023-10-05 09:04:40,1.032s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 09:04:40,2023-10-05 09:04:41,0.726s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), Total)",Edge Chromium 117,,,2023-10-05 09:04:41,2023-10-05 09:04:42,1.070s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 09:04:42,2023-10-05 09:04:43,0.794s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), NamaPemesan)",Edge Chromium 117,,,2023-10-05 09:04:43,2023-10-05 09:04:44,0.874s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:04:44,2023-10-05 09:04:44,0.401s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-05 09:04:44,2023-10-05 09:04:44,0.000s,PASSED
+"field_upload = webDriver.findElement(By.xpath(""//input[@name=""f""]""))",Edge Chromium 117,,,2023-10-05 09:04:44,2023-10-05 09:04:44,0.298s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_upload)",Edge Chromium 117,,,2023-10-05 09:04:44,2023-10-05 09:04:44,0.014s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-05 09:04:44,2023-10-05 09:04:44,0.000s,PASSED
+"assert error_message == ""Please select a file.""",Edge Chromium 117,,,2023-10-05 09:04:44,2023-10-05 09:04:44,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-010",Edge Chromium 117,User upload file bukti transfer dengan format data mp4 ,,2023-10-05 09:04:44,2023-10-05 09:05:48,1m - 3.832s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:04:45,2023-10-05 09:05:34,48.775s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:05:34,2023-10-05 09:05:34,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:05:34,2023-10-05 09:05:34,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:05:34,2023-10-05 09:05:34,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:05:34,2023-10-05 09:05:36,1.981s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:05:36,2023-10-05 09:05:36,0.685s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:05:36,2023-10-05 09:05:37,0.899s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:05:37,2023-10-05 09:05:38,0.723s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:05:38,2023-10-05 09:05:39,0.797s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:05:39,2023-10-05 09:05:40,0.857s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:05:40,2023-10-05 09:05:41,1.024s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 09:05:41,2023-10-05 09:05:41,0.629s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), Total)",Edge Chromium 117,,,2023-10-05 09:05:41,2023-10-05 09:05:42,1.139s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 09:05:42,2023-10-05 09:05:43,0.768s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), NamaPemesan)",Edge Chromium 117,,,2023-10-05 09:05:43,2023-10-05 09:05:44,0.920s,PASSED
+"uploadFile(findTestObject(""keranjang/konfirmasi/input_Upload Bukti Transfer_f""), ""C:\Users\IRFAN\Videos\katalon\video.mp4"")",Edge Chromium 117,,,2023-10-05 09:05:44,2023-10-05 09:05:45,0.417s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:05:45,2023-10-05 09:05:47,2.925s,PASSED
+"verifyTextPresent(""Please upload an valid file."", false)",Edge Chromium 117,,,2023-10-05 09:05:47,2023-10-05 09:05:48,0.883s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-011",Edge Chromium 117,User input tanggal transfer yang akan datang,,2023-10-05 09:05:48,2023-10-05 09:06:51,1m - 3.156s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:05:49,2023-10-05 09:06:38,49.068s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:06:38,2023-10-05 09:06:38,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:06:38,2023-10-05 09:06:38,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:06:38,2023-10-05 09:06:38,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:06:38,2023-10-05 09:06:39,1.682s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:06:39,2023-10-05 09:06:40,0.577s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:06:40,2023-10-05 09:06:41,0.875s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:06:41,2023-10-05 09:06:42,0.729s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:06:42,2023-10-05 09:06:42,0.784s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:06:42,2023-10-05 09:06:43,0.825s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:06:43,2023-10-05 09:06:44,1.058s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle nomor invoice""), 0)",Edge Chromium 117,,,2023-10-05 09:06:44,2023-10-05 09:06:45,0.654s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Total TagihanTransfer_b""), Total)",Edge Chromium 117,,,2023-10-05 09:06:45,2023-10-05 09:06:46,1.047s,PASSED
+"selectOptionByValue(findTestObject(""Konfirmasi pesanan shop/select_Bank""), ""4"", false)",Edge Chromium 117,,,2023-10-05 09:06:46,2023-10-05 09:06:47,0.856s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Nama Pengirim_d""), NamaPemesan)",Edge Chromium 117,,,2023-10-05 09:06:47,2023-10-05 09:06:48,0.892s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Tanggal Transfer_e""), ""2023-12-12"")",Edge Chromium 117,,,2023-10-05 09:06:48,2023-10-05 09:06:49,0.802s,PASSED
+"uploadFile(findTestObject(""Konfirmasi pesanan shop/input_Upload Bukti Transfer_f""), ""C:\Users\IRFAN\Downloads\Berkas2.pdf"")",Edge Chromium 117,,,2023-10-05 09:06:49,2023-10-05 09:06:49,0.382s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Konfirmasi Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:06:49,2023-10-05 09:06:51,1.664s,PASSED
+"verifyTextPresent(""Please input an valid date."", false)",Edge Chromium 117,,,2023-10-05 09:06:51,2023-10-05 09:06:51,0.866s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-012",Edge Chromium 117,User melakukan konfirmasi pesanan tetapi tidak mengisi data nomor pesanan dan email,,2023-10-05 09:06:52,2023-10-05 09:07:46,54.979s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:06:52,2023-10-05 09:07:40,48.557s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:07:40,2023-10-05 09:07:40,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:07:40,2023-10-05 09:07:40,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:07:40,2023-10-05 09:07:40,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:07:40,2023-10-05 09:07:42,1.858s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:07:42,2023-10-05 09:07:43,0.682s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:07:43,2023-10-05 09:07:44,1.027s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:07:44,2023-10-05 09:07:45,0.739s,PASSED
+"clearText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:07:45,2023-10-05 09:07:45,0.398s,PASSED
+"clearText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:07:45,2023-10-05 09:07:46,0.439s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:07:46,2023-10-05 09:07:46,0.463s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-05 09:07:46,2023-10-05 09:07:46,0.000s,PASSED
+"field_pesanan = webDriver.findElement(By.xpath(""(//input[@name=""a""])[3]""))",Edge Chromium 117,,,2023-10-05 09:07:46,2023-10-05 09:07:46,0.406s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_pesanan)",Edge Chromium 117,,,2023-10-05 09:07:46,2023-10-05 09:07:46,0.005s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-05 09:07:46,2023-10-05 09:07:46,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-05 09:07:46,2023-10-05 09:07:46,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:07:46,2023-10-05 09:07:46,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-013",Edge Chromium 117,User input email tidak menggunakan domain dibagian konfirmasi pesanan,,2023-10-05 09:07:46,2023-10-05 09:08:42,55.575s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:07:47,2023-10-05 09:08:34,47.416s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:08:34,2023-10-05 09:08:34,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:08:34,2023-10-05 09:08:34,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:08:34,2023-10-05 09:08:34,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:08:34,2023-10-05 09:08:36,1.918s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:08:36,2023-10-05 09:08:37,0.543s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:08:37,2023-10-05 09:08:38,0.979s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:08:38,2023-10-05 09:08:39,0.743s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), inv)",Edge Chromium 117,,,2023-10-05 09:08:39,2023-10-05 09:08:39,0.782s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan"")",Edge Chromium 117,,,2023-10-05 09:08:39,2023-10-05 09:08:40,0.844s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:08:40,2023-10-05 09:08:41,1.041s,PASSED
+"verifyTextPresent(""email not valid."", false)",Edge Chromium 117,,,2023-10-05 09:08:41,2023-10-05 09:08:42,0.872s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBY-014",Edge Chromium 117,User input nomor pesanan/ invoice dengan data yang tidak valid,,2023-10-05 09:08:42,2023-10-05 09:09:38,55.908s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:08:42,2023-10-05 09:09:30,48.058s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:09:30,2023-10-05 09:09:30,0.000s,PASSED
+"Total = data.get(""total"")",Edge Chromium 117,,,2023-10-05 09:09:30,2023-10-05 09:09:30,0.000s,PASSED
+"NamaPemesan = data.get(""nama"")",Edge Chromium 117,,,2023-10-05 09:09:30,2023-10-05 09:09:30,0.000s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:09:30,2023-10-05 09:09:32,1.770s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:09:32,2023-10-05 09:09:33,0.671s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Konfirmasi Orders""))",Edge Chromium 117,,,2023-10-05 09:09:33,2023-10-05 09:09:34,0.895s,PASSED
+"verifyElementPresent(findTestObject(""Konfirmasi pesanan shop/Tittle Konfirmasi Pesanan""), 0)",Edge Chromium 117,,,2023-10-05 09:09:34,2023-10-05 09:09:35,0.726s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_No Pesanan""), ""TRX-001"")",Edge Chromium 117,,,2023-10-05 09:09:35,2023-10-05 09:09:35,0.761s,PASSED
+"setText(findTestObject(""Konfirmasi pesanan shop/input_Alamat E-mai""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:09:35,2023-10-05 09:09:36,0.793s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/button_Submit""))",Edge Chromium 117,,,2023-10-05 09:09:36,2023-10-05 09:09:37,0.996s,PASSED
+"verifyTextPresent(""number invoice not valid."", false)",Edge Chromium 117,,,2023-10-05 09:09:37,2023-10-05 09:09:38,0.890s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/PBYA-001",Edge Chromium 117,Admin penjual melakukan konfirmasi data penjualan/oder,,2023-10-05 09:09:38,2023-10-05 09:11:00,1m - 21.917s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-004""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:09:38,2023-10-05 09:10:41,1m - 2.660s,PASSED
+"navigateToUrl(""https://10.9.2.63/ecommerce/administrator/"")",Edge Chromium 117,,,2023-10-05 09:10:41,2023-10-05 09:10:42,0.612s,PASSED
+"verifyElementPresent(findTestObject(""admin/Tittle ADMIN Login""), 0)",Edge Chromium 117,,,2023-10-05 09:10:42,2023-10-05 09:10:42,0.463s,PASSED
+"setText(findTestObject(""admin/Username""), ""admin"")",Edge Chromium 117,,,2023-10-05 09:10:42,2023-10-05 09:10:43,0.769s,PASSED
+"setText(findTestObject(""admin/Password""), ""123admin123"")",Edge Chromium 117,,,2023-10-05 09:10:43,2023-10-05 09:10:44,0.801s,PASSED
+"click(findTestObject(""admin/Remember Me""))",Edge Chromium 117,,,2023-10-05 09:10:44,2023-10-05 09:10:44,0.439s,PASSED
+delay(10),Edge Chromium 117,,,2023-10-05 09:10:44,2023-10-05 09:10:54,10.010s,PASSED
+"click(findTestObject(""admin/buttom submit""))",Edge Chromium 117,,,2023-10-05 09:10:54,2023-10-05 09:10:56,1.630s,PASSED
+"verifyElementPresent(findTestObject(""admin/Konf order konsumen/Tittle Dashboard""), 0)",Edge Chromium 117,,,2023-10-05 09:10:56,2023-10-05 09:10:56,0.466s,PASSED
+"click(findTestObject(""admin/Konf order konsumen/Menu Transaksi Market""))",Edge Chromium 117,,,2023-10-05 09:10:56,2023-10-05 09:10:57,0.597s,PASSED
+"click(findTestObject(""admin/Konf order konsumen/Menu Konf. Order Konsumen""))",Edge Chromium 117,,,2023-10-05 09:10:57,2023-10-05 09:10:58,1.189s,PASSED
+"verifyElementPresent(findTestObject(""admin/Konf order konsumen/Tittle Data Konfirmasi Pembayaran Konsumen""), 0)",Edge Chromium 117,,,2023-10-05 09:10:58,2023-10-05 09:10:58,0.475s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:10:58,2023-10-05 09:10:58,0.000s,PASSED
+"setText(findTestObject(""admin/Konf order konsumen/Search""), inv)",Edge Chromium 117,,,2023-10-05 09:10:58,2023-10-05 09:10:59,0.896s,PASSED
+"verifyElementText(findTestObject(""admin/Konf order konsumen/Keterangan Lunas""), ""Lunas"")",Edge Chromium 117,,,2023-10-05 09:10:59,2023-10-05 09:11:00,0.558s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:11:00,2023-10-05 09:11:00,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-001",Edge Chromium 117,Admin penjual  dapat melihat Data Transaksi Penjualan / Orderan Konsumen,,2023-10-05 09:11:00,2023-10-05 09:12:25,1m - 24.696s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBYA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:11:00,2023-10-05 09:12:20,1m - 19.850s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom Dashboard""))",Edge Chromium 117,,,2023-10-05 09:12:20,2023-10-05 09:12:21,0.931s,PASSED
+"click(findTestObject(""admin/Konf order konsumen/Menu Transaksi Market""))",Edge Chromium 117,,,2023-10-05 09:12:21,2023-10-05 09:12:22,0.544s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/a_Penjualan ke Konsumen""))",Edge Chromium 117,,,2023-10-05 09:12:22,2023-10-05 09:12:24,2.584s,PASSED
+"verifyElementPresent(findTestObject(""admin/Tittle Data Transaksi Penjualan  Orderan Konsumen""), 0)",Edge Chromium 117,,,2023-10-05 09:12:24,2023-10-05 09:12:25,0.482s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:12:25,2023-10-05 09:12:25,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-002",Edge Chromium 117,Admin penjual ubah status Pembayaran Data Transaksi Penjualan / Orderan Konsumen jadi diterima ,,2023-10-05 09:12:25,2023-10-05 09:14:02,1m - 37.484s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:12:25,2023-10-05 09:13:52,1m - 26.597s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:13:52,2023-10-05 09:13:52,0.000s,PASSED
+"setText(findTestObject(""admin/Penjualan ke konsumen/Search""), inv)",Edge Chromium 117,,,2023-10-05 09:13:52,2023-10-05 09:13:53,1.053s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom konfirmasi pending payment""))",Edge Chromium 117,,,2023-10-05 09:13:53,2023-10-05 09:13:53,0.546s,PASSED
+acceptAlert(STOP_ON_FAILURE),Edge Chromium 117,,,2023-10-05 09:13:53,2023-10-05 09:13:53,0.031s,PASSED
+"setText(findTestObject(""admin/Penjualan ke konsumen/Search""), inv)",Edge Chromium 117,,,2023-10-05 09:13:53,2023-10-05 09:14:02,8.392s,PASSED
+"verifyTextNotPresent(""pending payment"", false)",Edge Chromium 117,,,2023-10-05 09:14:02,2023-10-05 09:14:02,0.538s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:14:02,2023-10-05 09:14:02,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-003",Edge Chromium 117,Admin penjual mengubah status Data Transaksi Penjualan / Orderan Konsumen ke Proses,,2023-10-05 09:14:02,2023-10-05 09:16:26,2m - 24.154s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:14:02,2023-10-05 09:15:43,1m - 40.170s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom scroldown""))",Edge Chromium 117,,,2023-10-05 09:15:43,2023-10-05 09:15:43,0.414s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/Proses""))",Edge Chromium 117,,,2023-10-05 09:15:43,2023-10-05 09:15:43,0.421s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-05 09:15:43,2023-10-05 09:15:43,0.019s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:15:43,2023-10-05 09:15:43,0.000s,PASSED
+"setText(findTestObject(""admin/Penjualan ke konsumen/Search""), inv)",Edge Chromium 117,,,2023-10-05 09:15:43,2023-10-05 09:15:54,10.995s,PASSED
+"verifyTextPresent(""Proses"", false)",Edge Chromium 117,,,2023-10-05 09:15:54,2023-10-05 09:15:55,0.661s,PASSED
+"prosesadmin = getText(findTestObject(""admin/Proses""))",Edge Chromium 117,,,2023-10-05 09:15:55,2023-10-05 09:16:26,31.168s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-004",Edge Chromium 117,Admin penjual mengubah status Data Transaksi Penjualan / Orderan Konsumen ke Kirim,,2023-10-05 09:16:26,2023-10-05 09:18:52,2m - 26.186s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:16:27,2023-10-05 09:18:02,1m - 35.114s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom scroldown""))",Edge Chromium 117,,,2023-10-05 09:18:02,2023-10-05 09:18:02,0.425s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/Dikirim""))",Edge Chromium 117,,,2023-10-05 09:18:02,2023-10-05 09:18:03,0.434s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-05 09:18:03,2023-10-05 09:18:03,0.016s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:18:03,2023-10-05 09:18:03,0.001s,PASSED
+"setText(findTestObject(""admin/Penjualan ke konsumen/Search""), inv)",Edge Chromium 117,,,2023-10-05 09:18:03,2023-10-05 09:18:11,8.102s,PASSED
+delay(10),Edge Chromium 117,,,2023-10-05 09:18:11,2023-10-05 09:18:21,10.017s,PASSED
+"verifyTextPresent(""Dikirim"", false)",Edge Chromium 117,,,2023-10-05 09:18:21,2023-10-05 09:18:21,0.407s,PASSED
+"dikirim = getText(findTestObject(""admin/Dikirim""))",Edge Chromium 117,,,2023-10-05 09:18:21,2023-10-05 09:18:52,31.363s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-005",Edge Chromium 117,Admin penjual mengubah status Data Transaksi Penjualan / Orderan Konsumen menjadi Selesai,,2023-10-05 09:18:52,2023-10-05 09:20:45,1m - 52.671s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:18:53,2023-10-05 09:20:30,1m - 37.211s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom scroldown""))",Edge Chromium 117,,,2023-10-05 09:20:30,2023-10-05 09:20:30,0.447s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/Selesai""))",Edge Chromium 117,,,2023-10-05 09:20:30,2023-10-05 09:20:31,0.413s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-05 09:20:31,2023-10-05 09:20:31,0.021s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:20:31,2023-10-05 09:20:31,0.000s,PASSED
+"setText(findTestObject(""admin/Penjualan ke konsumen/Search""), inv)",Edge Chromium 117,,,2023-10-05 09:20:31,2023-10-05 09:20:34,3.415s,PASSED
+delay(10),Edge Chromium 117,,,2023-10-05 09:20:34,2023-10-05 09:20:44,10.007s,PASSED
+"verifyTextPresent(""Selesai"", false)",Edge Chromium 117,,,2023-10-05 09:20:44,2023-10-05 09:20:45,0.427s,PASSED
+"selesaiAdmin = getText(findTestObject(""admin/Selesai""))",Edge Chromium 117,,,2023-10-05 09:20:45,2023-10-05 09:20:45,0.407s,PASSED
+"data.put(""statusSelesai"", selesaiAdmin)",Edge Chromium 117,,,2023-10-05 09:20:45,2023-10-05 09:20:45,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:20:45,2023-10-05 09:20:45,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-006",Edge Chromium 117,Admin penjual mengubah status Data Transaksi Penjualan / Orderan Konsumen menjadi Selesai,,2023-10-05 09:20:45,2023-10-05 09:22:41,1m - 55.802s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:20:45,2023-10-05 09:22:21,1m - 35.935s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom scroldown""))",Edge Chromium 117,,,2023-10-05 09:22:21,2023-10-05 09:22:22,0.436s,PASSED
+"click(findTestObject(""shipment/a_Pending""))",Edge Chromium 117,,,2023-10-05 09:22:22,2023-10-05 09:22:22,0.397s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-05 09:22:22,2023-10-05 09:22:22,0.019s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:22:22,2023-10-05 09:22:22,0.001s,PASSED
+"setText(findTestObject(""admin/Penjualan ke konsumen/Search""), inv)",Edge Chromium 117,,,2023-10-05 09:22:22,2023-10-05 09:22:30,8.026s,PASSED
+delay(10),Edge Chromium 117,,,2023-10-05 09:22:30,2023-10-05 09:22:40,10.007s,PASSED
+"verifyTextPresent(""Pending"", false)",Edge Chromium 117,,,2023-10-05 09:22:40,2023-10-05 09:22:41,0.328s,PASSED
+"pending = getText(findTestObject(""shipment/Pending""))",Edge Chromium 117,,,2023-10-05 09:22:41,2023-10-05 09:22:41,0.337s,PASSED
+"data.put(""statusPending"", pending)",Edge Chromium 117,,,2023-10-05 09:22:41,2023-10-05 09:22:41,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:22:41,2023-10-05 09:22:41,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-007",Edge Chromium 117,Admin penjual mengubah status Data Transaksi Penjualan / Orderan Konsumen ke batal / hapus,,2023-10-05 09:22:41,2023-10-05 09:24:30,1m - 49.364s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:22:41,2023-10-05 09:24:19,1m - 37.714s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom scroldown""))",Edge Chromium 117,,,2023-10-05 09:24:19,2023-10-05 09:24:19,0.401s,PASSED
+"click(findTestObject(""shipment/a_BatalRefund""))",Edge Chromium 117,,,2023-10-05 09:24:19,2023-10-05 09:24:20,0.418s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-05 09:24:20,2023-10-05 09:24:20,0.023s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:24:20,2023-10-05 09:24:20,0.000s,PASSED
+delay(10),Edge Chromium 117,,,2023-10-05 09:24:20,2023-10-05 09:24:30,10.004s,PASSED
+"verifyTextNotPresent(inv, false)",Edge Chromium 117,,,2023-10-05 09:24:30,2023-10-05 09:24:30,0.479s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:24:30,2023-10-05 09:24:30,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-008",Edge Chromium 117,Admin penjual melakukan edit data jumlah barang pada Transaksi penjualan / oderan konsumen ,,2023-10-05 09:24:30,2023-10-05 09:26:18,1m - 47.951s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:24:31,2023-10-05 09:26:18,1m - 47.621s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SA-009",Edge Chromium 117,Admin penjual melakukan edit data jumlah barang menggunakan huruf afabet pada transaksi penjualan / orderan konsumen,,2023-10-05 09:26:18,2023-10-05 09:28:00,1m - 41.834s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:26:19,2023-10-05 09:27:56,1m - 37.056s,PASSED
+"click(findTestObject(""admin/Penjualan ke konsumen/buttom scroldown""))",Edge Chromium 117,,,2023-10-05 09:27:56,2023-10-05 09:27:56,0.382s,PASSED
+"click(findTestObject(""Edit Detail Data Transaksi/buttom edit""))",Edge Chromium 117,,,2023-10-05 09:27:56,2023-10-05 09:27:57,0.927s,PASSED
+"verifyElementPresent(findTestObject(""Edit Detail Data Transaksi/Edit Detail Transaksi Penjualan""), 0)",Edge Chromium 117,,,2023-10-05 09:27:57,2023-10-05 09:27:57,0.490s,PASSED
+"click(findTestObject(""Edit Detail Data Transaksi/buttom edit detail""))",Edge Chromium 117,,,2023-10-05 09:27:57,2023-10-05 09:27:58,0.812s,PASSED
+"setText(findTestObject(""Edit Detail Data Transaksi/input_Action_dd""), jumlah)",Edge Chromium 117,,,2023-10-05 09:27:58,2023-10-05 09:27:59,1.006s,PASSED
+"click(findTestObject(""Edit Detail Data Transaksi/button_Action_centang""))",Edge Chromium 117,,,2023-10-05 09:27:59,2023-10-05 09:28:00,0.439s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-05 09:28:00,2023-10-05 09:28:00,0.000s,PASSED
+"field_jumlah = webDriver.findElement(By.xpath(""//input[@name=""dd""]""))",Edge Chromium 117,,,2023-10-05 09:28:00,2023-10-05 09:28:00,0.300s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_jumlah)",Edge Chromium 117,,,2023-10-05 09:28:00,2023-10-05 09:28:00,0.028s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-05 09:28:00,2023-10-05 09:28:00,0.000s,PASSED
+"assert error_message == ""Please enter a number.""",Edge Chromium 117,,,2023-10-05 09:28:00,2023-10-05 09:28:00,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:28:00,2023-10-05 09:28:00,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-001",Edge Chromium 117,User melakukan pengecekan pembelian bagian Menunggu Pembayaran,,2023-10-05 09:28:00,2023-10-05 09:29:02,1m - 1.790s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-002""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:28:01,2023-10-05 09:28:49,48.466s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:28:49,2023-10-05 09:28:51,2.132s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:28:51,2023-10-05 09:28:52,0.432s,PASSED
+"click(findTestObject(""Traking Order/a_Tracking Orders""))",Edge Chromium 117,,,2023-10-05 09:28:52,2023-10-05 09:28:53,0.968s,PASSED
+"verifyElementPresent(findTestObject(""Traking Order/Tittle Tracking Order""), 0)",Edge Chromium 117,,,2023-10-05 09:28:53,2023-10-05 09:28:53,0.720s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:28:53,2023-10-05 09:28:53,0.001s,PASSED
+"setText(findTestObject(""Traking Order/input_No Pesanan_a""), inv)",Edge Chromium 117,,,2023-10-05 09:28:53,2023-10-05 09:28:54,0.841s,PASSED
+"setText(findTestObject(""Traking Order/input_Alamat E-mail_form-control""), ""irfan@gmail.com"")",Edge Chromium 117,,,2023-10-05 09:28:54,2023-10-05 09:28:55,0.824s,PASSED
+"click(findTestObject(""Traking Order/button_Lacak Pesanan""))",Edge Chromium 117,,,2023-10-05 09:28:55,2023-10-05 09:28:59,4.160s,PASSED
+"verifyElementPresent(findTestObject(""Traking Order/Tittle nomor transaksi""), 0)",Edge Chromium 117,,,2023-10-05 09:28:59,2023-10-05 09:29:00,0.815s,PASSED
+"verifyElementPresent(findTestObject(""Traking Order/status traking/Status Konfirmasi""), 0)",Edge Chromium 117,,,2023-10-05 09:29:00,2023-10-05 09:29:00,0.381s,PASSED
+"Nama = getText(findTestObject(""Object Repository/Traking Order/status traking/Nama Barang tracking order""))",Edge Chromium 117,,,2023-10-05 09:29:00,2023-10-05 09:29:01,0.408s,PASSED
+"Harga = getText(findTestObject(""Object Repository/Traking Order/status traking/Harga Barang""))",Edge Chromium 117,,,2023-10-05 09:29:01,2023-10-05 09:29:01,0.425s,PASSED
+"name_product = data.get(""nama_barang"")",Edge Chromium 117,,,2023-10-05 09:29:01,2023-10-05 09:29:01,0.000s,PASSED
+"price_product = data.get(""price_barang"")",Edge Chromium 117,,,2023-10-05 09:29:01,2023-10-05 09:29:01,0.001s,PASSED
+assert name_product.contains(Nama),Edge Chromium 117,,,2023-10-05 09:29:01,2023-10-05 09:29:01,0.000s,PASSED
+assert price_product.contains(Harga),Edge Chromium 117,,,2023-10-05 09:29:01,2023-10-05 09:29:01,0.000s,PASSED
+"warnaa = getText(findTestObject(""Object Repository/Traking Order/status traking/warna""))",Edge Chromium 117,,,2023-10-05 09:29:01,2023-10-05 09:29:01,0.392s,PASSED
+"ukurann = getText(findTestObject(""Object Repository/Traking Order/status traking/Ukuruan""))",Edge Chromium 117,,,2023-10-05 09:29:01,2023-10-05 09:29:02,0.388s,PASSED
+"warna1 = data.get(""Warna"")",Edge Chromium 117,,,2023-10-05 09:29:02,2023-10-05 09:29:02,0.000s,PASSED
+"ukuran1 = data.get(""Ukuran"")",Edge Chromium 117,,,2023-10-05 09:29:02,2023-10-05 09:29:02,0.001s,PASSED
+assert warnaa == warna1,Edge Chromium 117,,,2023-10-05 09:29:02,2023-10-05 09:29:02,0.000s,PASSED
+assert ukurann == ukuran1,Edge Chromium 117,,,2023-10-05 09:29:02,2023-10-05 09:29:02,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:29:02,2023-10-05 09:29:02,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-002",Edge Chromium 117,User melakukan Tracking order status dikirim,,2023-10-05 09:29:02,2023-10-05 09:31:26,2m - 24.172s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-003""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:29:02,2023-10-05 09:31:26,2m - 23.801s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-003",Edge Chromium 117,User melakukan Tracking order status dikirim,,2023-10-05 09:31:26,2023-10-05 09:33:55,2m - 28.792s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-004""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:31:26,2023-10-05 09:33:55,2m - 28.415s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-004",Edge Chromium 117,User melakukan Tracking order  status selesai,,2023-10-05 09:33:55,2023-10-05 09:34:27,32.505s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-005""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:33:55,2023-10-05 09:34:27,32.137s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-005",Edge Chromium 117,User melakukan Tracking order  status pending,,2023-10-05 09:34:27,2023-10-05 09:34:42,14.634s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-006""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:34:28,2023-10-05 09:34:42,14.220s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-006",Edge Chromium 117,User melakukan Tracking order pesanan tetapi tidak mengisi data nomor pesanan dan email,,2023-10-05 09:34:42,2023-10-05 09:36:50,2m - 8.198s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-005""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:34:42,2023-10-05 09:36:33,1m - 50.157s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-05 09:36:33,2023-10-05 09:36:39,6.217s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-05 09:36:39,2023-10-05 09:36:39,0.141s,PASSED
+"verifyElementPresent(findTestObject(""Login/Home""), 0)",Edge Chromium 117,,,2023-10-05 09:36:39,2023-10-05 09:36:40,0.757s,PASSED
+"click(findTestObject(""Login/a_Login""))",Edge Chromium 117,,,2023-10-05 09:36:40,2023-10-05 09:36:40,0.453s,PASSED
+"verifyElementPresent(findTestObject(""Login/Tittle Login""), 0)",Edge Chromium 117,,,2023-10-05 09:36:40,2023-10-05 09:36:41,0.703s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""irfanafandi"")",Edge Chromium 117,,,2023-10-05 09:36:41,2023-10-05 09:36:42,0.858s,PASSED
+"setText(findTestObject(""Login/input_Password_b""), ""12345irfan"")",Edge Chromium 117,,,2023-10-05 09:36:42,2023-10-05 09:36:42,0.811s,PASSED
+"click(findTestObject(""Login/button_Masuk""))",Edge Chromium 117,,,2023-10-05 09:36:42,2023-10-05 09:36:44,1.239s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Edge Chromium 117,,,2023-10-05 09:36:44,2023-10-05 09:36:44,0.731s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:36:44,2023-10-05 09:36:46,1.610s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:36:46,2023-10-05 09:36:47,0.678s,PASSED
+"click(findTestObject(""Traking Order/a_Tracking Orders""))",Edge Chromium 117,,,2023-10-05 09:36:47,2023-10-05 09:36:48,1.012s,PASSED
+"verifyElementPresent(findTestObject(""Traking Order/Tittle Tracking Order""), 0)",Edge Chromium 117,,,2023-10-05 09:36:48,2023-10-05 09:36:48,0.714s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:36:48,2023-10-05 09:36:48,0.000s,PASSED
+"clearText(findTestObject(""Traking Order/input_No Pesanan_a""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:36:48,2023-10-05 09:36:49,0.404s,PASSED
+"clearText(findTestObject(""Traking Order/input_Alamat E-mail_form-control""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:36:49,2023-10-05 09:36:49,0.424s,PASSED
+"click(findTestObject(""Traking Order/button_Lacak Pesanan""))",Edge Chromium 117,,,2023-10-05 09:36:49,2023-10-05 09:36:50,0.461s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-05 09:36:50,2023-10-05 09:36:50,0.000s,PASSED
+"field_tracking = webDriver.findElement(By.xpath(""(//input[@name=""a""])[3]""))",Edge Chromium 117,,,2023-10-05 09:36:50,2023-10-05 09:36:50,0.404s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_tracking)",Edge Chromium 117,,,2023-10-05 09:36:50,2023-10-05 09:36:50,0.017s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-05 09:36:50,2023-10-05 09:36:50,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-05 09:36:50,2023-10-05 09:36:50,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-007",Edge Chromium 117,User input email tidak menggunakan domain dibagian Tracking Order,,2023-10-05 09:36:50,2023-10-05 09:39:05,2m - 15.108s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-005""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:36:51,2023-10-05 09:38:42,1m - 50.952s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-05 09:38:42,2023-10-05 09:38:49,7.508s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-05 09:38:49,2023-10-05 09:38:49,0.143s,PASSED
+"verifyElementPresent(findTestObject(""Login/Home""), 0)",Edge Chromium 117,,,2023-10-05 09:38:49,2023-10-05 09:38:50,0.787s,PASSED
+"click(findTestObject(""Login/a_Login""))",Edge Chromium 117,,,2023-10-05 09:38:50,2023-10-05 09:38:51,0.450s,PASSED
+"verifyElementPresent(findTestObject(""Login/Tittle Login""), 0)",Edge Chromium 117,,,2023-10-05 09:38:51,2023-10-05 09:38:51,0.713s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""irfanafandi"")",Edge Chromium 117,,,2023-10-05 09:38:51,2023-10-05 09:38:52,0.880s,PASSED
+"setText(findTestObject(""Login/input_Password_b""), ""12345irfan"")",Edge Chromium 117,,,2023-10-05 09:38:52,2023-10-05 09:38:53,0.776s,PASSED
+"click(findTestObject(""Login/button_Masuk""))",Edge Chromium 117,,,2023-10-05 09:38:53,2023-10-05 09:38:54,1.407s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Edge Chromium 117,,,2023-10-05 09:38:54,2023-10-05 09:38:55,0.753s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:38:55,2023-10-05 09:38:57,1.653s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:38:57,2023-10-05 09:38:57,0.740s,PASSED
+"click(findTestObject(""Traking Order/a_Tracking Orders""))",Edge Chromium 117,,,2023-10-05 09:38:57,2023-10-05 09:38:58,0.939s,PASSED
+"verifyElementPresent(findTestObject(""Traking Order/Tittle Tracking Order""), 0)",Edge Chromium 117,,,2023-10-05 09:38:58,2023-10-05 09:38:59,0.807s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:38:59,2023-10-05 09:38:59,0.000s,PASSED
+"setText(findTestObject(""Traking Order/input_No Pesanan_a""), inv)",Edge Chromium 117,,,2023-10-05 09:38:59,2023-10-05 09:39:00,0.788s,PASSED
+"setText(findTestObject(""Traking Order/input_Alamat E-mail_form-control""), ""irfan"")",Edge Chromium 117,,,2023-10-05 09:39:00,2023-10-05 09:39:01,0.760s,PASSED
+"click(findTestObject(""Traking Order/button_Lacak Pesanan""))",Edge Chromium 117,,,2023-10-05 09:39:01,2023-10-05 09:39:04,3.674s,PASSED
+"verifyTextPresent(""Email not valid"", false)",Edge Chromium 117,,,2023-10-05 09:39:04,2023-10-05 09:39:05,0.925s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-008",Edge Chromium 117,User input nomor pesanan/ invoice dengan data yang tidak valid dibagian Tracking order,,2023-10-05 09:39:05,2023-10-05 09:41:20,2m - 14.560s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-005""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:39:06,2023-10-05 09:40:57,1m - 51.303s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-05 09:40:57,2023-10-05 09:41:04,6.855s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-05 09:41:04,2023-10-05 09:41:04,0.137s,PASSED
+"verifyElementPresent(findTestObject(""Login/Home""), 0)",Edge Chromium 117,,,2023-10-05 09:41:04,2023-10-05 09:41:05,0.810s,PASSED
+"click(findTestObject(""Login/a_Login""))",Edge Chromium 117,,,2023-10-05 09:41:05,2023-10-05 09:41:05,0.456s,PASSED
+"verifyElementPresent(findTestObject(""Login/Tittle Login""), 0)",Edge Chromium 117,,,2023-10-05 09:41:05,2023-10-05 09:41:06,0.708s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""irfanafandi"")",Edge Chromium 117,,,2023-10-05 09:41:06,2023-10-05 09:41:07,0.904s,PASSED
+"setText(findTestObject(""Login/input_Password_b""), ""12345irfan"")",Edge Chromium 117,,,2023-10-05 09:41:07,2023-10-05 09:41:08,0.788s,PASSED
+"click(findTestObject(""Login/button_Masuk""))",Edge Chromium 117,,,2023-10-05 09:41:08,2023-10-05 09:41:09,1.343s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Edge Chromium 117,,,2023-10-05 09:41:09,2023-10-05 09:41:12,3.108s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:41:12,2023-10-05 09:41:14,1.542s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:41:14,2023-10-05 09:41:14,0.670s,PASSED
+"click(findTestObject(""Traking Order/a_Tracking Orders""))",Edge Chromium 117,,,2023-10-05 09:41:14,2023-10-05 09:41:15,0.873s,PASSED
+"verifyElementPresent(findTestObject(""Traking Order/Tittle Tracking Order""), 0)",Edge Chromium 117,,,2023-10-05 09:41:15,2023-10-05 09:41:16,0.871s,PASSED
+"inv = data.get(""invoice"")",Edge Chromium 117,,,2023-10-05 09:41:16,2023-10-05 09:41:16,0.000s,PASSED
+"setText(findTestObject(""Traking Order/input_No Pesanan_a""), ""TRX-001"")",Edge Chromium 117,,,2023-10-05 09:41:16,2023-10-05 09:41:17,0.868s,PASSED
+"setText(findTestObject(""Traking Order/input_Alamat E-mail_form-control""), ""irfan"")",Edge Chromium 117,,,2023-10-05 09:41:17,2023-10-05 09:41:18,0.768s,PASSED
+"click(findTestObject(""Traking Order/button_Lacak Pesanan""))",Edge Chromium 117,,,2023-10-05 09:41:18,2023-10-05 09:41:19,1.167s,PASSED
+"verifyTextPresent(""number invoice not valid"", false)",Edge Chromium 117,,,2023-10-05 09:41:19,2023-10-05 09:41:20,0.999s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-009",Edge Chromium 117,User melakukan pengecekan pembelian bagian Menunggu Pembayaran,,2023-10-05 09:41:20,2023-10-05 09:42:13,53.241s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/PBY-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:41:20,2023-10-05 09:42:07,47.136s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:42:07,2023-10-05 09:42:09,1.927s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:42:09,2023-10-05 09:42:10,0.748s,PASSED
+"click(findTestObject(""verifikasi/Orders Report""))",Edge Chromium 117,,,2023-10-05 09:42:10,2023-10-05 09:42:11,1.257s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Edge Chromium 117,,,2023-10-05 09:42:11,2023-10-05 09:42:12,0.644s,PASSED
+"click(findTestObject(""verifikasi/Menunggu Pembayaran""))",Edge Chromium 117,,,2023-10-05 09:42:12,2023-10-05 09:42:12,0.429s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi/Notifikasi angka""), 1)",Edge Chromium 117,,,2023-10-05 09:42:12,2023-10-05 09:42:13,0.378s,PASSED
+"statusMenunggu = getText(findTestObject(""verifikasi/Status Pending di menunggu pembayaran""))",Edge Chromium 117,,,2023-10-05 09:42:13,2023-10-05 09:42:13,0.405s,PASSED
+"statusPembayaran = data.get(""statusPem"")",Edge Chromium 117,,,2023-10-05 09:42:13,2023-10-05 09:42:13,0.000s,PASSED
+assert statusMenunggu == statusPembayaran,Edge Chromium 117,,,2023-10-05 09:42:13,2023-10-05 09:42:13,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-05 09:42:13,2023-10-05 09:42:13,0.000s,PASSED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-010",Edge Chromium 117,User melakukan pengecekan pembelian bagian Pesanan Diproses,,2023-10-05 09:42:13,2023-10-05 09:43:41,1m - 28.287s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-003""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:42:13,2023-10-05 09:43:41,1m - 27.924s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-011",Edge Chromium 117,User melakukan pengecekan pembelian bagian Sedang Dikirim,,2023-10-05 09:43:41,2023-10-05 09:45:15,1m - 33.646s,FAILED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-004""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:43:42,2023-10-05 09:45:15,1m - 33.333s,FAILED
+,,,,,,,
+"Test Cases/T13 Pembelian, Shipment dan Pembayaran/SU-012",Edge Chromium 117,User melakukan pengecekan pembelian  bagian Sampai Tujuan,,2023-10-05 09:45:15,2023-10-05 09:47:24,2m - 8.510s,PASSED
+"data = callTestCase(findTestCase(""T13 Pembelian, Shipment dan Pembayaran/SA-005""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 09:45:15,2023-10-05 09:47:05,1m - 49.537s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-05 09:47:05,2023-10-05 09:47:11,6.010s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-05 09:47:11,2023-10-05 09:47:11,0.159s,PASSED
+"verifyElementPresent(findTestObject(""Login/Home""), 0)",Edge Chromium 117,,,2023-10-05 09:47:11,2023-10-05 09:47:12,0.815s,PASSED
+"click(findTestObject(""Login/a_Login""))",Edge Chromium 117,,,2023-10-05 09:47:12,2023-10-05 09:47:12,0.436s,PASSED
+"verifyElementPresent(findTestObject(""Login/Tittle Login""), 0)",Edge Chromium 117,,,2023-10-05 09:47:12,2023-10-05 09:47:13,0.690s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""irfanafandi"")",Edge Chromium 117,,,2023-10-05 09:47:13,2023-10-05 09:47:14,0.822s,PASSED
+"setText(findTestObject(""Login/input_Password_b""), ""12345irfan"")",Edge Chromium 117,,,2023-10-05 09:47:14,2023-10-05 09:47:15,0.866s,PASSED
+"click(findTestObject(""Login/button_Masuk""))",Edge Chromium 117,,,2023-10-05 09:47:15,2023-10-05 09:47:16,1.473s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Edge Chromium 117,,,2023-10-05 09:47:16,2023-10-05 09:47:18,1.630s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:47:18,2023-10-05 09:47:19,1.641s,PASSED
+"click(findTestObject(""Konfirmasi pesanan shop/Menu Shop""))",Edge Chromium 117,,,2023-10-05 09:47:19,2023-10-05 09:47:20,0.799s,PASSED
+"click(findTestObject(""verifikasi/Orders Report""))",Edge Chromium 117,,,2023-10-05 09:47:20,2023-10-05 09:47:21,1.116s,PASSED
+"verifyElementPresent(findTestObject(""Login/li_Profile""), 0)",Edge Chromium 117,,,2023-10-05 09:47:21,2023-10-05 09:47:22,0.859s,PASSED
+"click(findTestObject(""verifikasi/Sampai Tujuan""))",Edge Chromium 117,,,2023-10-05 09:47:22,2023-10-05 09:47:23,0.437s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi/Notifikasi angka""), 1)",Edge Chromium 117,,,2023-10-05 09:47:23,2023-10-05 09:47:23,0.482s,PASSED
+"selesai = getText(findTestObject(""verifikasi/Status Selesai di user""))",Edge Chromium 117,,,2023-10-05 09:47:23,2023-10-05 09:47:24,0.426s,PASSED
+"statusPembayaran = data.get(""statusSelesai"")",Edge Chromium 117,,,2023-10-05 09:47:24,2023-10-05 09:47:24,0.000s,PASSED
+assert selesai == statusPembayaran,Edge Chromium 117,,,2023-10-05 09:47:24,2023-10-05 09:47:24,0.000s,PASSED

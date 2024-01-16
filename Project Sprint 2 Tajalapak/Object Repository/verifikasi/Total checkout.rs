@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Total checkout</name>
+   <tag></tag>
+   <elementGuidId>1611cf17-807a-4e51-a073-85df7bcc8085</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#totalbayar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='totalbayar']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'totalbayar' and (text() = 'Rp 7,799' or . = 'Rp 7,799')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bcbbe216-73d5-4508-acda-16a8e8a4ba02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>totalbayar</value>
+      <webElementGuid>ef47351a-7a26-4dbe-ab56-e8c1087b7f98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp 7,799</value>
+      <webElementGuid>0087d897-9175-4a9a-9b0e-9601192bff1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;totalbayar&quot;)</value>
+      <webElementGuid>27212fe5-6fd3-4a41-866c-45c25a1b18b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='totalbayar']</value>
+      <webElementGuid>e5276019-4422-480a-b104-eaf6529993e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1,299'])[3]/following::span[3]</value>
+      <webElementGuid>d6c2d9f4-0c61-412a-a3c2-7ea3d2967e63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proses Pembayaran'])[1]/preceding::span[1]</value>
+      <webElementGuid>bd553723-b101-4b04-ac0e-c93c30d6560a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proses Pembayaran'])[2]/preceding::span[1]</value>
+      <webElementGuid>d1dac4fe-6d44-4f85-9be7-97853d62b4e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rp 7,799']/parent::*</value>
+      <webElementGuid>a7977441-8199-46ee-9580-6b1a8855ee30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3/span</value>
+      <webElementGuid>dc7b4f54-ee14-4a4b-b2b6-1ac79a5e1394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'totalbayar' and (text() = 'Rp 7,799' or . = 'Rp 7,799')]</value>
+      <webElementGuid>673d4de8-cb71-4610-a12d-794d327644b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

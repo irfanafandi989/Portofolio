@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Checkout menggunakan metode pembayaran Transfer Bank</description>
+   <name>PBL-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5e204ca-b4f1-4867-b4d6-28b1f6c7f1ee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec490231-ecdb-4bb5-acef-6daa71c51cd1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c48905d5-98fd-4c76-ac18-fd1dd9bdf648</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Roda 2'</defaultValue>
+      <description></description>
+      <id>ec490231-ecdb-4bb5-acef-6daa71c51cd1</id>
+      <masked>false</masked>
+      <name>Kurir</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description></description>
+      <id>c48905d5-98fd-4c76-ac18-fd1dd9bdf648</id>
+      <masked>false</masked>
+      <name>tf</name>
+   </variable>
+</TestCaseEntity>

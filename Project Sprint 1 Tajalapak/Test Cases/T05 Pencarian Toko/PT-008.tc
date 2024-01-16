@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User mencari toko berdasarkan nama kota dengan menambahkan spesial karakter</description>
+   <name>PT-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fba2c42b-7afd-4342-b100-3a0b546cc731</testCaseGuid>
+</TestCaseEntity>

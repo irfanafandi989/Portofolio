@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttom x</name>
+   <tag></tag>
+   <elementGuidId>4e2ae5fb-b3db-46db-8864-4204d9791fdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-cross</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>957929fe-ea8b-4627-91b8-1fac358d6b1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-cross</value>
+      <webElementGuid>213218a9-acb7-4073-8886-899a039ab166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/header[@class=&quot;header header--1&quot;]/div[@class=&quot;header__top&quot;]/div[@class=&quot;ps-container&quot;]/div[@class=&quot;header__right&quot;]/div[@class=&quot;header__actions&quot;]/div[@class=&quot;ps-cart--mini&quot;]/div[@class=&quot;ps-cart__content&quot;]/div[@class=&quot;ps-cart__items&quot;]/div[@class=&quot;show_cart&quot;]/div[@class=&quot;ps-product--cart-mobile&quot;]/div[@class=&quot;ps-product__content&quot;]/a[@class=&quot;ps-product__remove item_delete&quot;]/i[@class=&quot;icon-cross&quot;]</value>
+      <webElementGuid>698cbea2-7715-4382-86d6-d2f2054c782f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/i</value>
+      <webElementGuid>63c5a364-cf49-49d9-bcb3-fce8eab1c0ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

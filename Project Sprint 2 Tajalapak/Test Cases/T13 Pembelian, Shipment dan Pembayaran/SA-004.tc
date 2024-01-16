@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin penjual mengubah status Data Transaksi Penjualan / Orderan Konsumen ke Kirim</description>
+   <name>SA-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd64e620-8fa9-459f-a0ff-1eeb91ce53bd</testCaseGuid>
+</TestCaseEntity>

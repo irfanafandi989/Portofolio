@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Tracking order  status pending</description>
+   <name>SU-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f63d3468-e923-4595-8a63-13f3e71f59e9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin penjual mengubah status Data Transaksi Penjualan / Orderan Konsumen menjadi Selesai</description>
+   <name>SA-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7719086a-3a59-41c4-944d-62c1daefdf88</testCaseGuid>
+</TestCaseEntity>

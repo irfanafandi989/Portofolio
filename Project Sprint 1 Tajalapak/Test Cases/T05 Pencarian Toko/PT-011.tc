@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan search nama toko menggunakan huruf besar  dan kecil</description>
+   <name>PT-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6457d14-a96a-40bf-ad43-b1a248c8c49f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34bc5045-b720-441f-8b3b-45e67d4e2263</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'kErUpUk HusNa'</defaultValue>
+      <description></description>
+      <id>34bc5045-b720-441f-8b3b-45e67d4e2263</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>

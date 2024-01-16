@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User hanya mengosongkan upload bukti transfer</description>
+   <name>PBY-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5fad3c55-7b25-4aab-bced-f24b63c8a007</testCaseGuid>
+</TestCaseEntity>

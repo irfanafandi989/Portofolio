@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Fitur search/Regional Mataram,  Kota Mataram",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Verified\u0027])[2]/following::i[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//i[(text() \u003d \u0027Mataram,  Kota Mataram\u0027 or . \u003d \u0027Mataram,  Kota Mataram\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230906_091450/pencarian toko/pencarian toko/20230906_091450/Object Repository/Fitur search/Regional Mataram,  Kota Mataram_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Fitur search/nama toko  Cahaya Asia Qwerty",
+      "brokenLocator": "//*[(text() \u003d \u0027 Verified  Cahaya Asia Qwerty\u0027 or . \u003d \u0027 Verified  Cahaya Asia Qwerty\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Pencarian :\u0027])[1]/following::h4[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230906_091450/pencarian toko/pencarian toko/20230906_091450/Object Repository/Fitur search/nama toko  Cahaya Asia Qwerty_XPATH.png"
+    }
+  ]
+}

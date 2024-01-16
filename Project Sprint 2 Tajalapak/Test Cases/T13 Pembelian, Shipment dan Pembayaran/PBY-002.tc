@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan pencocokan data order barang dengan metode pembayaran Saldo Akun</description>
+   <name>PBY-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ea5352f-8b12-434e-a95c-689b072a32c4</testCaseGuid>
+</TestCaseEntity>

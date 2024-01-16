@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hasil Qris Rp. 13.799</name>
+   <tag></tag>
+   <elementGuidId>5faf967e-d5a8-478f-88f6-bf30850a94f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='qris']/div/div[2]/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>72e9b55c-5759-410d-9186-99ae3d5b7881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp. 13.799</value>
+      <webElementGuid>93341ece-bd37-4831-b67c-91a04569995c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;qris&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;text-center&quot;]/h6[1]</value>
+      <webElementGuid>c9c5286a-1008-4a19-b3f6-cd4474d4bcfc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='qris']/div/div[2]/h6</value>
+      <webElementGuid>cb675c82-7049-4e98-ab4c-514b1531096d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A01'])[1]/following::h6[1]</value>
+      <webElementGuid>050eebd2-0d5c-492c-a8ee-e50a82182c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NMID: ID2023254163843'])[1]/following::h6[2]</value>
+      <webElementGuid>35abce99-e5f9-43e5-9e92-5d374204da07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ref. ID: 13202375'])[1]/preceding::h6[1]</value>
+      <webElementGuid>337c0727-b6ef-4a9b-9a32-415a262d8de9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h6</value>
+      <webElementGuid>13cf21e2-3943-4f73-986f-0467dfe8d0c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Rp. 13.799' or . = 'Rp. 13.799')]</value>
+      <webElementGuid>13905277-24d5-4621-8f1a-430cf5babf7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

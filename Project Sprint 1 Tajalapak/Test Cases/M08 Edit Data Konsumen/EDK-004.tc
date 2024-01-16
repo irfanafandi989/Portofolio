@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin merubah Password Konsumen username udin pan  menggunakan 3 Karakter
+</description>
+   <name>EDK-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a648006-8708-4043-8e3c-f25070afa2a9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi pembayaran produk yang telah dibeli</description>
+   <name>PBY-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a0943df-7303-41b8-b553-c2f6814999c5</testCaseGuid>
+</TestCaseEntity>

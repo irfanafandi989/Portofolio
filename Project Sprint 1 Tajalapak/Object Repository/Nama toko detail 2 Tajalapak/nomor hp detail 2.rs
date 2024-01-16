@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nomor hp detail 2</name>
+   <tag></tag>
+   <elementGuidId>22afbf81-e51d-4289-bef7-3420e8514b14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Mataram, Kota Mataram, Nusa Tenggara Barat (NTB)'])[1]/following::strong[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-block__footer > p > strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>882bf3dd-0e86-4e96-801c-9dd36057fe06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+6287865722652</value>
+      <webElementGuid>a2b79ea5-7a68-4d20-831d-76c2a0077fb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-store&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__container&quot;]/div[@class=&quot;ps-section__left&quot;]/div[@class=&quot;ps-block--vendor&quot;]/div[@class=&quot;ps-block__container&quot;]/div[@class=&quot;ps-block__footer&quot;]/p[1]/strong[1]</value>
+      <webElementGuid>96b815ee-bc3a-4390-9196-9dab63e9be35</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mataram, Kota Mataram, Nusa Tenggara Barat (NTB)'])[1]/following::strong[1]</value>
+      <webElementGuid>88f5294d-e013-4a40-a375-7364019ebd17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::strong[1]</value>
+      <webElementGuid>44d9ff4b-6247-4fd5-80bd-6d55f30381d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[2]/preceding::strong[2]</value>
+      <webElementGuid>026b1d42-0c59-4f55-9bd7-96893a05bcc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='+6287865722652']/parent::*</value>
+      <webElementGuid>a161c5e0-683f-458a-b414-e104fa19cbb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p/strong</value>
+      <webElementGuid>8d39f295-6927-44c3-975e-d104a83ad711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = '+6287865722652' or . = '+6287865722652')]</value>
+      <webElementGuid>177b458f-0270-4c65-9cac-d532412e285d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

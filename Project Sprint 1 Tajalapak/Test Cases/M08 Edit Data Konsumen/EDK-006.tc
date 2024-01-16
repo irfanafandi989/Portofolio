@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin Merubah Tanggal Lahir konsumen username udin padinding oii  dengan format 0000-00-00
+ </description>
+   <name>EDK-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d80d16ec-55d2-4612-b4e6-daf3abc94421</testCaseGuid>
+</TestCaseEntity>

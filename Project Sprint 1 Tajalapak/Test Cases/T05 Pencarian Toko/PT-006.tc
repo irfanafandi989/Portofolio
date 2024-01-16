@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Mencari toko berdasarkan Nomor telepon</description>
+   <name>PT-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3b1f0fd-b337-4fd0-9344-920485f295e1</testCaseGuid>
+</TestCaseEntity>
